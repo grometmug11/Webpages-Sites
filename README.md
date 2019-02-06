@@ -13,6 +13,9 @@ CAUTION: prototyping is the stuff of classroom lessons; moving to professional f
 <a href="https://github.com/MercersKitchen/Website-Mentoring">See Website Mentoring of Initial Ideas for mentoring</a>
 - Link all these ideas to other repositories in Website Organization
 
+<a href="">Self Study Resources, links, and Progression</a>
+
+
 Credits
 - ABE
 - Entrance
