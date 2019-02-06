@@ -43,7 +43,7 @@ Assessment
 - CSS Summary Sheet, Interview Process
 - JavaScript Video Assignments
 - Designing Website JavaScript Behaviors Pseudocode and Prototyping
-- Interview about INteractive Website
+- Interview about Interactive Website
 
 Learning PHP
 - W3 Schools
