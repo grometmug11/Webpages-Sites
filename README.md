@@ -15,11 +15,11 @@ CAUTION: prototyping is the stuff of classroom lessons; moving to professional f
 
 <a href="">Self Study Resources, links, and Progression</a>
 
+<a href="https://github.com/QEHS-Websites/Website-Hosting">Hosting a Website on GitHub</a>
 
 Credits
 - ABE
 - Entrance
 - Career
-
 
 ---
