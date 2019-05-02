@@ -26,7 +26,7 @@ W3 Schools, Resources for HTML5 and PHP, <a href="https://www.w3schools.com/">Si
 
 GitHub Lessons
 - Introductions to GitHub ("Big Green Buttons" & GitHub Desktop)
-- How to Host a Webpage
+- How to Host a Webpage, <a href="https://github.com/QEHS-Websites/Website-Hosting">Click Here for Details</a>
 
 Project: Personal Portfolio answering "Who Am I"
 
