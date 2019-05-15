@@ -1,0 +1,7 @@
+Note: images will not run on Saved Webpage (will need changes)
+
+
+https://developer.android.com/studio/publish/app-signing
+
+Build and Run your app: https://developer.android.com/studio/run/
+

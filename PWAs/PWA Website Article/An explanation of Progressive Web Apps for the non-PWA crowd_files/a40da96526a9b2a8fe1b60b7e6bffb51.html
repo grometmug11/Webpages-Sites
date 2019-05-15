@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://medium.freecodecamp.org/media/a40da96526a9b2a8fe1b60b7e6bffb51?postId=8a400e275ea1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>PWA Install Prompt – Medium</title><meta name="description" content="PWA Install Prompt. GitHub Gist: instantly share code, notes, and snippets."><meta name="twitter:widgets:csp" content="on"><meta name="robots" content="noindex"><!--<base target="_blank">--><base href="." target="_blank"><style>body {text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif; font-weight: 400; color: #333332; font-size: 18px; line-height: 1.4; margin: 0; background-color: white; overflow: hidden;}iframe {max-width: 100%;}</style></head><body><style>.gist .gist-file { margin-bottom: 0 !important; }.gist { text-rendering: auto; }</style><script src="./20abc464868853d22dc9dee4d2ec2c38.js.download" charset="utf-8"></script><link rel="stylesheet" href="./gist-embed-a9a1cf2ca01efd362bfa52312712ae94.css"><div id="gist95913816" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-install-js" class="file">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tbody><tr>
+        <td id="file-install-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-install-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> savedPrompt <span class="pl-k">=</span> <span class="pl-c1">null</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-install-js-LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-install-js-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">window</span>.<span class="pl-c1">addEventListener</span>(<span class="pl-s"><span class="pl-pds">'</span>beforeinstallprompt<span class="pl-pds">'</span></span>, beforeInstallPrompt);</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-install-js-LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-install-js-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">beforeInstallPrompt</span>(<span class="pl-c1">event</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-install-js-LC6" class="blob-code blob-code-inner js-file-line">   <span class="pl-c1">event</span>.<span class="pl-c1">preventDefault</span>();</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-install-js-LC7" class="blob-code blob-code-inner js-file-line">   savedPrompt <span class="pl-k">=</span> <span class="pl-c1">event</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-install-js-LC8" class="blob-code blob-code-inner js-file-line">   <span class="pl-c"><span class="pl-c">//</span>implement logic to show your UI for adding your application to the home screen (probably a button)</span></td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-install-js-LC9" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-install-js-LC10" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-install-js-LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>Call this method when the user has clicked the button in your UI</span></td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-install-js-LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">userClickedAddToHome</span>() {</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-install-js-LC13" class="blob-code blob-code-inner js-file-line">   <span class="pl-smi">savedPrompt</span>.<span class="pl-c1">prompt</span>();</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-install-js-LC14" class="blob-code blob-code-inner js-file-line">   </td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-install-js-LC15" class="blob-code blob-code-inner js-file-line">   <span class="pl-smi">savedPrompt</span>.<span class="pl-smi">userChoice</span></td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-install-js-LC16" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>(<span class="pl-k">function</span>(<span class="pl-smi">choiceResult</span>){</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-install-js-LC17" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (<span class="pl-smi">choiceResult</span>.<span class="pl-smi">outcome</span> <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">'</span>accepted<span class="pl-pds">'</span></span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-install-js-LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>User has agreed to add application to Home screen</span></td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-install-js-LC19" class="blob-code blob-code-inner js-file-line">  } <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-install-js-LC20" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span>User has declined to add application to Home screen</span></td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-install-js-LC21" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-install-js-LC22" class="blob-code blob-code-inner js-file-line">  savedPrompt <span class="pl-k">=</span> <span class="pl-c1">null</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-install-js-LC23" class="blob-code blob-code-inner js-file-line">});</td>
+      </tr>
+      <tr>
+        <td id="file-install-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-install-js-LC24" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/TomerPacific/20abc464868853d22dc9dee4d2ec2c38/raw/994822ac1b33a20e6aee56c7773526b6d38d1ea1/install.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/TomerPacific/20abc464868853d22dc9dee4d2ec2c38#file-install-js">install.js</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+<script>var height = -1; var delayMs = 200;function notifyResize(height) {height = height ? height : document.documentElement.offsetHeight; var resized = false; if (window.donkey && donkey.resize) {donkey.resize(height); resized = true;}if (parent && parent._resizeIframe) {var obj = {iframe: window.frameElement, height: height}; parent._resizeIframe(obj); resized = true;}if (window.location && window.location.hash === "#amp=1" && window.parent && window.parent.postMessage) {window.parent.postMessage({sentinel: "amp", type: "embed-size", height: height}, "*");}if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.resize) {window.webkit.messageHandlers.resize.postMessage(height); resized = true;}return resized;}function maybeResize() {if (document.documentElement.offsetHeight != height && notifyResize()) {height = document.documentElement.offsetHeight;}delayMs = Math.min(delayMs * 2, 1000000); setTimeout(maybeResize, delayMs);}maybeResize();</script></body></html>

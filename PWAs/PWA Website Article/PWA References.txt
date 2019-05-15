@@ -1,0 +1,28 @@
+Raw Views
+- https://gist.githubusercontent.com/TomerPacific/f1f93785506db9c5007de01fd82a90d6/raw/ff13688d1a3839a5555ba447b55e657505eaa847/manifest.html
+- https://gist.githubusercontent.com/TomerPacific/57cca3af9545cb6858dde0b58b4bbff3/raw/43376b8191f73d87917dedfe6b907f2946d409b6/manifest.json
+- https://gist.githubusercontent.com/TomerPacific/f1f93785506db9c5007de01fd82a90d6/raw/ff13688d1a3839a5555ba447b55e657505eaa847/manifest.html
+- https://gist.githubusercontent.com/TomerPacific/e75512a669c85895d699716a0c444a7e/raw/1eaf30ce2c6796f46bc50cac0026f103ba689ac0/sw.js
+- https://gist.githubusercontent.com/TomerPacific/20abc464868853d22dc9dee4d2ec2c38/raw/994822ac1b33a20e6aee56c7773526b6d38d1ea1/install.js
+- https://gist.githubusercontent.com/TomerPacific/e5b243245aada5feb876283eb0a0fb31/raw/013eb77acb5b5e0c84fdff7df6d332736d2887aa/build.gradle
+- https://gist.githubusercontent.com/TomerPacific/22fe0d3068cf2ccc434697e831691166/raw/c40821cc08a1ef1edf9f5e3a11a48985f81ac431/build.gradle
+- https://gist.githubusercontent.com/TomerPacific/8de1fc4b2369ba263e4a622d06861373/raw/f4f0d0fe37fe1d05dfe791d17322b43721c9fc90/build.gradle
+- https://gist.githubusercontent.com/TomerPacific/6f82c6c376e359f0b720391692140958/raw/b21e7905ac1170d8060172a817db94352002e646/AndroidManfiest.xml
+- https://gist.githubusercontent.com/TomerPacific/570ac717276ffa4b27bae0b2a1fcd4c3/raw/dfba2592ad237c7ff5c5c72fa8027acba56e9fd4/strings.xml
+- https://gist.githubusercontent.com/TomerPacific/0fefc63483f802bea3d4820468a0bf17/raw/8253a0eb86a8e9578aae92f0f1d77ef3a9744a03/AndroidManfiest.xml
+- https://gist.githubusercontent.com/TomerPacific/7576144d4f93a72e694f989f51e49c55/raw/497c28b09fde1eddcc2db39da86124bdbf699589/gistfile1.txt
+
+Service Worker API: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+
+GitHub Pages: https://pages.github.com/
+
+PWA 2 APK Tool: https://pwa2apk.com/?ref=steemhunt
+
+Create and upload key adn keystore: https://developer.android.com/studio/publish/app-signing#generate-key
+
+Google Assets Generator Tool: https://developers.google.com/digital-asset-links/tools/generator
+
+https://medium.freecodecamp.org/how-to-publish-an-application-in-the-play-store-8ddcc6dc3587
+
+Lighthouse: https://developers.google.com/web/tools/lighthouse/#devtools
+

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://medium.freecodecamp.org/media/47778657da2006cac07448d337f6b287?postId=8a400e275ea1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Service Worker Code Template – Medium</title><meta name="description" content="Service Worker Code Template. GitHub Gist: instantly share code, notes, and snippets."><meta name="twitter:widgets:csp" content="on"><meta name="robots" content="noindex"><!--<base target="_blank">--><base href="." target="_blank"><style>body {text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif; font-weight: 400; color: #333332; font-size: 18px; line-height: 1.4; margin: 0; background-color: white; overflow: hidden;}iframe {max-width: 100%;}</style></head><body><style>.gist .gist-file { margin-bottom: 0 !important; }.gist { text-rendering: auto; }</style><script src="./e75512a669c85895d699716a0c444a7e.js.download" charset="utf-8"></script><link rel="stylesheet" href="./gist-embed-a9a1cf2ca01efd362bfa52312712ae94.css"><div id="gist95908123" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-sw-js" class="file">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tbody><tr>
+        <td id="file-sw-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-sw-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>Inside your main html file (index.html), paste the following inside script tags at the end of your body tag</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-sw-js-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>Registering a service worker</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-sw-js-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span>(<span class="pl-s"><span class="pl-pds">'</span>serviceWorker<span class="pl-pds">'</span></span> <span class="pl-k">in</span> <span class="pl-c1">navigator</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-sw-js-LC4" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">navigator</span>.<span class="pl-smi">serviceWorker</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-sw-js-LC5" class="blob-code blob-code-inner js-file-line">           .<span class="pl-en">register</span>(<span class="pl-s"><span class="pl-pds">'</span>/sw.js<span class="pl-pds">'</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-sw-js-LC6" class="blob-code blob-code-inner js-file-line">           .<span class="pl-c1">then</span>(<span class="pl-k">function</span>() { <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">"</span>Service Worker Registered<span class="pl-pds">"</span></span>); });</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-sw-js-LC7" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-sw-js-LC8" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-sw-js-LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">--------------------------------</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-sw-js-LC10" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-sw-js-LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>Inside your sw.js</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-sw-js-LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>You can get the polyfill from here: https://github.com/dominiccooney/cache-polyfill/blob/master/index.js</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-sw-js-LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-en">importScripts</span>(<span class="pl-s"><span class="pl-pds">'</span>/serviceworker-cache-polyfill.js<span class="pl-pds">'</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-sw-js-LC14" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-sw-js-LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>Listening in on an install event and caching site assets</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-sw-js-LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">self</span>.<span class="pl-c1">addEventListener</span>(<span class="pl-s"><span class="pl-pds">'</span>install<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">e</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-sw-js-LC17" class="blob-code blob-code-inner js-file-line"> <span class="pl-smi">e</span>.<span class="pl-en">waitUntil</span>(</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-sw-js-LC18" class="blob-code blob-code-inner js-file-line">   <span class="pl-smi">caches</span>.<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">'</span>your_app_name<span class="pl-pds">'</span></span>).<span class="pl-c1">then</span>(<span class="pl-k">function</span>(<span class="pl-smi">cache</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-sw-js-LC19" class="blob-code blob-code-inner js-file-line">     <span class="pl-k">return</span> <span class="pl-smi">cache</span>.<span class="pl-en">addAll</span>([</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-sw-js-LC20" class="blob-code blob-code-inner js-file-line">       <span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-sw-js-LC21" class="blob-code blob-code-inner js-file-line">       <span class="pl-s"><span class="pl-pds">'</span>/index.html<span class="pl-pds">'</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-sw-js-LC22" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> Place more assets</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-sw-js-LC23" class="blob-code blob-code-inner js-file-line">     ]);</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-sw-js-LC24" class="blob-code blob-code-inner js-file-line">   })</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-sw-js-LC25" class="blob-code blob-code-inner js-file-line"> );</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-sw-js-LC26" class="blob-code blob-code-inner js-file-line">});</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-sw-js-LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-sw-js-LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>Listening in on fetch requests and if found in cache, bring file from cache</span></td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-sw-js-LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">self</span>.<span class="pl-c1">addEventListener</span>(<span class="pl-s"><span class="pl-pds">'</span>fetch<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(<span class="pl-c1">event</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-sw-js-LC30" class="blob-code blob-code-inner js-file-line"> <span class="pl-c1">event</span>.<span class="pl-en">respondWith</span>(</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-sw-js-LC31" class="blob-code blob-code-inner js-file-line">   <span class="pl-smi">caches</span>.<span class="pl-c1">match</span>(<span class="pl-c1">event</span>.<span class="pl-smi">request</span>).<span class="pl-c1">then</span>(<span class="pl-k">function</span>(<span class="pl-smi">response</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-sw-js-LC32" class="blob-code blob-code-inner js-file-line">     <span class="pl-k">return</span> response <span class="pl-k">||</span> <span class="pl-en">fetch</span>(<span class="pl-c1">event</span>.<span class="pl-smi">request</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-sw-js-LC33" class="blob-code blob-code-inner js-file-line">   })</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-sw-js-LC34" class="blob-code blob-code-inner js-file-line"> );</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-sw-js-LC35" class="blob-code blob-code-inner js-file-line">});</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-sw-js-LC36" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-sw-js-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-sw-js-LC37" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/TomerPacific/e75512a669c85895d699716a0c444a7e/raw/1eaf30ce2c6796f46bc50cac0026f103ba689ac0/sw.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/TomerPacific/e75512a669c85895d699716a0c444a7e#file-sw-js">sw.js</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+<script>var height = -1; var delayMs = 200;function notifyResize(height) {height = height ? height : document.documentElement.offsetHeight; var resized = false; if (window.donkey && donkey.resize) {donkey.resize(height); resized = true;}if (parent && parent._resizeIframe) {var obj = {iframe: window.frameElement, height: height}; parent._resizeIframe(obj); resized = true;}if (window.location && window.location.hash === "#amp=1" && window.parent && window.parent.postMessage) {window.parent.postMessage({sentinel: "amp", type: "embed-size", height: height}, "*");}if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.resize) {window.webkit.messageHandlers.resize.postMessage(height); resized = true;}return resized;}function maybeResize() {if (document.documentElement.offsetHeight != height && notifyResize()) {height = document.documentElement.offsetHeight;}delayMs = Math.min(delayMs * 2, 1000000); setTimeout(maybeResize, delayMs);}maybeResize();</script></body></html>
