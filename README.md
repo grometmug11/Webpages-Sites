@@ -9,7 +9,7 @@ CAUTION: prototyping is the stuff of classroom lessons; moving to a professional
 
 ## Project Progression
 - Static Webpage: Who am I (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Who-Am-I">click here for Introductory CS Project</a>
-- Dynamic Webpage: Essay Project (HTML & Inline CSS), <a href="">click here for Introductory CS Project</a>
+- Dynamic Webpage: Essay Project (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Essay-Project">click here for Introductory CS Project</a>
 - Dynamic Webpage, Business-Promotion (HTML5), <a href="">click here for Introductory CS Project</a>
 - Dynamic Webpage with PHP Data Collection, <a href="">URL and Project Under Construction</a>
 
