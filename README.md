@@ -8,24 +8,25 @@ Special Projects and Considerations
 CAUTION: prototyping is the stuff of classroom lessons; moving to a professional feel requires searching and researching other people's work, constantly
 
 ## Project Progression
-- Static Webpage: Who am I (HTML & Inline CSS)
-- Dynamic Webpage: Essay Project (HTML & Inline CSS)
-- Dynamic Webpage, Business-Promotion (HTML5)
-- Dynamic Webpage with PHP Data Collection
+- Static Webpage: Who am I (HTML & Inline CSS), <a href="">click here for Introductory CS Project</a>
+- Dynamic Webpage: Essay Project (HTML & Inline CSS), <a href="">click here for Introductory CS Project</a>
+- Dynamic Webpage, Business-Promotion (HTML5), <a href="">click here for Introductory CS Project</a>
+- Dynamic Webpage with PHP Data Collection, <a href="">URL and Project Under Construction</a>
 
 All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
-- Click Here for <a href="">link to resources</a>
+- Click Here for <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/RPI%20Lamp%20Server">link to resources</a>
+
+Optional Webhosting through GitHub, <a href="https://github.com/QEHS-Websites/Website-Hosting">Hosting a Website on GitHub</a>
+
+Additional Projects
+- JavaScript based ..., <a href="">URL and Project Under Construction</a>
+- A list of Coding Tools in JavaScript, <a href="">URL and Project Under Construction</a>
 
 ---
 
 #To Include
 
-<a href="https://github.com/MercersKitchen/Website-Mentoring">See Website Mentoring of Initial Ideas for mentoring</a>
-- Link all these ideas to other repositories in Website Organization
-
 <a href="">Self Study Resources, links, and Progression</a>
-
-<a href="https://github.com/QEHS-Websites/Website-Hosting">Hosting a Website on GitHub</a>
 
 Credits
 - ABE
