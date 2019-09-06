@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./PWA HTML Javascript_files/osd.js.download"></script><script src="./PWA HTML Javascript_files/ca-pub-2600343186299122.js.download"></script><script type="text/javascript" async="" src="./PWA HTML Javascript_files/pinit_main.js.download"></script><script src="./PWA HTML Javascript_files/sdk.js.download" async=""></script><script async="" src="./PWA HTML Javascript_files/analytics.js.download"></script><script id="facebook-jssdk" src="./PWA HTML Javascript_files/sdk.js(1).download"></script><script type="text/javascript" async="" src="./PWA HTML Javascript_files/in.js.download"></script><script id="twitter-wjs" src="./PWA HTML Javascript_files/widgets.js.download"></script><script src="./PWA HTML Javascript_files/hn.min.js.download"></script><script type="text/javascript" async="" src="./PWA HTML Javascript_files/platform.js.download" gapi_processed="true"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-title" content="How to build a basic PWA with HTML and Javascript - Web Design and Web Development">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="revisit-after" content="2 days">
+<link rel="canonical" href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php">
+<title>
+  How to build a basic PWA with HTML and Javascript   - Web Design and Web Development  </title>
+<meta name="Description" content="How to build a basic PWA with HTML and Javascript Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required… - Web design and web development news, website design and online marketing. Portal offering web design, SEO, SEM, web hosting, e-commerce, website development and search engine optimization, social media management.">
+<meta name="author" content="Ma-No Web Design and Development, Web Agency, Palma de Mallorca">
+<meta name="Keywords" content="How to build a basic PWA with HTML and Javascript website design news, diseño web, web design agency, web design company, web development agency, internet company, web developer, ecommerce development,cms development,web design, web development,web agency, website design, online marketing,creative site, web design,application development, facebook applications, SEO agency, SEM agency, Web marketing, e-commerce development, web app, facebook app, social media management.">
+<link href="https://feeds.feedburner.com/ma-no" rel="alternate" title="ma-no.org" type="application/rss+xml">
+<meta property="fb:app_id" content="114413718648067">
+<meta property="og:title" content="How to build a basic PWA with HTML and Javascript">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php">
+<meta property="og:image" content="https://www.ma-no.org/imgr/1280-640/admin-339670-PAVV0X-636.jpg">
+<meta property="og:image:secure_url" content="https://www.ma-no.org/imgr/1280-640/admin-339670-PAVV0X-636.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:site_name" content="MA-NO WEB DESIGN AND DEVELOPMENT">
+<meta property="og:locale" content="en_US">
+<meta property="og:description" content="Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required…...">
+<meta name="twitter:title" content="How to build a basic PWA with HTML and Javascript">
+<meta name="twitter:image" content="https://www.ma-no.org/imgr/1280-640/admin-339670-PAVV0X-636.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@manoweb">
+<meta name="twitter:via" content="manoweb">
+<meta name="twitter:site" content="@manoweb">
+<meta name="twitter:url" content="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php">
+<meta name="twitter:description" content="Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required…">
+<meta name="robots" content="index,follow">
+<meta name="robots" content="noodp">
+<meta name="geo.region" content="ES-M">
+<meta name="geo.placename" content="Madrid">
+<link rel="publisher" href="https://plus.google.com/+Ma-noOrg/">
+<meta name="DC.Title" content="How to build a basic PWA with HTML and Javascript">
+<meta name="DC.Creator" content="Ma-No Web Design and Development">
+<meta name="DC.identifier" content="https://www.ma-no.org">
+<meta name="DC.Subject" content="Programming, design, web development, software">
+<meta name="DCTERMS.abstract" content="Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required…">
+<meta name="DC.Description" content="Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required…">
+<meta name="DC.Publisher" content="https://www.ma-no.org">
+<meta name="DC.Language" content="en">
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ma-no.org/assets/favicon/apple-touch-icon.png?v=E65ELWX2Ga">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.ma-no.org/assets/favicon/favicon-32x32.png?v=E65ELWX2Ga">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.ma-no.org/assets/favicon/android-chrome-192x192.png?v=E65ELWX2Ga">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.ma-no.org/assets/favicon/favicon-16x16.png?v=E65ELWX2Ga">
+<link rel="manifest" href="https://www.ma-no.org/assets/favicon/site.webmanifest?v=E65ELWX2Ga">
+<link rel="mask-icon" href="https://www.ma-no.org/assets/favicon/safari-pinned-tab.svg?v=E65ELWX2Ga" color="#27778e">
+<link rel="shortcut icon" href="https://www.ma-no.org/assets/favicon/favicon.ico?v=E65ELWX2Ga">
+<meta name="msapplication-TileColor" content="#343434">
+<meta name="msapplication-config" content="https://www.ma-no.org/assets/favicon/browserconfig.xml?v=E65ELWX2Ga">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" type="text/css" href="./PWA HTML Javascript_files/css(1)">
+<link href="./PWA HTML Javascript_files/cookiecuttr.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+         <![endif]-->
+<!--[if lte IE 8]>
+           <link rel="stylesheet" type="text/css" href="/assets/css/ie.css" />
+         <![endif]-->
+<script src="./PWA HTML Javascript_files/js"></script>
+<script src="./PWA HTML Javascript_files/jquery.cookiecuttr.en.js.download"></script>
+<script>var runFancy = true;</script>
+<!--[if IE]>
+        <script type="text/javascript">
+            runFancy = false;
+        </script>
+        <![endif]-->
+<script type="text/javascript">
+
+
+                jQuery.cookie('cc_cookie_accept', 'cc_cookie_accept');
+
+            setTimeout(function () {
+                autoAcceptCookies()
+            }, 5000);
+
+            function autoAcceptCookies() {
+                //if($('#testElement').is(':visible')) {
+                jQuery.cookie('cc_cookie_accept', 'cc_cookie_accept');
+                //}
+            }
+
+            if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+
+                if (runFancy) {
+                    jQuery.noConflict()(function ($) {
+                       // $(".view").preloader();
+                        //$(".theme-default").preloader();
+                    });
+                }
+                ;
+            }
+            ;
+        </script>
+<link rel="stylesheet" href="./PWA HTML Javascript_files/jssocials.css">
+<link rel="stylesheet" href="./PWA HTML Javascript_files/jssocials-theme-flat.css">
+<script async="" src="./PWA HTML Javascript_files/jssocials.js.download"></script>
+<script>
+var _mfq = _mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/80631104-e408-407f-9923-461f60e1f305.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script><script type="text/javascript" async="" src="./PWA HTML Javascript_files/80631104-e408-407f-9923-461f60e1f305.js.download"></script>
+<script src="./PWA HTML Javascript_files/OneSignalSDK.js.download" async="async"></script>
+<script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      
+	  	  appId: "2fc2d09e-5159-4be0-ba5b-cfa9f0ec218b",
+	  subdomainName: 'manoweb',
+	  	  
+	  	  
+	  	  
+	  autoRegister: true, /* Set to true to automatically prompt visitors */
+      
+      /*
+      subdomainName: Use the value you entered in step 1.4: http://imgur.com/a/f6hqN
+      */
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: false /* Set to false to hide */
+      }
+    }]);
+  </script>
+<link rel="preload" href="./PWA HTML Javascript_files/f(4).txt" as="script"><script type="text/javascript" src="./PWA HTML Javascript_files/f(4).txt"></script><link rel="preload" href="./PWA HTML Javascript_files/f(5).txt" as="script"><script type="text/javascript" src="./PWA HTML Javascript_files/f(5).txt"></script><link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/r20190204/r20190131/show_ads_impl.js" as="script"><style type="text/css">.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q{display:block!important;border:1px solid #cdcfd2!important;background-color:#fff!important;color:#373a3d!important;width:100vw!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-24GeGuJgk9LrMLp7qVvlyz{background:#6a7e89!important;color:#fff!important;padding:10px!important;font-size:18px!important;font-family:sans-serif!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-KVjdulkCFfUZps29EbgAC{background:#f3f6f8!important;border-bottom:1px solid #cdcfd2!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-KVjdulkCFfUZps29EbgAC>*{margin-right:10px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1OeZ2PQ98oAp6Vc5mMc6V5{list-style:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-vCwYmWF_l83ScZBrGnRoi,.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1OeZ2PQ98oAp6Vc5mMc6V5{margin:0!important;padding:0!important;width:100%!important;display:block!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-vCwYmWF_l83ScZBrGnRoi:not(:last-child){border-bottom:1px solid #cdcfd2!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1XQZkb-FlHWABUp4_uShaZ{color:inherit!important;cursor:pointer!important;width:100%!important;display:inline-block!important;margin:10px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1XTzMvb2XKitWz0mFLlyyp{margin:5px!important;display:block!important;width:auto!important;white-space:pre!important;overflow-x:scroll!important;background:inherit!important;color:inherit!important;font-family:monospace}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1XTzMvb2XKitWz0mFLlyyp:not(.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-39QUvFFn5B7GMcqMQkOXZ3){display:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-295DY3nO0DbJWMsOqmjCli{background:#f5f5f5!important;color:#5a5a5a!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1aQZwu6CUzAf2zUcI7tg0Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-295DY3nO0DbJWMsOqmjCli{display:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-38EPFyKXMtoP12rPlmrHxs{background:#e6f7ff!important;color:#006097!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3W4ZnQjhoGfT1gTNcqRXdi .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-38EPFyKXMtoP12rPlmrHxs{display:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-HGYnfzlmgOZ-l7eANhQe_{background:#fff3ea!important;color:#993a00!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-24e52A11B1UIErbKHtBmqc .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-HGYnfzlmgOZ-l7eANhQe_{display:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-jji74ZzulHScD0OAD_G7h{background:#fef2f1!important;color:#b10823!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3npS60y-EvfF7G_lioSx2Q.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-28jAOA7cDee-95LvwGsOP- .IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-jji74ZzulHScD0OAD_G7h{display:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu{background-color:#0073b1!important;border:0!important;border-radius:2px!important;box-sizing:border-box!important;color:#fff!important;cursor:pointer!important;display:inline-block!important;font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif!important;font-weight:600!important;overflow:hidden!important;outline-width:2px!important;position:relative!important;text-align:center!important;text-decoration:none!important;vertical-align:middle!important;white-space:nowrap!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu:disabled{cursor:not-allowed!important;opacity:.7!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu:not(:disabled):not(.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1zhzkayakwEXovVYUbq5Gy):hover{background-color:#006097!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu:not(:disabled):not(.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1zhzkayakwEXovVYUbq5Gy):active{background-color:#004b7c!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1zhzkayakwEXovVYUbq5Gy{background-color:#fff!important;color:#0073b1!important;box-shadow:inset 0 0 0 1px rgba(0,0,0,.3)!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1zhzkayakwEXovVYUbq5Gy:not(:disabled):hover{color:#006097!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1zhzkayakwEXovVYUbq5Gy:not(:disabled):active{color:#004b7c!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon{display:inline-block!important;height:100%!important;vertical-align:top!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon>svg{pointer-events:none!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-7inSbaAsvG5bf7w6lJTEr{font-size:10px!important;height:16px!important;line-height:16px!important;padding:0 6px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-7inSbaAsvG5bf7w6lJTEr>xdoor-icon{margin-left:-6px!important;margin-right:3px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-7inSbaAsvG5bf7w6lJTEr>xdoor-icon>svg{height:16px!important;width:16px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-7inSbaAsvG5bf7w6lJTEr.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-6px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu,.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3uCBSbQNVNf2QjqHe1rfb6{font-size:11px!important;height:20px!important;line-height:20px!important;padding:0 7px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3uCBSbQNVNf2QjqHe1rfb6>xdoor-icon,.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon{margin-left:-7px!important;margin-right:3.5px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3uCBSbQNVNf2QjqHe1rfb6>xdoor-icon>svg,.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu>xdoor-icon>svg{height:20px!important;width:20px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-3uCBSbQNVNf2QjqHe1rfb6.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon,.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-7px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-21Smv9YG-5V6M6KP-5v2WG{font-size:14px!important;height:24px!important;line-height:24px!important;padding:0 12px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-21Smv9YG-5V6M6KP-5v2WG>xdoor-icon{margin-left:-12px!important;margin-right:6px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-21Smv9YG-5V6M6KP-5v2WG>xdoor-icon>svg{height:24px!important;width:24px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-21Smv9YG-5V6M6KP-5v2WG.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-12px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1TGdQUTLZdNG4R87OfAB-q{font-size:16px!important;height:32px!important;line-height:32px!important;padding:0 16px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1TGdQUTLZdNG4R87OfAB-q>xdoor-icon{margin-left:-16px!important;margin-right:8px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1TGdQUTLZdNG4R87OfAB-q>xdoor-icon>svg{height:32px!important;width:32px!important}.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1G9ISYhSF8XoOmdcl0yKDu.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-1TGdQUTLZdNG4R87OfAB-q.IN-38518a63-cfd6-49fa-a264-d7caa8a74fd4-2lrEjt4SOTxqrYsv1piG4c>xdoor-icon{margin-right:-16px!important}</style><style type="text/css"> .PIN_1549807592822_embed_grid { 
+  width: 100%;
+  max-width: 257px;
+  min-width: 140px;
+  display: inline-block;
+  box-shadow: inset 0 0 1px #000;
+  border-radius: 5px;
+  overflow: hidden;
+  font: 12px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: rgb(54, 54, 54);
+  box-sizing: border-box;
+  background: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+ .PIN_1549807592822_embed_grid * { 
+  display: block;
+  position: relative;
+  font: inherit;
+  cursor: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_hd { 
+  height: 55px;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_hd .PIN_1549807592822_img { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background: transparent url () 0 0 no-repeat;
+  background-size: cover;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_hd .PIN_1549807592822_pinner { 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+  position: absolute;
+  top: 20px;
+  left: 56px;
+  font-size: 14px;
+  font-weight: bold;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_bd { 
+  padding: 0 10px;
+  -moz-scrollbars: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_bd .PIN_1549807592822_ct { 
+  width: 100%;
+  height: auto;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  display: inline-block;
+  width: 100%;
+  padding: 1px;
+  vertical-align: top;
+  min-width: 60px;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col .PIN_1549807592822_img { 
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  background: transparent url() 0 0 no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 1px #000;
+  border-radius: 2px;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft { 
+  padding: 11px;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button { 
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: inset 0 0 1px #888;
+  background-color: #efefef;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 33px;
+  width: 100%;
+  min-width: 70px;
+  padding: 0 3px;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button .PIN_1549807592822_label { 
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button .PIN_1549807592822_label.PIN_1549807592822_top { 
+  top: 0;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button .PIN_1549807592822_label.PIN_1549807592822_bottom { 
+  bottom: 0;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button .PIN_1549807592822_label .PIN_1549807592822_string { 
+  white-space: pre;
+  color: #746d6a;
+  font-size: 13px;
+  font-weight: bold;
+  vertical-align: top;
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button .PIN_1549807592822_label .PIN_1549807592822_logo { 
+  display: inline-block;
+  vertical-align: bottom;
+  height: 32px;
+  width: 80px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTJweCIgd2lkdGg9IjUwcHgiIHZpZXdCb3g9IjAgMCA1MCAxMiI+PGc+PHBhdGggZD0iTTE5LjY5LDkuMjggTDE5LjY5LDQuMjggTDIxLjI3LDQuMjggTDIxLjI3LDkuMjggTDE5LjY5LDkuMjggWiBNNS45NywwLjAwIEM5LjI3LDAuMDAgMTEuOTUsMi42OSAxMS45NSw2LjAwIEMxMS45NSw5LjMxIDkuMjcsMTIuMDAgNS45NywxMi4wMCBDNS4zOCwxMi4wMCA0LjgwLDExLjkxIDQuMjYsMTEuNzUgQzQuMjYsMTEuNzUgNC4yNiwxMS43NSA0LjI2LDExLjc1IEM0LjI1LDExLjc1IDQuMjQsMTEuNzQgNC4yMywxMS43NCBMNC4yMSwxMS43MyBDNC4yMSwxMS43MyA0LjIxLDExLjczIDQuMjEsMTEuNzMgQzQuNDUsMTEuMzMgNC44MSwxMC42OCA0Ljk1LDEwLjE2IEM1LjAyLDkuODggNS4zMiw4LjczIDUuMzIsOC43MyBDNS41Miw5LjExIDYuMDgsOS40MiA2LjY5LDkuNDIgQzguNDksOS40MiA5Ljc5LDcuNzYgOS43OSw1LjY5IEM5Ljc5LDMuNzEgOC4xOCwyLjIzIDYuMTEsMi4yMyBDMy41MywyLjIzIDIuMTYsMy45NiAyLjE2LDUuODYgQzIuMTYsNi43NCAyLjYzLDcuODMgMy4zNyw4LjE4IEMzLjQ5LDguMjMgMy41NSw4LjIxIDMuNTcsOC4xMCBDMy41OSw4LjAyIDMuNjksNy42MSAzLjc0LDcuNDIgQzMuNzUsNy4zNiAzLjc1LDcuMzEgMy43MCw3LjI1IEMzLjQ1LDYuOTUgMy4yNSw2LjM5IDMuMjUsNS44OCBDMy4yNSw0LjU1IDQuMjUsMy4yNyA1Ljk1LDMuMjcgQzcuNDIsMy4yNyA4LjQ1LDQuMjggOC40NSw1LjcxIEM4LjQ1LDcuMzQgNy42Myw4LjQ2IDYuNTcsOC40NiBDNS45OCw4LjQ2IDUuNTQsNy45OCA1LjY4LDcuMzggQzUuODUsNi42NyA2LjE4LDUuOTAgNi4xOCw1LjM4IEM2LjE4LDQuOTIgNS45Myw0LjU0IDUuNDIsNC41NCBDNC44Miw0LjU0IDQuMzQsNS4xNiA0LjM0LDUuOTkgQzQuMzQsNi41MiA0LjUyLDYuODggNC41Miw2Ljg4IEM0LjUyLDYuODggMy45Myw5LjQwIDMuODIsOS44NyBDMy43MCwxMC4zOCAzLjc1LDExLjExIDMuODAsMTEuNTkgTDMuODAsMTEuNTkgQzMuNzksMTEuNTkgMy43OCwxMS41OCAzLjc4LDExLjU4IEMzLjc3LDExLjU4IDMuNzYsMTEuNTggMy43NiwxMS41NyBDMy43NiwxMS41NyAzLjc2LDExLjU3IDMuNzYsMTEuNTcgQzEuNTYsMTAuNjkgMC4wMCw4LjUzIDAuMDAsNi4wMCBDMC4wMCwyLjY5IDIuNjcsMC4wMCA1Ljk3LDAuMDAgWiBNMTYuODcsMi4zMSBDMTcuNzEsMi4zMSAxOC4zNCwyLjU0IDE4Ljc2LDIuOTUgQzE5LjIxLDMuMzcgMTkuNDYsMy45NiAxOS40Niw0LjY2IEMxOS40Niw2LjAwIDE4LjU0LDYuOTUgMTcuMTEsNi45NSBMMTUuNzIsNi45NSBMMTUuNzIsOS4yOCBMMTQuMTIsOS4yOCBMMTQuMTIsMi4zMSBMMTYuODcsMi4zMSBaIE0xNi45NCw1LjU4IEMxNy41Niw1LjU4IDE3LjkxLDUuMjEgMTcuOTEsNC42NSBDMTcuOTEsNC4xMCAxNy41NSwzLjc2IDE2Ljk0LDMuNzYgTDE1LjcyLDMuNzYgTDE1LjcyLDUuNTggTDE2Ljk0LDUuNTggWiBNNTAuMDAsNS4yOCBMNDkuMTksNS4yOCBMNDkuMTksNy42MiBDNDkuMTksOC4wMSA0OS40MCw4LjExIDQ5Ljc0LDguMTEgQzQ5LjgzLDguMTEgNDkuOTMsOC4xMCA1MC4wMCw4LjEwIEw1MC4wMCw5LjI4IEM0OS44NCw5LjMxIDQ5LjU4LDkuMzMgNDkuMjIsOS4zMyBDNDguMzAsOS4zMyA0Ny42NCw5LjAzIDQ3LjY0LDcuOTYgTDQ3LjY0LDUuMjggTDQ3LjE2LDUuMjggTDQ3LjE2LDQuMjggTDQ3LjY0LDQuMjggTDQ3LjY0LDIuNzAgTDQ5LjE5LDIuNzAgTDQ5LjE5LDQuMjggTDUwLjAwLDQuMjggTDUwLjAwLDUuMjggWiBNNDUuMzEsNi4xMyBDNDYuMTgsNi4yNyA0Ny4yMSw2LjUwIDQ3LjIxLDcuNzcgQzQ3LjIxLDguODcgNDYuMjUsOS40MyA0NC45NSw5LjQzIEM0My41NSw5LjQzIDQyLjY1LDguODEgNDIuNTQsNy43OCBMNDQuMDUsNy43OCBDNDQuMTUsOC4yMCA0NC40Niw4LjQwIDQ0Ljk0LDguNDAgQzQ1LjQyLDguNDAgNDUuNzIsOC4yMiA0NS43Miw3LjkwIEM0NS43Miw3LjQ1IDQ1LjEyLDcuNDAgNDQuNDYsNy4yOSBDNDMuNTksNy4xNCA0Mi42Nyw2LjkxIDQyLjY3LDUuNzQgQzQyLjY3LDQuNjggNDMuNjQsNC4xNCA0NC44Miw0LjE0IEM0Ni4yMiw0LjE0IDQ2Ljk4LDQuNzUgNDcuMDYsNS43NCBMNDUuNjAsNS43NCBDNDUuNTQsNS4yOSA0NS4yNCw1LjE1IDQ0LjgwLDUuMTUgQzQ0LjQyLDUuMTUgNDQuMTIsNS4zMCA0NC4xMiw1LjYxIEM0NC4xMiw1Ljk2IDQ0LjY4LDYuMDEgNDUuMzEsNi4xMyBaIE0yMC40OCwyLjAwIEMyMS4wMCwyLjAwIDIxLjQzLDIuNDIgMjEuNDMsMi45NSBDMjEuNDMsMy40OCAyMS4wMCwzLjkwIDIwLjQ4LDMuOTAgQzE5Ljk1LDMuOTAgMTkuNTMsMy40OCAxOS41MywyLjk1IEMxOS41MywyLjQyIDE5Ljk1LDIuMDAgMjAuNDgsMi4wMCBaIE0yOC40OCw3LjYyIEMyOC40OCw4LjAxIDI4LjcwLDguMTEgMjkuMDQsOC4xMSBDMjkuMTAsOC4xMSAyOS4xOCw4LjEwIDI5LjI0LDguMTAgTDI5LjI0LDkuMjkgQzI5LjA4LDkuMzEgMjguODMsOS4zMyAyOC41Miw5LjMzIEMyNy42MCw5LjMzIDI2Ljk0LDkuMDMgMjYuOTQsNy45NiBMMjYuOTQsNS4yOCBMMjYuNDIsNS4yOCBMMjYuNDIsNC4yOCBMMjYuOTQsNC4yOCBMMjYuOTQsMi43MCBMMjguNDgsMi43MCBMMjguNDgsNC4yOCBMMjkuMjQsNC4yOCBMMjkuMjQsNS4yOCBMMjguNDgsNS4yOCBMMjguNDgsNy42MiBaIE0yNC42OSw0LjE0IEMyNS43Nyw0LjE0IDI2LjQxLDQuOTIgMjYuNDEsNi4wMyBMMjYuNDEsOS4yOCBMMjQuODMsOS4yOCBMMjQuODMsNi4zNSBDMjQuODMsNS44MiAyNC41Nyw1LjQ2IDI0LjA1LDUuNDYgQzIzLjUzLDUuNDYgMjMuMTgsNS45MCAyMy4xOCw2LjUyIEwyMy4xOCw5LjI4IEwyMS42MCw5LjI4IEwyMS42MCw0LjI4IEwyMy4xMiw0LjI4IEwyMy4xMiw0Ljk3IEwyMy4xNSw0Ljk3IEMyMy41Miw0LjQzIDI0LjAwLDQuMTQgMjQuNjksNC4xNCBaIE0zMy40Miw0Ljc2IEMzMi45OSw0LjM3IDMyLjQzLDQuMTQgMzEuNzIsNC4xNCBDMzAuMjAsNC4xNCAyOS4xNiw1LjI4IDI5LjE2LDYuNzcgQzI5LjE2LDguMjggMzAuMTcsOS40MiAzMS44MSw5LjQyIEMzMi40NCw5LjQyIDMyLjk1LDkuMjYgMzMuMzcsOC45NiBDMzMuODAsOC42NiAzNC4xMCw4LjIzIDM0LjIwLDcuNzggTDMyLjY2LDcuNzggQzMyLjUyLDguMTAgMzIuMjUsOC4yOCAzMS44Myw4LjI4IEMzMS4xOCw4LjI4IDMwLjgxLDcuODYgMzAuNzIsNy4xOSBMMzQuMjksNy4xOSBDMzQuMzAsNi4xOCAzNC4wMSw1LjMxIDMzLjQyLDQuNzYgTDMzLjQyLDQuNzYgWiBNNDEuNjYsNC43NiBDNDIuMjYsNS4zMSA0Mi41NSw2LjE4IDQyLjU0LDcuMTkgTDM4Ljk3LDcuMTkgQzM5LjA2LDcuODYgMzkuNDMsOC4yOCA0MC4wOCw4LjI4IEM0MC41MCw4LjI4IDQwLjc3LDguMTAgNDAuOTEsNy43OCBMNDIuNDUsNy43OCBDNDIuMzQsOC4yMyA0Mi4wNSw4LjY2IDQxLjYyLDguOTYgQzQxLjIwLDkuMjYgNDAuNjksOS40MiA0MC4wNiw5LjQyIEMzOC40Miw5LjQyIDM3LjQxLDguMjggMzcuNDEsNi43NyBDMzcuNDEsNS4yOCAzOC40NSw0LjE0IDM5Ljk3LDQuMTQgQzQwLjY3LDQuMTQgNDEuMjQsNC4zNyA0MS42Niw0Ljc2IFogTTMwLjczLDYuMjQgQzMwLjgzLDUuNjUgMzEuMTQsNS4yNyAzMS43NSw1LjI3IEMzMi4yNiw1LjI3IDMyLjYzLDUuNjUgMzIuNjksNi4yNCBMMzAuNzMsNi4yNCBaIE0zOC45OCw2LjI0IEw0MC45NCw2LjI0IEM0MC44OCw1LjY1IDQwLjUxLDUuMjcgNDAuMDAsNS4yNyBDMzkuMzksNS4yNyAzOS4wOCw1LjY1IDM4Ljk4LDYuMjQgWiBNMzcuNTQsNC4yMSBMMzcuNTQsNS42MCBDMzYuNjQsNS41MSAzNi4wNyw1Ljk5IDM2LjA3LDcuMDMgTDM2LjA3LDkuMjggTDM0LjQ4LDkuMjggTDM0LjQ4LDQuMjggTDM2LjAwLDQuMjggTDM2LjAwLDUuMDYgTDM2LjAzLDUuMDYgQzM2LjM4LDQuNDcgMzYuNzgsNC4yMSAzNy4zOSw0LjIxIEMzNy40NSw0LjIxIDM3LjUwLDQuMjEgMzcuNTQsNC4yMSBaIiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size: contain;
+}
+ .PIN_1549807592822_embed_grid .PIN_1549807592822_ft .PIN_1549807592822_button:hover { 
+  box-shadow: inset 0 0 1px #000;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_noscroll .PIN_1549807592822_bd { 
+  overflow: hidden;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_board .PIN_1549807592822_hd .PIN_1549807592822_pinner { 
+  top: 10px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_board .PIN_1549807592822_hd .PIN_1549807592822_board { 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+  position: absolute;
+  bottom: 10px;
+  left: 56px;
+  color: #363636;
+  font-size: 12px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c2 { 
+  max-width: 494px;
+  min-width: 140px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c2 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 50%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c3 { 
+  max-width: 731px;
+  min-width: 200px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c3 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 33.33%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c4 { 
+  max-width: 968px;
+  min-width: 260px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c4 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 25%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c5 { 
+  max-width: 1205px;
+  min-width: 320px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c5 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 20%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c6 { 
+  max-width: 1442px;
+  min-width: 380px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c6 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 16.66%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c7 { 
+  max-width: 1679px;
+  min-width: 440px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c7 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 14.28%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c8 { 
+  max-width: 1916px;
+  min-width: 500px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c8 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 12.5%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c9 { 
+  max-width: 2153px;
+  min-width: 560px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c9 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 11.11%;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c10 { 
+  max-width: 2390px;
+  min-width: 620px;
+}
+ .PIN_1549807592822_embed_grid.PIN_1549807592822_c10 .PIN_1549807592822_bd .PIN_1549807592822_ct .PIN_1549807592822_col { 
+  width: 10%;
+}
+ .PIN_1549807592822_embed_pin { 
+  width: 100%;
+  min-width: 160px;
+  max-width: 236px;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1px #000;
+  border-radius: 5px;
+  overflow: hidden;
+  font: 12px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #363636;
+  background: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+ .PIN_1549807592822_embed_pin * { 
+  display: block;
+  position: relative;
+  font: inherit;
+  cursor: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd { 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd { 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container { 
+  width: 100%;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_img,  .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_iframe,  .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_video { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: transparent url() 0 0 no-repeat;
+  background-size: cover;
+  border: none;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_native { 
+  height: 64px;
+  width: 64px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNjNweCIgd2lkdGg9IjYzcHgiIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGc+PHBhdGggZD0iTSAzMiAzMiBtIC0zMiwgMCBhIDMxLCAzMSAwIDEsIDAgNjMsIDAgYSAzMSwgMzEgMCAxLDAgLTYzLCAwIHoiIGZpbGw9IiMwMDAiPjwvcGF0aD48cGF0aCBkPSJNIDI1IDE5IEwgNDggMzIgIEwgMjUgNDUgWiIgZmlsbD0iI2ZmZiI+PC9wYXRoPjwvZz48L3N2Zz4=) 0 0 no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -32px;
+  margin-left: -32px;
+  opacity: .75;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_control { 
+  width: 50px;
+  height: 24px;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(0, 0, 0, .4);
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+  border: 2px solid rgba(255, 255, 255, .68);
+  border-radius: 13px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_control.PIN_1549807592822_paused::after,  .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_control.PIN_1549807592822_playing::after { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  line-height: 19px;
+  white-space: pre;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_control.PIN_1549807592822_paused::after { 
+  content: "▶ GIF";
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_control.PIN_1549807592822_playing::after { 
+  content: "❙ ❙ GIF";
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_repin { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 28px;
+  width: auto;
+  color: #fff;
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 5px 50% no-repeat;
+  background-size: 18px 18px;
+  text-indent: 28px;
+  font: 14px/28px "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0 6px 0 0;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_repin:hover { 
+  background-color: #e60023;
+  box-shadow: none;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source { 
+  height: 38px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_img { 
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  left: 10px;
+  height: 16px;
+  width: 16px;
+  background: transparent url() 0 0 no-repeat;
+  background-size: 16px 16px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_domain { 
+  line-height: 38px;
+  max-width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #b9b9b9;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source.PIN_1549807592822_nofav .PIN_1549807592822_img { 
+  display: none;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source.PIN_1549807592822_nofav .PIN_1549807592822_domain { 
+  max-width: 85%;
+  left: 10px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_menu { 
+  height: inherit;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_menu .PIN_1549807592822_toggle { 
+  position: absolute;
+  top: 0;
+  right: 5px;
+  height: inherit;
+  width: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNXB4IiB3aWR0aD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDUiPjxnPjxwYXRoIGQ9Ik0xNy41LDUgQzE4Ljg4MSw1IDIwLDMuODgxIDIwLDIuNSBDMjAsMS4xMTkgMTguODgxLDAgMTcuNSwwIEMxNi4xMTksMCAxNSwxLjExOSAxNSwyLjUgQzE1LDMuODgxIDE2LjExOSw1IDE3LjUsNSBaIE0xMCw1IEMxMS4zOCw1IDEyLjUsMy44ODEgMTIuNSwyLjUgQzEyLjUsMS4xMTkgMTEuMzgsMCAxMCwwIEM4LjYyLDAgNy41LDEuMTE5IDcuNSwyLjUgQzcuNSwzLjg4MSA4LjYyLDUgMTAsNSBNMi41LDUgQzMuODgxLDUgNSwzLjg4MSA1LDIuNSBDNSwxLjExOSAzLjg4MSwwIDIuNSwwIEMxLjEyLDAgMCwxLjExOSAwLDIuNSBDMCwzLjg4MSAxLjEyIDUsMi41LDUgWiIgZmlsbD0iI2I1YjViNSI+PC9wYXRoPjwvZz48L3N2Zz4=) 50% 50% no-repeat;
+  background-size: fill;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_menu .PIN_1549807592822_dropdown { 
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .33);
+  font-weight: bold;
+  font-size: 12px;
+  background: #fff;
+  text-align: left;
+  padding: 10px;
+  position: absolute;
+  max-width: 195px;
+  right: 10px;
+  top: 39px;
+  z-index: 1;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_menu .PIN_1549807592822_dropdown::after { 
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 1px;
+  border-bottom: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_menu .PIN_1549807592822_dropdown::before { 
+  content: "";
+  position: absolute;
+  top: -7px;
+  right: 2px;
+  border-bottom: 7px solid #e2e2e2;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_description { 
+  font-size: 14px;
+  line-height: 17px;
+  margin: 8px 12px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_attribution { 
+  height: 22px;
+  margin-top: 5px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_attribution .PIN_1549807592822_img { 
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  left: 10px;
+  height: 16px;
+  width: 16px;
+  background: transparent url() 0 0 no-repeat;
+  background-size: 16px 16px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_attribution .PIN_1549807592822_by { 
+  line-height: 22px;
+  max-width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  font-weight: bold;
+  color: #b9b9b9;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_stats { 
+  height: 24px;
+  line-height: 24px;
+  margin: 0 0 0 10px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_stats .PIN_1549807592822_repins { 
+  padding-left: 17px;
+  padding-right: 10px;
+  color: #a8a8a8;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTRweCIgd2lkdGg9IjE0cHgiIHZpZXdCb3g9IjAgMCAxNCAxNCI+PGc+PHBhdGggZD0iTTExLjk3OSw2Ljg1OSBMMTMuOTksNS4wMTEgTDExLjI0MSw1LjAxMSBMMTAuNDg2LDAgTDkuNzM5LDUuMDExIEw3LDUuMDExIEw4Ljk4Niw2Ljg1OCBMOC45ODYsMTEuMDE3IEM4LjUwNSwxMC45ODUgOC4xNDMsMTEuMDEyIDguMTQzLDExLjIxMyBDOC4xNDMsMTEuNjg3IDguNTAzLDEyLjAwMSA4Ljk4NiwxMi4wMDEgTDExLjk4MiwxMiBDMTIuNDY1LDEyIDEyLjg4OCwxMS42ODYgMTIuODg4LDExLjIxMyBDMTIuODg4LDExLjAxMSAxMi40NjUsMTAuOTg1IDExLjk4MiwxMS4wMTcgTDExLjk3OSw2Ljg1OSBaIE00Ljk3OSw3LjE0MiBMNi45OSw4Ljk5IEw0LjI0MSw4Ljk5IEwzLjQ4NiwxNC4wMDEgTDIuNzM5LDguOTkgTDAsOC45OSBMMS45ODYsNy4xNDMgTDEuOTg2LDIuOTg0IEMxLjUwNSwzLjAxNiAxLjE0MywyLjk4OSAxLjE0MywyLjc4OCBDMS4xNDMsMi4zMTUgMS41MDMsMiAxLjk4NiwyIEw0Ljk4MiwyLjAwMSBDNS40NjUsMi4wMDEgNS44ODgsMi4zMTUgNS44ODgsMi43ODkgQzUuODg4LDIuOTkgNS40NjUsMy4wMTcgNC45ODIsMi45ODQgTDQuOTc5LDcuMTQyIFoiIGZpbGw9IiNiNWI1YjUiPjwvcGF0aD48L2c+PC9zdmc+) 0 50% no-repeat;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_bd .PIN_1549807592822_stats .PIN_1549807592822_done { 
+  padding-left: 15px;
+  padding-right: 10px;
+  color: #a8a8a8;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTJweCIgd2lkdGg9IjEycHgiIHZpZXdCb3g9IjAgMCAxMiAxMiI+PGc+PHBhdGggZD0iTTAsNiBMMiw0IEw1LDcgTDEwLDEgTDEyLDMgTDUsMTEgWiIgZmlsbD0iI2I1YjViNSI+PC9wYXRoPjwvZz48L3N2Zz4=) 0 50% no-repeat;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_ft { 
+  height: 50px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_ft:after { 
+  content: '-------------------------------------------------------------------------------------';
+  display: block;
+  height: 1px;
+  line-height: 1px;
+  color: #fff;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_ft .PIN_1549807592822_img { 
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background: transparent url() 0 0 no-repeat;
+  background-size: 30px 30px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_ft .PIN_1549807592822_pinner,  .PIN_1549807592822_embed_pin .PIN_1549807592822_ft  .PIN_1549807592822_board { 
+  position: absolute;
+  left: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_ft .PIN_1549807592822_pinner { 
+  font-weight: bold;
+  top: 10px;
+}
+ .PIN_1549807592822_embed_pin .PIN_1549807592822_ft .PIN_1549807592822_board { 
+  bottom: 10px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_ja .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_repin { 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNmZmYiPjwvcGF0aD48L2c+PC9zdmc+);
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_ja .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_repin.PIN_1549807592822_save { 
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 5px 50% no-repeat;
+  background-size: 16px 16px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_medium { 
+  min-width: 237px;
+  max-width: 345px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large { 
+  min-width: 345px;
+  max-width: 600px;
+  padding: 30px 34px 10px;
+  font-size: 14px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd { 
+  border-bottom: none;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_hd { 
+  padding-top: 50px;
+  border-bottom: none;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_img,  .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_container .PIN_1549807592822_video { 
+  border-radius: 8px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_hd .PIN_1549807592822_repin { 
+  top: 0px;
+  left: 0px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_source { 
+  height: 50px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_source .PIN_1549807592822_domain { 
+  line-height: 50px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_stats { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_description { 
+  font-size: 16px;
+  line-height: 20px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_menu { 
+  height: inherit;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_bd .PIN_1549807592822_menu .PIN_1549807592822_dropdown { 
+  top: 50px;
+  font-size: 14px;
+  padding: 10px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_ft { 
+  height: 60px;
+  font-size: 16px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_ft .PIN_1549807592822_board,  .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_ft .PIN_1549807592822_pinner { 
+  left: 60px;
+}
+ .PIN_1549807592822_embed_pin.PIN_1549807592822_large .PIN_1549807592822_ft .PIN_1549807592822_img { 
+  height: 40px;
+  width: 40px;
+  background-size: 40px 40px;
+  border-radius: 20px;
+}
+ .PIN_1549807592822_button_follow { 
+  display: inline-block;
+  color: #363636;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1px #888;
+  border-radius: 3px;
+  font: bold 11px/20px "Helvetica Neue", Helvetica, arial, sans-serif !important;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  padding: 0 4px 0 20px;
+  background-color: #efefef;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+ .PIN_1549807592822_button_follow:hover { 
+  box-shadow: inset 0 0 1px #000;
+}
+ .PIN_1549807592822_button_follow::after { 
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  top: 3px;
+  left: 3px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 0 0 no-repeat;
+  background-size: 14px 14px;
+}
+ .PIN_1549807592822_button_follow.PIN_1549807592822_tall { 
+  height: 26px;
+  line-height: 26px;
+  font-size: 13px;
+  padding: 0 6px 0 25px;
+  border-radius: 3px;
+}
+ .PIN_1549807592822_button_follow.PIN_1549807592822_tall::after { 
+  height: 18px;
+  width: 18px;
+  top: 4px;
+  left: 4px;
+  background-size: 18px 18px;
+}
+ .PIN_1549807592822_button_pin { 
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1px #888;
+  border-radius: 3px;
+  height: 20px;
+  width: 40px;
+  -webkit-font-smoothing: antialiased;
+  background: #efefef url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQycHgiIHZpZXdCb3g9IjAgMCA0MiAxOCI+PGc+PHBhdGggZD0iTTE2Ljg1Myw2LjM0NSBDMTcuNjMyLDYuMzQ1IDE4LjM4LDUuNzAyIDE4LjUxLDQuOTA5IEMxOC42NjQsNC4xMzggMTguMTM1LDMuNDk0IDE3LjM1NywzLjQ5NCBDMTYuNTc4LDMuNDk0IDE1LjgzLDQuMTM4IDE1LjY5OCw0LjkwOSBDMTUuNTQ2LDUuNzAyIDE2LjA1Myw2LjM0NSAxNi44NTMsNi4zNDUgWiBNNy40NTgsMCBDMi41LDAgMCwzLjUyMiAwLDYuNDU5IEMwLDguMjM3IDAuNjgsOS44MTkgMi4xMzcsMTAuNDA5IEMyLjM3NiwxMC41MDUgMi41OSwxMC40MTIgMi42NiwxMC4xNSBDMi43MDgsOS45NjkgMi44MjIsOS41MTEgMi44NzMsOS4zMiBDMi45NDMsOS4wNjEgMi45MTYsOC45NyAyLjcyMyw4Ljc0NCBDMi4zMDIsOC4yNTMgMi4wMzQsNy42MTcgMi4wMzQsNi43MTYgQzIuMDM0LDQuMTA0IDQuMDA3LDEuNzY1IDcuMTcyLDEuNzY1IEM5Ljk3NSwxLjc2NSAxMS41MTQsMy40NjEgMTEuNTE0LDUuNzI2IEMxMS41MTQsOC43MDggMTAuMTgzLDExLjE4IDguMjA2LDExLjE4IEM3LjExNCwxMS4xOCA2LjI5NywxMC4zMjkgNi41NTksOS4yMzMgQzYuODcyLDcuOTIyIDcuNDgsNi41MDkgNy40OCw1LjU2NCBDNy40OCw0LjcxNyA3LjAyMiw0LjAxMSA2LjA3Miw0LjAxMSBDNC45NTYsNC4wMTEgNC4wNiw1LjE1NSA0LjA2LDYuNjg3IEM0LjA2LDcuNjYzIDQuMzkzLDguMzIzIDQuMzkzLDguMzIzIEM0LjM5Myw4LjMyMyAzLjI1MSwxMy4xMTcgMy4wNTEsMTMuOTU3IEMyLjY1MiwxNS42MjkgMi45OTEsMTcuNjc5IDMuMDE5LDE3Ljg4NiBDMy4wMzYsMTguMDA5IDMuMTk1LDE4LjAzOCAzLjI2NywxNy45NDYgQzMuMzcsMTcuODEyIDQuNywxNi4xODcgNS4xNTEsMTQuNTYyIEM1LjI3OSwxNC4xMDIgNS44ODUsMTEuNzIgNS44ODUsMTEuNzIgQzYuMjQ4LDEyLjQwNiA3LjMwOCwxMy4wMDkgOC40MzUsMTMuMDA5IEMxMS43OSwxMy4wMDkgMTQuMDY2LDkuOTc5IDE0LjA2Niw1LjkyMyBDMTQuMDY2LDIuODU3IDExLjQ0NCwwIDcuNDU4LDAgWiBNMjYuODk2LDE0LjE4OSBDMjYuMzQ4LDE0LjE4OSAyNi4xMTcsMTMuOTE1IDI2LjExNywxMy4zMjggQzI2LjExNywxMi40MDQgMjcuMDM1LDEwLjA5MSAyNy4wMzUsOS4wNDEgQzI3LjAzNSw3LjYzOCAyNi4yNzYsNi44MjYgMjQuNzIsNi44MjYgQzIzLjczOSw2LjgyNiAyMi43MjIsNy40NTMgMjIuMjkxLDguMDAzIEMyMi4yOTEsOC4wMDMgMjIuNDIyLDcuNTUzIDIyLjQ2Nyw3LjM4IEMyMi41MTUsNy4xOTYgMjIuNDE1LDYuODg0IDIyLjE3Myw2Ljg4NCBMMjAuNjUxLDYuODg0IEMyMC4zMjgsNi44ODQgMjAuMjM4LDcuMDU1IDIwLjE5MSw3LjI0NCBDMjAuMTcyLDcuMzIgMTkuNjI0LDkuNTg0IDE5LjA5OCwxMS42MzIgQzE4LjczOCwxMy4wMzQgMTcuODYzLDE0LjIwNSAxNi45MjgsMTQuMjA1IEMxNi40NDcsMTQuMjA1IDE2LjIzMywxMy45MDYgMTYuMjMzLDEzLjM5OSBDMTYuMjMzLDEyLjk1OSAxNi41MTksMTEuODc3IDE2Ljg2LDEwLjUzNCBDMTcuMjc2LDguODk4IDE3LjY0Miw3LjU1MSAxNy42ODEsNy4zOTQgQzE3LjczMiw3LjE5MiAxNy42NDIsNy4wMTcgMTcuMzc5LDcuMDE3IEwxNS44NDksNy4wMTcgQzE1LjU3Miw3LjAxNyAxNS40NzMsNy4xNjEgMTUuNDE0LDcuMzYxIEMxNS40MTQsNy4zNjEgMTQuOTgzLDguOTc3IDE0LjUyNywxMC43NzUgQzE0LjE5NiwxMi4wNzkgMTMuODMsMTMuNDA5IDEzLjgzLDE0LjAzNCBDMTMuODMsMTUuMTQ4IDE0LjMzNiwxNS45NDQgMTUuNzI0LDE1Ljk0NCBDMTYuNzk2LDE1Ljk0NCAxNy42NDQsMTUuNDUgMTguMjkyLDE0Ljc2NCBDMTguMTk3LDE1LjEzNSAxOC4xMzYsMTUuNDE0IDE4LjEzLDE1LjQzOSBDMTguMDc0LDE1LjY1IDE4LjE0MiwxNS44MzggMTguMzk0LDE1LjgzOCBMMTkuOTYxLDE1LjgzOCBDMjAuMjMzLDE1LjgzOCAyMC4zMzcsMTUuNzMgMjAuMzk0LDE1LjQ5NCBDMjAuNDQ5LDE1LjI2OSAyMS42MTksMTAuNjY3IDIxLjYxOSwxMC42NjcgQzIxLjkyOCw5LjQ0MyAyMi42OTIsOC42MzIgMjMuNzY4LDguNjMyIEMyNC4yNzksOC42MzIgMjQuNzIsOC45NjcgMjQuNjY5LDkuNjE4IEMyNC42MTIsMTAuMzMzIDIzLjc0MSwxMi45MDMgMjMuNzQxLDE0LjAzMSBDMjMuNzQxLDE0Ljg4NCAyNC4wNiwxNS45NDUgMjUuNjgzLDE1Ljk0NSBDMjYuNzg5LDE1Ljk0NSAyNy42MDMsMTUuNDY0IDI4LjE5NSwxNC43ODYgTDI3LjQ4OSwxMy45NDEgQzI3LjMxMSwxNC4wOTQgMjcuMTE0LDE0LjE4OSAyNi44OTYsMTQuMTg5IFogTTQxLjcwMSw2Ljg3MyBMNDAuMTM0LDYuODczIEM0MC4xMzQsNi44NzMgNDAuODU2LDQuMTA5IDQwLjg3Myw0LjAzNSBDNDAuOTQyLDMuNzQ1IDQwLjY5OCwzLjU3OCA0MC40NDEsMy42MzEgQzQwLjQ0MSwzLjYzMSAzOS4yMywzLjg2NiAzOS4wMDUsMy45MTMgQzM4Ljc3OSwzLjk1OCAzOC42MDQsNC4wODEgMzguNTIyLDQuNDAzIEMzOC41MTIsNC40NDUgMzcuODgsNi44NzMgMzcuODgsNi44NzMgTDM2LjYyMiw2Ljg3MyBDMzYuMzg1LDYuODczIDM2LjI0NSw2Ljk2OCAzNi4xOTIsNy4xODggQzM2LjExNSw3LjUwNCAzNS45NzUsOC4xNDUgMzUuOTM2LDguMjk3IEMzNS44ODUsOC40OTQgMzYsOC42NDQgMzYuMjIyLDguNjQ0IEwzNy40NTcsOC42NDQgQzM3LjQ0OCw4LjY3NyAzNy4wNjQsMTAuMTI1IDM2LjcyNSwxMS41MjEgTDM2LjcyNCwxMS41MTYgQzM2LjcyLDExLjUzMiAzNi43MTYsMTEuNTQ2IDM2LjcxMiwxMS41NjIgTDM2LjcxMiwxMS41NTYgQzM2LjcxMiwxMS41NTYgMzYuNzA4LDExLjU3MSAzNi43MDIsMTEuNTk4IEMzNi4zMjQsMTIuOTY4IDM1LjExOCwxNC4yMDkgMzQuMjAxLDE0LjIwOSBDMzMuNzIxLDE0LjIwOSAzMy41MDYsMTMuOTA5IDMzLjUwNiwxMy40MDIgQzMzLjUwNiwxMi45NjMgMzMuNzkyLDExLjg4IDM0LjEzNCwxMC41MzcgQzM0LjU0OSw4LjkwMSAzNC45MTUsNy41NTUgMzQuOTU1LDcuMzk3IEMzNS4wMDYsNy4xOTYgMzQuOTE1LDcuMDIgMzQuNjUyLDcuMDIgTDMzLjEyMiw3LjAyIEMzMi44NDUsNy4wMiAzMi43NDYsNy4xNjQgMzIuNjg3LDcuMzY0IEMzMi42ODcsNy4zNjQgMzIuMjU3LDguOTggMzEuOCwxMC43NzggQzMxLjQ2OSwxMi4wODMgMzEuMTAzLDEzLjQxMiAzMS4xMDMsMTQuMDM3IEMzMS4xMDMsMTUuMTUxIDMxLjYwOSwxNS45NDggMzIuOTk3LDE1Ljk0OCBDMzQuMDcsMTUuOTQ4IDM1LjEzNiwxNS40NTMgMzUuNzgzLDE0Ljc2NyBDMzUuNzgzLDE0Ljc2NyAzNi4wMTEsMTQuNTIxIDM2LjIzLDE0LjIyOSBDMzYuMjQxLDE0LjU4MSAzNi4zMjQsMTQuODM3IDM2LjQxMSwxNS4wMTggQzM2LjQ1OCwxNS4xMTkgMzYuNTE1LDE1LjIxNSAzNi41ODEsMTUuMzAzIEMzNi41ODIsMTUuMzA0IDM2LjU4MywxNS4zMDYgMzYuNTg1LDE1LjMwOCBMMzYuNTg1LDE1LjMwOCBDMzYuODkxLDE1LjcxMyAzNy4zOTgsMTUuOTYyIDM4LjE1MSwxNS45NjIgQzM5Ljg5NCwxNS45NjIgNDAuOTQ0LDE0LjkzOCA0MS41NjIsMTMuOTA5IEw0MC43MDQsMTMuMjM5IEM0MC4zMzMsMTMuNzc0IDM5LjgzOSwxNC4xNzUgMzkuMzI0LDE0LjE3NSBDMzguODQ2LDE0LjE3NSAzOC41NzksMTMuODc4IDM4LjU3OSwxMy4zNzIgQzM4LjU3OSwxMi45MzUgMzguODg5LDExLjg2OCAzOS4yMjksMTAuNTMgQzM5LjM0NCwxMC4wODMgMzkuNTE2LDkuNDAxIDM5LjcwOCw4LjY0NCBMNDEuMzAyLDguNjQ0IEM0MS41MzksOC42NDQgNDEuNjc4LDguNTQ5IDQxLjczMiw4LjMyOSBDNDEuODA4LDguMDEyIDQxLjk0OCw3LjM3MiA0MS45ODgsNy4yMjEgQzQyLjAzOSw3LjAyMyA0MS45MjMsNi44NzMgNDEuNzAxLDYuODczIFogTTM0LjEyNiw2LjM0OCBDMzQuOTA1LDYuMzQ4IDM1LjY1Myw1LjcwNiAzNS43ODMsNC45MTIgQzM1LjkzNyw0LjE0MSAzNS40MDksMy40OTggMzQuNjMsMy40OTggQzMzLjg1MSwzLjQ5OCAzMy4xMDMsNC4xNDEgMzIuOTcxLDQuOTEyIEMzMi44MTksNS43MDYgMzMuMzI2LDYuMzQ4IDM0LjEyNiw2LjM0OCBaIiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size: 75%;
+  position: relative;
+  font: 12px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #555;
+  text-align: center;
+  vertical-align: baseline;
+}
+ .PIN_1549807592822_button_pin:hover { 
+  box-shadow: inset 0 0 1px #000;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_above .PIN_1549807592822_count { 
+  position: absolute;
+  top: -28px;
+  left: 0;
+  height: 28px;
+  width: inherit;
+  line-height: 24px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNzZweCIgd2lkdGg9IjExNHB4IiB2aWV3Qm94PSIwIDAgMTE0IDc2Ij48Zz48cGF0aCBkPSJNOSAxQzQuNiAxIDEgNC42IDEgOXY0M2MwIDQuMyAzLjYgOCA4IDhoMjZsMTggMTVoNy41bDE2LTE1SDEwNWM0LjQgMCA4LTMuNyA4LThWOWMwLTQuNC0zLjYtOC04LThIOXoiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==) 0 0 no-repeat;
+  background-size: 40px 28px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_above.PIN_1549807592822_padded { 
+  margin-top: 28px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_beside .PIN_1549807592822_count { 
+  position: absolute;
+  right: -45px;
+  text-align: center;
+  text-indent: 5px;
+  height: inherit;
+  width: 45px;
+  font-size: 11px;
+  line-height: 20px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTZweCIgd2lkdGg9IjEyNnB4IiB2aWV3Qm94PSIyIDAgMTMwIDYwIj48Zz48cGF0aCBkPSJNMTE5LjYgMmM0LjUgMCA4IDMuNiA4IDh2NDBjMCA0LjQtMy41IDgtOCA4SDIzLjNMMS42IDMyLjR2LTQuNkwyMy4zIDJoOTYuM3oiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+  background-size: cover;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_beside.PIN_1549807592822_padded { 
+  margin-right: 45px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_ja { 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNlNjAwMjMiPjwvcGF0aD48L2c+PC9zdmc+);
+  background-size: 72%;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_red { 
+  background-color: #e60023;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQycHgiIHZpZXdCb3g9IjAgMCA0MiAxOCI+PGc+PHBhdGggZD0iTTE2Ljg1Myw2LjM0NSBDMTcuNjMyLDYuMzQ1IDE4LjM4LDUuNzAyIDE4LjUxLDQuOTA5IEMxOC42NjQsNC4xMzggMTguMTM1LDMuNDk0IDE3LjM1NywzLjQ5NCBDMTYuNTc4LDMuNDk0IDE1LjgzLDQuMTM4IDE1LjY5OCw0LjkwOSBDMTUuNTQ2LDUuNzAyIDE2LjA1Myw2LjM0NSAxNi44NTMsNi4zNDUgWiBNNy40NTgsMCBDMi41LDAgMCwzLjUyMiAwLDYuNDU5IEMwLDguMjM3IDAuNjgsOS44MTkgMi4xMzcsMTAuNDA5IEMyLjM3NiwxMC41MDUgMi41OSwxMC40MTIgMi42NiwxMC4xNSBDMi43MDgsOS45NjkgMi44MjIsOS41MTEgMi44NzMsOS4zMiBDMi45NDMsOS4wNjEgMi45MTYsOC45NyAyLjcyMyw4Ljc0NCBDMi4zMDIsOC4yNTMgMi4wMzQsNy42MTcgMi4wMzQsNi43MTYgQzIuMDM0LDQuMTA0IDQuMDA3LDEuNzY1IDcuMTcyLDEuNzY1IEM5Ljk3NSwxLjc2NSAxMS41MTQsMy40NjEgMTEuNTE0LDUuNzI2IEMxMS41MTQsOC43MDggMTAuMTgzLDExLjE4IDguMjA2LDExLjE4IEM3LjExNCwxMS4xOCA2LjI5NywxMC4zMjkgNi41NTksOS4yMzMgQzYuODcyLDcuOTIyIDcuNDgsNi41MDkgNy40OCw1LjU2NCBDNy40OCw0LjcxNyA3LjAyMiw0LjAxMSA2LjA3Miw0LjAxMSBDNC45NTYsNC4wMTEgNC4wNiw1LjE1NSA0LjA2LDYuNjg3IEM0LjA2LDcuNjYzIDQuMzkzLDguMzIzIDQuMzkzLDguMzIzIEM0LjM5Myw4LjMyMyAzLjI1MSwxMy4xMTcgMy4wNTEsMTMuOTU3IEMyLjY1MiwxNS42MjkgMi45OTEsMTcuNjc5IDMuMDE5LDE3Ljg4NiBDMy4wMzYsMTguMDA5IDMuMTk1LDE4LjAzOCAzLjI2NywxNy45NDYgQzMuMzcsMTcuODEyIDQuNywxNi4xODcgNS4xNTEsMTQuNTYyIEM1LjI3OSwxNC4xMDIgNS44ODUsMTEuNzIgNS44ODUsMTEuNzIgQzYuMjQ4LDEyLjQwNiA3LjMwOCwxMy4wMDkgOC40MzUsMTMuMDA5IEMxMS43OSwxMy4wMDkgMTQuMDY2LDkuOTc5IDE0LjA2Niw1LjkyMyBDMTQuMDY2LDIuODU3IDExLjQ0NCwwIDcuNDU4LDAgWiBNMjYuODk2LDE0LjE4OSBDMjYuMzQ4LDE0LjE4OSAyNi4xMTcsMTMuOTE1IDI2LjExNywxMy4zMjggQzI2LjExNywxMi40MDQgMjcuMDM1LDEwLjA5MSAyNy4wMzUsOS4wNDEgQzI3LjAzNSw3LjYzOCAyNi4yNzYsNi44MjYgMjQuNzIsNi44MjYgQzIzLjczOSw2LjgyNiAyMi43MjIsNy40NTMgMjIuMjkxLDguMDAzIEMyMi4yOTEsOC4wMDMgMjIuNDIyLDcuNTUzIDIyLjQ2Nyw3LjM4IEMyMi41MTUsNy4xOTYgMjIuNDE1LDYuODg0IDIyLjE3Myw2Ljg4NCBMMjAuNjUxLDYuODg0IEMyMC4zMjgsNi44ODQgMjAuMjM4LDcuMDU1IDIwLjE5MSw3LjI0NCBDMjAuMTcyLDcuMzIgMTkuNjI0LDkuNTg0IDE5LjA5OCwxMS42MzIgQzE4LjczOCwxMy4wMzQgMTcuODYzLDE0LjIwNSAxNi45MjgsMTQuMjA1IEMxNi40NDcsMTQuMjA1IDE2LjIzMywxMy45MDYgMTYuMjMzLDEzLjM5OSBDMTYuMjMzLDEyLjk1OSAxNi41MTksMTEuODc3IDE2Ljg2LDEwLjUzNCBDMTcuMjc2LDguODk4IDE3LjY0Miw3LjU1MSAxNy42ODEsNy4zOTQgQzE3LjczMiw3LjE5MiAxNy42NDIsNy4wMTcgMTcuMzc5LDcuMDE3IEwxNS44NDksNy4wMTcgQzE1LjU3Miw3LjAxNyAxNS40NzMsNy4xNjEgMTUuNDE0LDcuMzYxIEMxNS40MTQsNy4zNjEgMTQuOTgzLDguOTc3IDE0LjUyNywxMC43NzUgQzE0LjE5NiwxMi4wNzkgMTMuODMsMTMuNDA5IDEzLjgzLDE0LjAzNCBDMTMuODMsMTUuMTQ4IDE0LjMzNiwxNS45NDQgMTUuNzI0LDE1Ljk0NCBDMTYuNzk2LDE1Ljk0NCAxNy42NDQsMTUuNDUgMTguMjkyLDE0Ljc2NCBDMTguMTk3LDE1LjEzNSAxOC4xMzYsMTUuNDE0IDE4LjEzLDE1LjQzOSBDMTguMDc0LDE1LjY1IDE4LjE0MiwxNS44MzggMTguMzk0LDE1LjgzOCBMMTkuOTYxLDE1LjgzOCBDMjAuMjMzLDE1LjgzOCAyMC4zMzcsMTUuNzMgMjAuMzk0LDE1LjQ5NCBDMjAuNDQ5LDE1LjI2OSAyMS42MTksMTAuNjY3IDIxLjYxOSwxMC42NjcgQzIxLjkyOCw5LjQ0MyAyMi42OTIsOC42MzIgMjMuNzY4LDguNjMyIEMyNC4yNzksOC42MzIgMjQuNzIsOC45NjcgMjQuNjY5LDkuNjE4IEMyNC42MTIsMTAuMzMzIDIzLjc0MSwxMi45MDMgMjMuNzQxLDE0LjAzMSBDMjMuNzQxLDE0Ljg4NCAyNC4wNiwxNS45NDUgMjUuNjgzLDE1Ljk0NSBDMjYuNzg5LDE1Ljk0NSAyNy42MDMsMTUuNDY0IDI4LjE5NSwxNC43ODYgTDI3LjQ4OSwxMy45NDEgQzI3LjMxMSwxNC4wOTQgMjcuMTE0LDE0LjE4OSAyNi44OTYsMTQuMTg5IFogTTQxLjcwMSw2Ljg3MyBMNDAuMTM0LDYuODczIEM0MC4xMzQsNi44NzMgNDAuODU2LDQuMTA5IDQwLjg3Myw0LjAzNSBDNDAuOTQyLDMuNzQ1IDQwLjY5OCwzLjU3OCA0MC40NDEsMy42MzEgQzQwLjQ0MSwzLjYzMSAzOS4yMywzLjg2NiAzOS4wMDUsMy45MTMgQzM4Ljc3OSwzLjk1OCAzOC42MDQsNC4wODEgMzguNTIyLDQuNDAzIEMzOC41MTIsNC40NDUgMzcuODgsNi44NzMgMzcuODgsNi44NzMgTDM2LjYyMiw2Ljg3MyBDMzYuMzg1LDYuODczIDM2LjI0NSw2Ljk2OCAzNi4xOTIsNy4xODggQzM2LjExNSw3LjUwNCAzNS45NzUsOC4xNDUgMzUuOTM2LDguMjk3IEMzNS44ODUsOC40OTQgMzYsOC42NDQgMzYuMjIyLDguNjQ0IEwzNy40NTcsOC42NDQgQzM3LjQ0OCw4LjY3NyAzNy4wNjQsMTAuMTI1IDM2LjcyNSwxMS41MjEgTDM2LjcyNCwxMS41MTYgQzM2LjcyLDExLjUzMiAzNi43MTYsMTEuNTQ2IDM2LjcxMiwxMS41NjIgTDM2LjcxMiwxMS41NTYgQzM2LjcxMiwxMS41NTYgMzYuNzA4LDExLjU3MSAzNi43MDIsMTEuNTk4IEMzNi4zMjQsMTIuOTY4IDM1LjExOCwxNC4yMDkgMzQuMjAxLDE0LjIwOSBDMzMuNzIxLDE0LjIwOSAzMy41MDYsMTMuOTA5IDMzLjUwNiwxMy40MDIgQzMzLjUwNiwxMi45NjMgMzMuNzkyLDExLjg4IDM0LjEzNCwxMC41MzcgQzM0LjU0OSw4LjkwMSAzNC45MTUsNy41NTUgMzQuOTU1LDcuMzk3IEMzNS4wMDYsNy4xOTYgMzQuOTE1LDcuMDIgMzQuNjUyLDcuMDIgTDMzLjEyMiw3LjAyIEMzMi44NDUsNy4wMiAzMi43NDYsNy4xNjQgMzIuNjg3LDcuMzY0IEMzMi42ODcsNy4zNjQgMzIuMjU3LDguOTggMzEuOCwxMC43NzggQzMxLjQ2OSwxMi4wODMgMzEuMTAzLDEzLjQxMiAzMS4xMDMsMTQuMDM3IEMzMS4xMDMsMTUuMTUxIDMxLjYwOSwxNS45NDggMzIuOTk3LDE1Ljk0OCBDMzQuMDcsMTUuOTQ4IDM1LjEzNiwxNS40NTMgMzUuNzgzLDE0Ljc2NyBDMzUuNzgzLDE0Ljc2NyAzNi4wMTEsMTQuNTIxIDM2LjIzLDE0LjIyOSBDMzYuMjQxLDE0LjU4MSAzNi4zMjQsMTQuODM3IDM2LjQxMSwxNS4wMTggQzM2LjQ1OCwxNS4xMTkgMzYuNTE1LDE1LjIxNSAzNi41ODEsMTUuMzAzIEMzNi41ODIsMTUuMzA0IDM2LjU4MywxNS4zMDYgMzYuNTg1LDE1LjMwOCBMMzYuNTg1LDE1LjMwOCBDMzYuODkxLDE1LjcxMyAzNy4zOTgsMTUuOTYyIDM4LjE1MSwxNS45NjIgQzM5Ljg5NCwxNS45NjIgNDAuOTQ0LDE0LjkzOCA0MS41NjIsMTMuOTA5IEw0MC43MDQsMTMuMjM5IEM0MC4zMzMsMTMuNzc0IDM5LjgzOSwxNC4xNzUgMzkuMzI0LDE0LjE3NSBDMzguODQ2LDE0LjE3NSAzOC41NzksMTMuODc4IDM4LjU3OSwxMy4zNzIgQzM4LjU3OSwxMi45MzUgMzguODg5LDExLjg2OCAzOS4yMjksMTAuNTMgQzM5LjM0NCwxMC4wODMgMzkuNTE2LDkuNDAxIDM5LjcwOCw4LjY0NCBMNDEuMzAyLDguNjQ0IEM0MS41MzksOC42NDQgNDEuNjc4LDguNTQ5IDQxLjczMiw4LjMyOSBDNDEuODA4LDguMDEyIDQxLjk0OCw3LjM3MiA0MS45ODgsNy4yMjEgQzQyLjAzOSw3LjAyMyA0MS45MjMsNi44NzMgNDEuNzAxLDYuODczIFogTTM0LjEyNiw2LjM0OCBDMzQuOTA1LDYuMzQ4IDM1LjY1Myw1LjcwNiAzNS43ODMsNC45MTIgQzM1LjkzNyw0LjE0MSAzNS40MDksMy40OTggMzQuNjMsMy40OTggQzMzLjg1MSwzLjQ5OCAzMy4xMDMsNC4xNDEgMzIuOTcxLDQuOTEyIEMzMi44MTksNS43MDYgMzMuMzI2LDYuMzQ4IDM0LjEyNiw2LjM0OCBaIiBmaWxsPSIjZmZmIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_red.PIN_1549807592822_ja { 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNmZmYiPjwvcGF0aD48L2c+PC9zdmc+);
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_white { 
+  background-color: #fff;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save { 
+  border-radius: 2px;
+  text-indent: 20px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font: 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff!important;
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 3px 50% no-repeat;
+  background-size: 14px 14px;
+  -webkit-font-smoothing: antialiased;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save:hover { 
+  background-color: #e60023;
+  box-shadow: none;
+  color: #fff!important;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save .PIN_1549807592822_count { 
+  text-indent: 0;
+  position: absolute;
+  color: #555;
+  background: #efefef;
+  border-radius: 2px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save .PIN_1549807592822_count::before { 
+  content: "";
+  position: absolute;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save.PIN_1549807592822_beside .PIN_1549807592822_count { 
+  right: -46px;
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+  line-height: 20px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save.PIN_1549807592822_beside .PIN_1549807592822_count::before { 
+  top: 3px;
+  left: -4px;
+  border-right: 7px solid #efefef;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save.PIN_1549807592822_above .PIN_1549807592822_count { 
+  top: -36px;
+  width: 100%;
+  height: 30px;
+  font-size: 10px;
+  line-height: 30px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save.PIN_1549807592822_above .PIN_1549807592822_count::before { 
+  bottom: -4px;
+  left: 4px;
+  border-top: 7px solid #efefef;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_save.PIN_1549807592822_above.PIN_1549807592822_padded { 
+  margin-top: 28px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall { 
+  height: 28px;
+  width: 56px;
+  border-radius: 3px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_above .PIN_1549807592822_count { 
+  position: absolute;
+  height: 37px;
+  width: inherit;
+  top: -37px;
+  left: 0;
+  line-height: 30px;
+  font-size: 14px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNzZweCIgd2lkdGg9IjExNHB4IiB2aWV3Qm94PSIwIDAgMTE0IDc2Ij48Zz48cGF0aCBkPSJNOSAxQzQuNiAxIDEgNC42IDEgOXY0M2MwIDQuMyAzLjYgOCA4IDhoMjZsMTggMTVoNy41bDE2LTE1SDEwNWM0LjQgMCA4LTMuNyA4LThWOWMwLTQuNC0zLjYtOC04LThIOXoiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+  background-size: cover;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_above.PIN_1549807592822_padded { 
+  margin-top: 37px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_beside .PIN_1549807592822_count { 
+  text-indent: 5px;
+  position: absolute;
+  right: -63px;
+  height: inherit;
+  width: 63px;
+  font-size: 14px;
+  line-height: 28px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTZweCIgd2lkdGg9IjEyNnB4IiB2aWV3Qm94PSIyIDAgMTMwIDYwIj48Zz48cGF0aCBkPSJNMTE5LjYgMmM0LjUgMCA4IDMuNiA4IDh2NDBjMCA0LjQtMy41IDgtOCA4SDIzLjNMMS42IDMyLjR2LTQuNkwyMy4zIDJoOTYuM3oiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+  background-size: cover;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_beside.PIN_1549807592822_padded { 
+  margin-right: 63px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save { 
+  border-radius: 4px;
+  width: auto;
+  background-position-x: 6px;
+  background-size: 18px 18px;
+  text-indent: 29px;
+  font: 14px/28px "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  padding: 0 6px 0 0;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save .PIN_1549807592822_count { 
+  position: absolute;
+  color: #555;
+  font-size: 12px;
+  text-indent: 0;
+  background: #efefef;
+  border-radius: 4px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save .PIN_1549807592822_count::before { 
+  content: "";
+  position: absolute;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save.PIN_1549807592822_above .PIN_1549807592822_count { 
+  font-size: 14px;
+  top: -50px;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save.PIN_1549807592822_above .PIN_1549807592822_count::before { 
+  bottom: -4px;
+  left: 7px;
+  border-top: 7px solid #efefef;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save.PIN_1549807592822_beside .PIN_1549807592822_count { 
+  font-size: 14px;
+  right: -63px;
+  width: 56px;
+  height: 28px;
+  line-height: 28px;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_tall.PIN_1549807592822_save.PIN_1549807592822_beside .PIN_1549807592822_count::before { 
+  top: 7px;
+  left: -4px;
+  border-right: 7px solid #efefef;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_round { 
+  height: 16px;
+  width: 16px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 0 0 no-repeat;
+  background-size: 16px 16px;
+  box-shadow: none;
+}
+ .PIN_1549807592822_button_pin.PIN_1549807592822_round.PIN_1549807592822_tall { 
+  height: 32px;
+  width: 32px;
+  background-size: 32px 32px;
+}
+</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><link rel="stylesheet" href="./PWA HTML Javascript_files/OneSignalSDKStyles.css"></head>
+<body>
+<div class="mwdd-header" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+<div class="navbar-default">
+<div class="mnwBrand">
+<a href="https://www.ma-no.org/" title="Web Design Web Development MA-NO - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="manoNav-logo"></a>
+</div>
+<div id="showNav"><a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php#" class="active"> <i class="fas fa-bars"></i> </a> </div>
+<nav>
+<ul class="nav navbar-nav">
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_web-design_498.php" title="Web Design - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Web Design </strong></a>
+<ul class="dropdown-menu" id="subDDmenu">
+<li itemprop="name"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_css_532.php" title="CSS - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+CSS </a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_social-media_506.php" title="Social Media - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Social Media </strong></a>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_news-and-events_509.php" title="News and Events - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+News and Events </strong></a>
+<ul class="dropdown-menu" id="subDDmenu">
+<li itemprop="name"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_videogames_527.php" title="Videogames - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Videogames </a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_databases_449.php" title="Databases - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Databases </strong></a>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_servers_445.php" title="Servers - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Servers </strong></a>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_programming_446.php" title="Programming - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Programming </strong></a>
+ <ul class="dropdown-menu" id="subDDmenu">
+<li itemprop="name"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_php_489.php" title="Php - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Php </a>
+</li>
+<li itemprop="name"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_javascript_490.php" title="Javascript - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Javascript </a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_security_483.php" title="Security - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Security </strong></a>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_operating-systems_484.php" title="Operating systems - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Operating systems </strong></a>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_web-marketing-seo-sem_494.php" title="Web Marketing, SEO &amp; SEM - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Web Marketing, SEO &amp; SEM </strong></a>
+</li>
+<li itemprop="name" class="dropdown"> <a itemprop="url" href="https://www.ma-no.org/en/category/page_software_488.php" title="Software - Ma-No Web Design and Development Angency based in Palma de Majorca  " class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>
+Software </strong></a>
+</li>
+</ul>
+</nav>
+<div id="rightMenu">
+<ul class="nav navbar-nav navbar-right">
+<li title="Spanish"><a href="https://www.ma-no.org/es/">Es</a></li>
+<li title="English"><a href="https://www.ma-no.org/en/">En</a></li>
+<li title="Italian"><a href="https://www.ma-no.org/it/">It</a></li>
+<li id="SocialMnoLinks" style="display:none"> <a target="_blank" href="https://twitter.com/manoweb" title="Twitter Ma-No Web" rel="nofollow"><i class="fab fa-twitter color-twitter"></i></a> <a target="_blank" href="https://www.facebook.com/ManoWeb" title="Facebook Ma-No Web" rel="nofollow"><i class="fab fa-facebook color-facebook"></i></a> <a target="_blank" href="https://www.linkedin.com/company/ma-no/" title="Linkedin Ma-No Web" rel="nofollow"><i class="fab fa-linkedin color-linkedin"></i></a> <a target="_blank" href="https://plus.google.com/+Ma-noOrg/" rel="publisher" title="Google + Ma-No Web"><i class="fab fa-google-plus color-goglep"></i></a> </li>
+<li class="manoshare"><a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php#" id="SocialMno"><i class="fas fa-share-alt"></i></a></li>
+<li class="manosearch"><a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php#search"><i class="fas fa-search"></i></a></li>
+</ul>
+</div>
+
+
+</div>
+<div id="search">
+<button type="button" class="close">×</button>
+<form action="https://www.ma-no.org/en/search/" method="GET">
+<input type="search" value="" name="q" placeholder="type keyword(s) here">
+<input type="submit" class="btn btnSearch" value="Search">
+</form>
+</div>
+</div>
+<div class="mano-container">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="welcome int" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" id="breadcrumb"> <i class="icon-home icon-pride"></i> <strong class="colored">
+<a href="https://www.ma-no.org/en/index.php" itemprop="url">Home</a> &gt;&gt; <span itemprop="url">How to build a basic PWA with HTML and Javascript</span> </strong> </div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<main>
+<article class="col-md-8">
+<h1 class="sep_bg">How to build a basic PWA with HTML and Javascript</h1>
+<div> <img class="img-responsive" alt="How to build a basic PWA with HTML and Javascript" src="./PWA HTML Javascript_files/admin-339670-PAVV0X-636.jpg"> </div>
+<div class="row">
+<div class="col-md-12">
+<div class="shareButtonLabelCount text-center jssocials"><div class="jssocials-shares"><div class="jssocials-share jssocials-share-email"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="mailto:?subject=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development&amp;body=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fa fa-at jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-twitter"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://twitter.com/share?url=http%3A%2F%2Ftinyurl.com%2Fy9ebdmo4&amp;text=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript&amp;via=manoweb&amp;hashtags=pwa%2C%20html%2C%20javascript%2C%20tutorial" target="_blank"><i class="fab fa-twitter jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-facebook"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-facebook jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-googleplus"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-google-plus jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-linkedin"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-linkedin jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-pinterest"><a class="jssocials-share-link jssocials-share-link-count" href="https://pinterest.com/pin/create/bookmarklet/?media=https%3A%2F%2Fwww.ma-no.org%2Fimg%2F940-370%2Fadmin-339670-PAVV0X-636.jpg%20&amp;url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;description=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20http%3A%2F%2Ftinyurl.com%2Fy9ebdmo4" target="_blank"><i class="fab fa-pinterest jssocials-share-logo"></i><span class="jssocials-share-count">1</span></a></div><div class="jssocials-share jssocials-share-hackernews"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="http://news.ycombinator.com/submitlink?u=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;t=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development" target="_blank"><i class="fab fa-hacker-news jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-digg"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="http://digg.com/submit?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;title=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development" target="_blank"><i class="fab fa-digg jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-stumbleupon"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://mix.com/add?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-stumbleupon jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-reddit"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;title=&amp;title=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development" target="_blank"><i class="fab fa-reddit jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-flipboard"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://share.flipboard.com/bookmarklet/popout?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-flipboard jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-whatsapp"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://web.whatsapp.com/send?text=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-scoopit"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://www.scoop.it/bookmarklet?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-scoopit jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div></div></div>
+<script>
+
+                    jQuery(document).ready(function () {
+                        jQuery(".shareButtonLabelCount").jsSocials({
+                            showCount: true,
+                            showLabel: false,
+							showCount: "inside",
+							shares: [
+							"email",
+							{ share: "twitter", via: "manoweb", hashtags: "pwa, html, javascript, tutorial", url: "http://tinyurl.com/y9ebdmo4", text:"How to build a basic PWA with HTML and Javascript" },
+							"facebook",
+							"googleplus",
+							"linkedin",
+							//"pinterest",
+							{ share: "pinterest", media:"https://www.ma-no.org/img/940-370/admin-339670-PAVV0X-636.jpg ", text:"How to build a basic PWA with HTML and Javascript http://tinyurl.com/y9ebdmo4" },
+							"hackernews",
+							"digg",
+							"stumbleupon",
+							"reddit",
+							"flipboard",
+							"whatsapp",
+							"scoopit"
+							]
+                        });
+                    });
+
+                </script> </div>
+</div>
+<br>
+<div>&nbsp;</div>
+<div style="width:100%;text-align:center;">
+
+<ins class="adsbygoogle" style="display: inline-block; width: 903.328px; height: 60px;" data-ad-client="ca-pub-2600343186299122" data-ad-slot="7882370093" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:903px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:903px;background-color:transparent;"><iframe width="903" height="60" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:903px;height:60px;" src="./PWA HTML Javascript_files/saved_resource(3).html"></iframe></ins></ins></ins> </div>
+<div>&nbsp;</div>
+<div property="articleBody">
+<p>Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required libraries/system/stage or another.</p>
+<p>If we need to learn another innovation, we would preferably not get derailed with redundant subtleties ...</p>
+<p>We have indeed composed a basic introductory exercise to draw from different sources, which would not require external sources. Personally, I would prefer not to be distracted with irrelevant details when I learn a new technology.</p>
+<p>In case you're not familiar with Progressive Web Apps the essential thought is to utilize browser technologies to build a web application that works offline and has the look and feel of a native application. In this exercise, we'll tell you the best way to to make the most straightforward application conceivable, that works without an internet connection, and can be added to your home screen.</p>
+<p>You should know HTML, CSS, and JavaScript to get the most out of this tutorial. If you can code a web page and add some interactivity using plain-vanilla JavaScript, you should be able to follow. You'll need a text editor, the latest Chrome version and a local web server to build this app.</p>
+<p>In this tutorial, we used Adobe's NetBeans, because it has a web server built, but you can use any text editor you’re comfortable with.</p>
+<p>&nbsp;</p>
+<h3>Phase 1: The Setup</h3>
+<p>First of all, you have to create a directory for the app and add&nbsp;<em>js</em>,&nbsp;<em>css</em>, and<em>&nbsp;images</em>&nbsp;subdirectories. It should look like this when you’re finished:</p>
+<pre>/Hello-PWA   # Project Folder
+    /css     # Stylesheets
+    /js      # Javascript
+    /images  # Image files.</pre>
+<p>Open your project folder in Brackets to get started.</p>
+<p>When writing the markup for a Progressive Web App there are 2 requirements to keep in mind:</p>
+<p>1. Even if JavaScript is disabled, the app should keep showing some content. This prevents users from viewing a blank page if their internet connection is poor or if an older browser is used.</p>
+<p>2. It should be responsive to a variety of devices and display properly. In other words, it must be mobile-friendly.</p>
+<p>We will address the first requirement for our basic app by simply hard-coding the content and the second by adding a meta tag for the viewport. To do this, create an index.html file in the root folder of your project and add the following markup:</p>
+<pre>&lt;!doctype html&gt;
+ 
+&lt;html lang="en"&gt; 
+  
+&lt;head&gt;   
+  
+&lt;meta charset="utf-8"&gt;
+     
+&lt;title&gt;Hello World&lt;/title&gt; 
+    
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+     
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+   
+&lt;body class="fullscreen"&gt;
+     
+&lt;div class="container"&gt;   
+    
+&lt;h1 class="title"&gt;Hello World!&lt;/h1&gt; 
+    
+&lt;/div&gt;
+   
+&lt;/body&gt;  
+ 
+&lt;/html&gt;</pre>
+<p>Second step: create a file named&nbsp;<em>style.css&nbsp;</em>in the&nbsp;<em>css</em>&nbsp;folder, such as:</p>
+<pre>body {font-family: sans-serif;} 
+   
+html, .fullscreen {display: flex;height: 100%; margin: 0;padding: 0;width: 100%; }  
+   
+.container {margin: auto;text-align: center;} 
+    
+.title {font-size: 3rem;}</pre>
+<p>&nbsp;</p>
+<p>The app can now be tested by clicking on the text editor preview button. This will open a browser window and serve up your page.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Phase 2: Testing</h3>
+<p>Now that we have our "Hello world" the browser, we're going to use Google's Lighthouse to test the app and see how well it meets PWA standards. Press F12 to open the Chrome developer panel and click on the Lighthouse audit tab</p>
+<p>Make sure you check the option "Progressive Web App. " For now, you can uncheck the others. Then click on the button "run tests. " Lighthouse should give you a score and a list of audits that the app has passed or failed after a minute or two. At this point, the app should score about 45. If everything has been properly coded, you will notice that most of the tests carried out are related to the requirements we outlined at the beginning:</p>
+<p>1. If JavaScript is not available, our basic app contains some content.</p>
+<p>2. Has a wide or initial scale tag.</p>
+<p>3. The content of the viewport is correctly sized.</p>
+<p>&nbsp;</p>
+<h3>Phase 3: Add a Service Worker</h3>
+<p>Our app's next requirement is to register a service worker. Service workers are basically scripts that perform tasks that do not require user interaction in the background. This launches your users ' main app while the service worker takes care of mundane things.</p>
+<blockquote>
+<p>A service worker is an event-driven worker registered against an origin and a path. It takes the form of a JavaScript file that can control the web-page/site that it is associated with, intercepting and modifying navigation and resource requests, and caching resources in a very granular fashion to give you complete control over how your app behaves in certain situations (the most obvious one being when the network is not available). A service worker is run in a worker context: it therefore has no DOM access, and runs on a different thread to the main JavaScript that powers your app, so it is not blocking. It is designed to be fully async; as a consequence, APIs such as synchronous XHR and localStorage can't be used inside a service worker. Service workers only run over HTTPS, for security reasons. Having modified network requests, wide open to man in the middle attacks would be really bad. In Firefox, Service Worker APIs are also hidden and cannot be used when the user is in private browsing mode.</p>
+<p>&nbsp;</p>
+</blockquote>
+<p>For our app, we’ll use one to download and cache our content and then serve it back up from the cache when the user is offline.</p>
+<p>Now, create a file named sw.js in the root folder and attempt to enter the contents of the following script. The reason it is stored in the root of the app is to give it access to all files of the app. This is because service workers only have access to files in the same directory and subdirectories.</p>
+<pre>var cacheName = 'hello-pwa'; 
+  
+var filesToCache = [
+ 
+'/',    
+ 
+'/index.html',    
+ 
+'/css/style.css',  
+   
+'/js/main.js'  ];  
+    
+self.addEventListener('install', function(e) { 
+ 
+e.waitUntil(
+       
+caches.open(cacheName).then(function(cache) { 
+        
+return cache.addAll(filesToCache);   
+    
+})    
+ 
+);  
+ 
+}); 
+    
+/* Serve cached content when offline */ 
+  
+self.addEventListener('fetch', function(e) {  
+   
+e.respondWith(      caches.match(e.request).then(function(response) {  
+       
+return response || fetch(e.request);
+       
+})   
+  
+);  
+ 
+});</pre>
+<p>&nbsp;</p>
+<p>The script's first lines declare two variables: cacheName and files ToCache.</p>
+<p>CacheName is used to create access of an offline cache from Javascript in the browser. FilesToCache is an array that contains a list of all cached files. These files should be written as URLs. Note that the first is just "/, "the base URL.</p>
+<p>This means that the browser caches index.html even if the user does not type the file name directly.</p>
+<p>Next, we add a function to install the service worker and use cacheName to create the browser cache. Once the cache has been created, all the files listed in the ToCache array will be added. Please keep in mind that while this code is used for demonstration purposes, it is not intended for production, as it will stop if even one of the files is not loaded.)</p>
+<p>Finally, we add a function to load in the cached files when the browser is offline.</p>
+<p>Finally, when the browser is offline, we add a function to load into the cached files.</p>
+<p>We need to register the service worker with our app now.</p>
+<p>In the js folder, create a file named main.js and enter the following code:</p>
+<pre>window.onload = () =&gt; {  
+  
+'use strict';     
+   
+
+  
+if ('serviceWorker' in navigator) {     
+   
+   navigator.serviceWorker  
+               
+     .register('./sw.js'); 
+     
+     } 
+  
+ }</pre>
+<p>&nbsp;</p>
+<p>This code simply loads up the service worker script and gets it started.</p>
+<p>Now, add the code to your app by adding the script to index.html just before the tag &lt; /body &gt; closes.</p>
+<pre>&lt;/div&gt;
+  &lt;script src="js/main.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</pre>
+<p>&nbsp;<em>index.html</em>&nbsp;should look like this:</p>
+<pre>&lt;!doctype html&gt;  
+  
+&lt;html lang="en"&gt;  
+  
+&lt;head&gt;     
+ 
+&lt;meta charset="utf-8"&gt;  
+    
+&lt;title&gt;Hello World&lt;/title&gt;  
+    
+&lt;link rel="stylesheet" href="css/style.css"&gt;     
+ 
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;   
+ 
+&lt;/head&gt;   
+ 
+&lt;body class="fullscreen"&gt;    
+  
+&lt;div class="container"&gt;     
+   
+&lt;h1 class="title"&gt;Hello World!&lt;/h1&gt;   
+   
+&lt;/div&gt;   
+   
+&lt;script src="js/main.js"&gt;&lt;/script&gt;   
+ 
+&lt;/body&gt;   
+ 
+&lt;/html&gt;</pre>
+<p>&nbsp;</p>
+<p>If you now run the Lighthouse audits, your score should rise to 64 and the service worker requirement passes.</p>
+<h3>&nbsp;</h3>
+<h3>Phase 4: Add a Manifest</h3>
+<p>The ultimate requirement for a PWA is a manifest file. The manifest is a json file that specifies how the app looks and acts on devices. For instance, the orientation and theme color of the app can be set.</p>
+<p>In your root folder, save a file called manifest.json and add the following content:</p>
+<pre>{  
+ 
+"name": "Hello World",   
+   
+"short_name": "Hello", 
+     
+"lang": "en-US",     
+ 
+"start_url": "/index.html", 
+     
+"display": "standalone",  
+    
+"background_color": "white",   
+   
+"theme_color": "black" 
+ 
+}</pre>
+<p>&nbsp;</p>
+<p>We set the title, background and theme colors for our app and tell the browser that it should be treated as an independent app without the chrome browser.</p>
+<p>The fields are line by line as follows:</p>
+<p><strong>name</strong>&nbsp;<br>
+The app's title/name. This is used when the user is asked to install the app. It should be the app's full title.</p>
+<p><strong>short_name</strong>&nbsp;<br>
+Is the name of the app as shown on the icon app. It should be short.</p>
+<p><strong>lang</strong><br>
+The default language the app is geo-localized (en-Us in our case)..</p>
+<p><strong>start_url</strong><br>
+When the app is launched, tell the browser which page to load. It's generally index.html.</p>
+<p><strong>display</strong><br>
+The shell type should be shown in the app. We use our app to look and feel like a standard native app on our own. Other settings are available to complete the screen or include the chrome browser.</p>
+<p><strong>background_color</strong><br>
+The color of the splash screen that opens when the app launches.</p>
+<p><strong>theme_color</strong><br>
+Sets the color of the toolbar and in the task switcher.</p>
+<p>&nbsp;</p>
+<p>Now, add the manifest to your app:</p>
+<pre>&lt;head&gt;
+...
+&lt;link rel="manifest" href="/manifest.json"&gt;
+...
+&lt;/head&gt;</pre>
+<p>You should also declare the theme color to match the one set in your manifest by adding a meta tag inside the&nbsp;head:</p>
+<pre><strong>&lt;meta name="theme-color" content="black"/&gt;</strong></pre>
+<h4>App Icons</h4>
+<p>You may have noticed that Lighthouse is complaining about missing app icons after the previous step. Although the app is not strictly required to work offline, it allows your users to add the app to their home screen.</p>
+<p>Add the icons to your manifest file after the&nbsp;<em>short_name</em>&nbsp;property.</p>
+<p>And now. add them to index.html.</p>
+<p>&nbsp;</p>
+<h3>Phase 4: Finish!</h3>
+<p>The coding is finished at this point and the last thing to do is upload the application to a web server!</p>
+<p>Hope you enjoyed this tutorial.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<pre><span style="font-size:10px">Original content <a href="https://medium.com/@james.johnson280" rel="nofollow noopener" target="_blank">James Johnson</a>
+
+<a href="https://www.freepik.com/free-photos-vectors/business">Vector created by freepik - www.freepik.com</a></span></pre>
+<p>&nbsp;</p>
+</div>
+<div>&nbsp;</div>
+<div style="width:100%;text-align:center;"> <ins class="adsbygoogle" style="display: inline-block; width: 903.328px; height: 60px;" data-ad-client="ca-pub-2600343186299122" data-ad-slot="7882370093" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:903px;background-color:transparent;"><ins id="aswift_1_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:903px;background-color:transparent;"><iframe width="903" height="60" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0px;width:903px;height:60px;" src="./PWA HTML Javascript_files/saved_resource(4).html"></iframe></ins></ins></ins> </div>
+<div>&nbsp;</div>
+<p>tags: <span class="label label-info"><a href="https://www.ma-no.org/en/search/?q=pwa" style="color:#fff;" title="pwa">pwa</a></span> <span class="label label-info"><a href="https://www.ma-no.org/en/search/?q=%20html" style="color:#fff;" title=" html"> html</a></span> <span class="label label-info"><a href="https://www.ma-no.org/en/search/?q=%20javascript" style="color:#fff;" title=" javascript"> javascript</a></span> <span class="label label-info"><a href="https://www.ma-no.org/en/search/?q=%20tutorial" style="color:#fff;" title=" tutorial"> tutorial</a></span> </p> <p class="post-footer align-right">
+writer :<b>admin</b>&nbsp; <span>
+date :<b>
+08-02-2019 </b>&nbsp; </span> <span>
+hits :<b>
+366 </b> &nbsp;</span> </p>
+<p></p>
+<div class="row">
+<div class="col-md-12">
+<div id="shareButtonLabelCount" class="shareButtonLabelCount text-center jssocials"><div class="jssocials-shares"><div class="jssocials-share jssocials-share-email"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="mailto:?subject=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development&amp;body=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fa fa-at jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-twitter"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://twitter.com/share?url=http%3A%2F%2Ftinyurl.com%2Fy9ebdmo4&amp;text=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript&amp;via=manoweb&amp;hashtags=pwa%2C%20html%2C%20javascript%2C%20tutorial" target="_blank"><i class="fab fa-twitter jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-facebook"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-facebook jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-googleplus"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-google-plus jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-linkedin"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-linkedin jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-pinterest"><a class="jssocials-share-link jssocials-share-link-count" href="https://pinterest.com/pin/create/bookmarklet/?media=https%3A%2F%2Fwww.ma-no.org%2Fimg%2F940-370%2Fadmin-339670-PAVV0X-636.jpg%20&amp;url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;description=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20http%3A%2F%2Ftinyurl.com%2Fy9ebdmo4" target="_blank"><i class="fab fa-pinterest jssocials-share-logo"></i><span class="jssocials-share-count">1</span></a></div><div class="jssocials-share jssocials-share-hackernews"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="http://news.ycombinator.com/submitlink?u=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;t=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development" target="_blank"><i class="fab fa-hacker-news jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-digg"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="http://digg.com/submit?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;title=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development" target="_blank"><i class="fab fa-digg jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-stumbleupon"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://mix.com/add?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-stumbleupon jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-reddit"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;title=&amp;title=How%20to%20build%20a%20basic%20PWA%20with%20HTML%20and%20Javascript%20%20%20-%20Web%20Design%20and%20Web%20Development" target="_blank"><i class="fab fa-reddit jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-flipboard"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://share.flipboard.com/bookmarklet/popout?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-flipboard jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-whatsapp"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://web.whatsapp.com/send?text=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-whatsapp jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div><div class="jssocials-share jssocials-share-scoopit"><a class="jssocials-share-link jssocials-share-link-count jssocials-share-no-count" href="https://www.scoop.it/bookmarklet?url=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="_blank"><i class="fab fa-scoopit jssocials-share-logo"></i><span class="jssocials-share-count"></span></a></div></div></div>
+</div>
+</div>
+<br>
+<div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" data-numposts="20" data-width="100%" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=114413718648067&amp;container_width=903&amp;height=100&amp;href=https%3A%2F%2Fwww.ma-no.org%2Fen%2Fcontent%2Findex_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php&amp;locale=en_US&amp;numposts=20&amp;sdk=joey&amp;version=v3.2" style="width: 100%;"><span style="vertical-align: bottom; width: 100%; height: 187px;"><iframe name="f53ffb6f761d9" width="1000px" height="100px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:comments Facebook Social Plugin" src="./PWA HTML Javascript_files/comments.html" style="border: none; visibility: visible; width: 100%; height: 187px;" class=""></iframe></span></div>
+<div class="well">
+<h3 class="sep_bg">Related Posts </h3>
+<ul class="morepoststag">
+<li>
+<a href="https://www.ma-no.org/en/content/index_how-to-build-a-presentation-using-html-css-javascript_2384.php" title="How To Build A Presentation Using HTML, CSS, &amp; JavaScript">How To Build A Presentation Using HTML, CSS, &amp; JavaScript</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_how-to-make-svg-images-code-responsive_2278.php" title="How to make SVG images code responsive">How to make SVG images code responsive</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index__2265.php" title=""></a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_facebook-prepack-the-next-big-thing-in-the-javascript-world_2236.php" title="Facebook Prepack, The Next Big Thing In The JavaScript World">Facebook Prepack, The Next Big Thing In The JavaScript World</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_google-chrome-will-block-flash-content-starting-next-month-make-html-5-default-by-december_2150.php" title="Google Chrome will block Flash content starting next month, make HTML 5 default by December">Google Chrome will block Flash content starting next month, make HTML 5 default by December</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_css-flexbox-toolbox-some-tools_2147.php" title="CSS Flexbox Toolbox: some tools">CSS Flexbox Toolbox: some tools</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_css-only-olympic-rings_2146.php" title="CSS-Only Olympic Rings">CSS-Only Olympic Rings</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_css-animations-the-pocket-guide_2027.php" title="CSS Animations: the Pocket Guide">CSS Animations: the Pocket Guide</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/content/index_turbulenz-open-source-html5-game-engine_1489.php" title="Turbulenz, open source html5 game engine">Turbulenz, open source html5 game engine</a>
+</li>
+</ul>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://google.com/article"
+  },
+  "headline": "How to build a basic PWA with HTML and Javascript",
+  "image":"https://www.ma-no.org/img/940-370/admin-339670-PAVV0X-636.jpg",
+  "datePublished": "08-02-2019T08:00:00+05:00",
+  "dateModified": "08-02-2019T08:00:00+05:00",
+  "author": {
+    "@type": "Person",
+    "name": "admin"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Ma-No Web Design & Development",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.ma-no.org/assets/img/logos/MNW_logo.png"
+    }
+  },
+  "description": "Looking at the web for a basic PWA online training exercise, everything I found was just too confused or required&hellip;"
+}
+</script>
+</article>
+</main>
+<aside class="col-md-4 col-sm-12">
+<div class="well" style="text-align:center;">
+<ins class="adsbygoogle" style="display: inline-block; width: 396.656px; height: 300px; margin: auto;" data-ad-client="ca-pub-2600343186299122" data-ad-slot="9548319294" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:300px;margin:0;padding:0;position:relative;visibility:visible;width:397px;background-color:transparent;"><ins id="aswift_2_anchor" style="display:block;border:none;height:300px;margin:0;padding:0;position:relative;visibility:visible;width:397px;background-color:transparent;"><iframe width="397" height="300" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0px;width:397px;height:300px;" src="./PWA HTML Javascript_files/saved_resource(5).html"></iframe></ins></ins></ins>
+</div>
+<div class="well">
+<h3 class="sep_bg">
+Blog Categories </h3>
+<ul class="nav nav-pills nav-stacked">
+<li>
+<a href="https://www.ma-no.org/en/category/page_news-and-events_509.php" title="News and Events - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+News and Events</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_social-media_506.php" title="Social Media - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Social Media</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_web-design_498.php" title="Web Design - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Web Design</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_web-marketing-seo-sem_494.php" title="Web Marketing, SEO &amp; SEM - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Web Marketing, SEO &amp; SEM</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_software_488.php" title="Software - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Software</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_operating-systems_484.php" title="Operating systems - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Operating systems</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_security_483.php" title="Security - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Security</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_databases_449.php" title="Databases - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Databases</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_programming_446.php" title="Programming - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Programming</a>
+</li>
+<li>
+<a href="https://www.ma-no.org/en/category/page_servers_445.php" title="Servers - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Servers</a>
+</li>
+</ul>
+</div>
+<div class="well">
+<h3 class="sep_bg">
+Latest news from Hi-Tech world </h3>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_best-node-js-resources-in-2019-courses-and-tutorials_2399.php" title="Best Node Js  Resources in 2019. Courses and Tutorials."> <img alt="Best Node Js  Resources in 2019. Courses and Tutorials." src="./PWA HTML Javascript_files/admin-node-js-tutorials.jpg" class="img-responsive center-block" style="display: block;"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_best-node-js-resources-in-2019-courses-and-tutorials_2399.php" title="Best Node Js  Resources in 2019. Courses and Tutorials.">
+Best Node Js Resources in 2019. Courses and Tutorials. </a></h3>
+<p>
+NodeJS is a platform that enables developers to write high-performance… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" title="How to build a basic PWA with HTML and Javascript"> <img alt="How to build a basic PWA with HTML and Javascript" src="./PWA HTML Javascript_files/admin-339670-PAVV0X-636(1).jpg" class="img-responsive center-block" style="display: block;"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" title="How to build a basic PWA with HTML and Javascript">
+How to build a basic PWA with HTML and Javascript </a></h3>
+<p>
+Looking at the web for a basic PWA online training… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_how-to-become-an-automation-engineer_2396.php" title="How  to Become an Automation Engineer"> <img alt="How  to Become an Automation Engineer" src="./PWA HTML Javascript_files/blank.gif" data-src="/img/400-90/admin-iron-man-704046_640.jpg" class="img-responsive center-block"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_how-to-become-an-automation-engineer_2396.php" title="How  to Become an Automation Engineer">
+How to Become an Automation Engineer </a></h3>
+<p>
+In today’s climate, IT professionals have just about as diverse… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_the-absolute-beginner-s-guide-to-sass_2392.php" title="The Absolute Beginner&#39;s Guide to Sass"> <img alt="The Absolute Beginner&#39;s Guide to Sass" src="./PWA HTML Javascript_files/blank.gif" data-src="/img/400-90/admin-sass-guide.jpg" class="img-responsive center-block"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_the-absolute-beginner-s-guide-to-sass_2392.php" title="The Absolute Beginner&#39;s Guide to Sass">
+The Absolute Beginner's Guide to Sass </a></h3>
+<p>
+You've probably heard about CSS preprocessors before, whether it's Sass,… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_most-popular-node-js-frameworks-in-2019_2391.php" title="Most Popular Node.js Frameworks in 2019"> <img alt="Most Popular Node.js Frameworks in 2019" src="./PWA HTML Javascript_files/blank.gif" data-src="/img/400-90/admin-326244-P9YZ0I-878.jpg" class="img-responsive center-block"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_most-popular-node-js-frameworks-in-2019_2391.php" title="Most Popular Node.js Frameworks in 2019">
+Most Popular Node.js Frameworks in 2019 </a></h3>
+<p>
+Before Node.js, web developers always faced the issue of having… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_crazy-seo-tips-for-2019_2390.php" title="Crazy SEO Tips For 2019"> <img alt="Crazy SEO Tips For 2019" src="./PWA HTML Javascript_files/blank.gif" data-src="/img/400-90/admin-seo-crazy-tips-2019.jpg" class="img-responsive center-block"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_crazy-seo-tips-for-2019_2390.php" title="Crazy SEO Tips For 2019">
+Crazy SEO Tips For 2019 </a></h3>
+<p>
+Are you interested in learning more about SEO in 2019?… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_javascript-2019-is-this-the-origin-of-a-new-developing-era_2389.php" title="Javascript 2019: is this the origin of a new developing era?"> <img alt="Javascript 2019: is this the origin of a new developing era?" src="./PWA HTML Javascript_files/blank.gif" data-src="/img/400-90/admin-OKBX0W0.jpg" class="img-responsive center-block"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_javascript-2019-is-this-the-origin-of-a-new-developing-era_2389.php" title="Javascript 2019: is this the origin of a new developing era?">
+Javascript 2019: is this the origin of a new developing era? </a></h3>
+<p>
+We are at 2019, Javascript is winding up increasingly more… </p>
+</div>
+<div class="blog_sidebar">
+<a href="https://www.ma-no.org/en/content/index_a-guide-to-the-new-google-search-console_2387.php" title="A Guide to the new Google Search Console"> <img alt="A Guide to the new Google Search Console" src="./PWA HTML Javascript_files/blank.gif" data-src="/img/400-90/admin-gui-2311261_640.png" class="img-responsive center-block"></a>
+<h3><a href="https://www.ma-no.org/en/content/index_a-guide-to-the-new-google-search-console_2387.php" title="A Guide to the new Google Search Console">
+A Guide to the new Google Search Console </a></h3>
+<p>
+Google Search Console, before known as Webmaster Tools, is a… </p>
+</div>
+</div>
+<div class="well">
+<h3 class="sep_bg"> NEWSLETTER </h3>
+<form class="form-inline" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#39;https://feedburner.google.com/fb/a/mailverify?uri=ma-no&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;);return true">
+<div class="form-group">
+<input type="text" name="email" class="form-control" placeholder="Enter your email address">
+<input type="hidden" value="ma-no" name="uri">
+<input type="hidden" name="loc" value="en_US">
+<input type="submit" value="Subscribe" class="mt2 btn btn-info">
+</div>
+<div class="col-md-12 checkbox">
+<label>
+<input type="checkbox" name="acceptance" id="acceptance" value="1">
+He leído y acepto la <a href="https://www.ma-no.org/en/policies/politica-de-privacidad-en.php" title="Politica de Privacidad" target="_blank">privacy policy</a> y el <a href="https://www.ma-no.org/en/policies/aviso-legal.php" title="Aviso Legal">legal notice</a> </label>
+</div>
+<div class="col-md-12 checkbox">
+<label>
+<input type="checkbox" name="acceptance" id="acceptance" value="1">
+You agree that Ma-No Web Design and Development may collect, use and disclose your personal data which you have provided in this form, for providing material that you have agreed to receive, in accordance with our data protection policy and FeedBurner Policy, our newsletters' provider. </label>
+</div>
+</form>
+<div class="clearfix"></div>
+</div>
+<div class="well" style="text-align:center;">
+<ins class="adsbygoogle" style="display: inline-block; width: 396.656px; height: 300px; margin: auto;" data-ad-client="ca-pub-2600343186299122" data-ad-slot="9548319294" data-adsbygoogle-status="done"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:300px;margin:0;padding:0;position:relative;visibility:visible;width:397px;background-color:transparent;"><ins id="aswift_3_anchor" style="display:block;border:none;height:300px;margin:0;padding:0;position:relative;visibility:visible;width:397px;background-color:transparent;"><iframe width="397" height="300" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0px;width:397px;height:300px;" src="./PWA HTML Javascript_files/saved_resource(6).html"></iframe></ins></ins></ins>
+</div>
+<div class="well">
+<h3 class="sep_bg">
+Ma-No's Projects </h3>
+<div class="row">
+<a href="http://www.upbooking.com/" target="_blank" title="Upbooking - free booking engine" class="col-md-12">
+<img alt="Upbooking Free Booking Engine" src="./PWA HTML Javascript_files/blank.gif" data-src="/images/upbooking.png?2" class="img-responsive">
+</a>
+<a href="http://www.funpacker.com/" target="_blank" rel="nofollow" title="Funpacker the best travel search engine for your perfect tryp" class="col-md-12">
+<img alt="Funpacker the best travel search engine for your perfect tryp" src="./PWA HTML Javascript_files/blank.gif" data-src="/images/fun-packer.png" class="img-responsive">
+</a>
+<a href="https://www.mammateresa.es/" target="_blank" title="Pizzeria a domicilio en Palma de Mallorca, Mamma Teresa" class="col-md-12">
+<img alt="Pizzeria a domicilio en Palma de Mallorca, Mamma Teresa" src="./PWA HTML Javascript_files/blank.gif" data-src="/images/pizzeria-domicilio-mamma-teresa-palma.png" class="img-responsive">
+</a>
+</div>
+</div>
+<div class="well">
+<h2 class="sep_bg">Social </h2>
+<div class="tags">
+<div class="facebook">
+<div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/manoweb" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=114413718648067&amp;container_width=397&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fmanoweb&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 340px; height: 181px;"><iframe name="f31c4a6ffa17484" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="./PWA HTML Javascript_files/page.html" style="border: none; visibility: visible; width: 340px; height: 181px;" class=""></iframe></span></div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="darkgray">
+<div class="mano-container">
+<div id="footer" class="container-fluid pb40 pt40">
+<div class="row">
+<div class="col-lg-3">
+
+<div itemscope="" itemtype="http://schema.org/LocalBusiness"> <img src="./PWA HTML Javascript_files/firma.png" alt="Ma-No Web Design and Development Angency based in Palma de Majorca  " itemprop="image">
+<meta itemprop="priceRange" content="euros">
+<meta itemprop="telephone" content="+34971666161">
+<meta itemprop="description" content="Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+<a itemprop="url" href="https://www.ma-no.org/en"><span itemprop="name"><strong>
+Ma-No Web Design and Development Angency based in Palma de Majorca </strong></span></a>
+<address itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">CALLE 31 DE DICIEMBRE</span> <span itemprop="postOfficeBoxNumber"> 22 2-I</span>
+<div> <span itemprop="addressLocality">PALMA DE MALLORCA</span>, <span itemprop="addressRegion">BALEARES</span> </div>
+<span itemprop="addressCountry">Spain</span>
+<p><i class="icon-mail-alt"></i>&nbsp;<a href="mailto:info@ma-no.org">INFO@MA-NO.ORG</a></p>
+<p><i></i>&nbsp;<a itemprop="url" href="https://www.ma-no.org/" title="Ma-No Web Design and Development Angency based in Palma de Majorca  ">WWW.MA-NO.ORG</a><br>
+</p>
+</address>
+</div>
+</div>
+<div class="col-lg-3">
+<h3>
+our company </h3>
+<hr>
+<p><a href="https://www.ma-no.org/en/" title="Home Ma-No Web Design &amp; Development" class="active">Home</a> /
+<a href="https://www.ma-no.org/en/category/page_about-us_101.php" title="About us - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+About us </a> /
+<a href="https://www.ma-no.org/en/category/page_services_73.php" title="Services - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Services </a> /
+<a href="https://www.ma-no.org/en/category/page_portfolio_422.php" title="Portfolio - Ma-No Web Design and Development Angency based in Palma de Majorca  ">
+Portfolio </a> /
+<a href="https://www.ma-no.org/en/contact/index.php" title="Contact - Ma-No Web Design and Development Angency based in Palma de Majorca  " rel="nofollow">
+Contact </a> /
+</p>
+</div>
+<div class="col-lg-3">
+<h3>
+Ma-No's Projects </h3>
+<hr>
+<p>
+Plan our work and work our plan </p>
+<div class="col-md-6"><a href="http://upbooking.com/" title="Upbooking- free booking engine" target="_blank"><img src="./PWA HTML Javascript_files/upbooking.jpg" alt="UpBooking Free Booking Engine" class="img-responsive"></a>
+</div>
+</div>
+<div class="col-md-3">
+<h3>
+Latest news from Hi-Tech world </h3>
+<hr>
+<div class="blog_feed">
+<a href="https://www.ma-no.org/en/content/index_best-node-js-resources-in-2019-courses-and-tutorials_2399.php" title="Best Node Js  Resources in 2019. Courses and Tutorials.">Best Node Js Resources in 2019. Courses and Tutorials.</a>
+<p>NodeJS is a platform that enables developers to write high-performance…</p>
+</div>
+<div class="blog_feed">
+<a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" title="How to build a basic PWA with HTML and Javascript">How to build a basic PWA with HTML and Javascript</a>
+<p>Looking at the web for a basic PWA online training…</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footerRights">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 col-xs-12 col-sm-12">
+<ul class="socialNetwork">
+<li><a href="https://www.facebook.com/ManoWeb" class="tips" title="follow Ma-No Web Design &amp; Development on Facebook" data-original-title="follow Ma-No Web Design &amp; Development on Facebook" target="_blank"><i class="fab fa-facebook iconRounded" aria-hidden="true"></i></a></li>
+<li><a href="https://twitter.com/manoweb" class="tips" title="follow Ma-No Web Design &amp; Development on Twitter" data-original-title="follow Ma-No Web Design &amp; Development on Twitter" target="_blank"><i class="fab fa-twitter iconRounded" aria-hidden="true"></i></a></li>
+<li><a href="https://plus.google.com/+Ma-noOrg/" class="tips" title="follow Ma-No Web Design &amp; Development on Google+" data-original-title="follow Ma-No Web Design &amp; Development on Google+" target="_blank"><i class="fab fa-google-plus iconRounded" aria-hidden="true"></i></a></li>
+<li><a href="https://www.linkedin.com/company/ma-no" class="tips" title="follow Ma-No Web Design &amp; Development on Linkedin" data-original-title="follow Ma-No Web Design &amp; Development on Linkedin" target="_blank"><i class="fab fa-linkedin iconRounded" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/mano.web/" class="tips" title="follow Ma-No Web Design &amp; Development on Instagram" data-original-title="follow Ma-No Web Design &amp; Development on Instagram" target="_blank"><i class="fab fa-instagram iconRounded" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-xs-12 col-sm-12">
+<p>Copyright © 2014 <a href="https://www.ma-no.org/en/content/index_how-to-build-a-basic-pwa-with-html-and-javascript_2397.php" target="blank">Ma-No-Web Design &amp; Development</a> / All rights reserved. | <a href="https://www.ma-no.org/en/policies/politica-de-privacidad-en.php" title="Politica de Privacidad"> Politica de Privacidad </a> | <a href="https://www.ma-no.org/en/policies/aviso-legal.php" title="Aviso Legal"> Aviso Legal </a> | <a href="https://www.ma-no.org/en/policies/cookies-policy.php" title="politica de cookies"> Politica de cookies </a> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+
+
+            function displayGoogleAds() {
+                jQuery('ins').each(function () {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                });
+            }
+
+            if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+
+                var addthis_config = addthis_config || {};
+                addthis_config.data_use_cookies = false;
+
+                // adsense
+                jQuery.getScript("//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+                        .done(function (script, textStatus) {
+                            displayGoogleAds();
+                            //console.log( textStatus );
+                        })
+                        .fail(function (jqxhr, settings, exception) {
+                            //$( "div.log" ).text( "Triggered ajaxError handler." );
+                        });
+
+                // GOOGLE
+                window.___gcfg = {lang: 'en'};
+
+                (function () {
+                    var po = document.createElement('script');
+                    po.type = 'text/javascript';
+                    po.async = true;
+                    po.src = 'https://apis.google.com/js/platform.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(po, s);
+                })();
+
+
+                // HACKERNEWS
+                (function (d, t) {
+                    var g = d.createElement(t),
+                            s = d.getElementsByTagName(t)[0];
+                    g.src = '//hnbutton.appspot.com/static/hn.min.js';
+                    s.parentNode.insertBefore(g, s);
+                }(document, 'script'));
+
+                // TWITTER
+                !function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");
+
+
+                // PINTEREST
+                (function () {
+                    var pint = document.createElement('script');
+                    pint.type = 'text/javascript';
+                    pint.async = true;
+                    pint.src = '//assets.pinterest.com/js/pinit.js';
+                    var bPint = document.getElementsByTagName('script')[0];
+                    bPint.parentNode.insertBefore(pint, bPint);
+                })();
+
+                // LINKEDIN
+                (function () {
+                    var linkdIn = document.createElement('script');
+                    linkdIn.type = 'text/javascript';
+                    linkdIn.async = true;
+                    linkdIn.src = '//platform.linkedin.com/in.js';
+                    var blinkdIn = document.getElementsByTagName('script')[0];
+                    blinkdIn.parentNode.insertBefore(linkdIn, blinkdIn);
+
+                })();
+
+                // FACEBOOK
+				(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v3.2&appId=114413718648067&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+                
+                            }
+
+            
+
+
+        </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+  ga('create', 'UA-43560893-2', {'storage': 'none', 'clientId': 'ac820f46-36b8-4eec-ae21-cab1e5fb34b7'});
+  ga('send', 'pageview');
+  
+
+
+</script>
+<div id="cc-cookies" class="cc-cookies" style="display: block;bottom:0; top:auto;">
+We use our own cookies and third-party cookies to improve our services, show products based on your preferences, analyse the browsing habits of our users, and enable interaction with social networks. Continuing to browse our sites implies full acceptance of their use. You can change your cookie setting or get more information here: <a class="pseudoPopup cboxelement" title="Cookies Policy" href="https://www.ma-no.org/es/policies/cookies-policy.php">Cookies policy </a>.
+</div>
+<script>
+            jQuery.cookie('mostraBloccoCookies', 'mostraBloccoCookies');
+        </script>
+<script src="./PWA HTML Javascript_files/jail.min.js.download"></script>
+<script>
+        jQuery(function(){
+            jQuery('img.img-responsive').jail();
+        });
+    </script>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./PWA HTML Javascript_files/vy-MhgbfL4v.html" style="border: none;"></iframe></div><div></div></div></div>
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./PWA HTML Javascript_files/widget_iframe.5b0c4d3ea3997aa2c22eac39be510646.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="google_osd_static_frame_2732018697914" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./PWA HTML Javascript_files/saved_resource(7).html"></iframe><iframe src="./PWA HTML Javascript_files/webPushIframe.html" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation" style="display: none;"></iframe><script id="PIN_1549807592822.f.callback[0]" type="text/javascript" charset="utf-8" src="./PWA HTML Javascript_files/saved_resource"></script><iframe src="./PWA HTML Javascript_files/webPushAnalytics.html" style="display: none;"></iframe></body><iframe id="google_shimpl" style="display: none;" src="./PWA HTML Javascript_files/saved_resource(8).html"></iframe><iframe id="google_esf" name="google_esf" src="./PWA HTML Javascript_files/zrt_lookup.html" data-ad-client="ca-pub-2600343186299122" style="display: none;"></iframe></html>

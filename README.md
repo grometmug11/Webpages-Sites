@@ -5,7 +5,17 @@ Special Projects and Considerations
 - How Mercer's Kitchen mentors DIV II students to create a portfolio using HTML, <a href="https://github.com/MercersKitchen/Website-Mentoring">Click Here for Website Mentoring</a>
 - Creating a Development House's Website Testing Centre with Raspberry Pi's, <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/WebPageTest.pdf">See Website Test</a>
 
-CAUTION: prototyping is the stuff of classroom lessons; moving to professional feel of browsing requires searching and researching other people's work, constantly
+CAUTION: prototyping is the stuff of classroom lessons; moving to a professional feel requires searching and researching other people's work, constantly
+
+## Project Progression
+- Static Webpage: Who am I (HTML & Inline CSS)
+- Dynamic Webpage: Essay Project (HTML & Inline CSS)
+- Dynamic Webpage, Business-Promotion (HTML5)
+- Dynamic Webpage with PHP Data Collection
+
+All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
+- Click Here for <a href="">link to resources</a>
+
 ---
 
 #To Include
