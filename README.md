@@ -27,10 +27,8 @@ Creating a Project Folder within a GitHub Repository, <a href="">Click Here</a>
 Progression of Webpages to Websites
 - Introduction to HTML5, <a href="https://github.com/MercersKitchen/Webpages-Sites#introduction-to-html5">see below</a>
   - What is the Internet and Web Documents, <a href="https://github.com/MercersKitchen/Webpages-Sites#what-is-the-internet-and-web-documents">see below</a>
-- Static | Dynamic Webpage, (Teaching Project): Essay Project (HTML & Inline CSS), <a href="">click here for Introductory CS Project</a>
-  - See: https://github.com/QEHS-Websites/Intro-Essay-Project
-  - See: https://github.com/QEHS-Websites/Essay-Project
-  - See: https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
+- Static | Dynamic Webpage, (Teaching Project): Essay Project (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Essay-Project">click here for Introductory CS Project</a>
+  - See Introductory HTML with inline CSS, <a href="https://github.com/MercersKitchen/Webpages-Sites#html-lessons">below</a>
 - Static or Dynamic Webpage (Student Project): Who am I (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Who-Am-I">click here for Introductory CS Project</a>
 - Dynamic Webpage: Essay Project (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Essay-Project">click here for Introductory CS Project</a>
 - Dynamic Webpage, Business-Promotion (HTML5), <a href="">click here for Introductory CS Project</a>
@@ -40,10 +38,11 @@ Introductory HTML with inline CSS as a Single Page Website Hosted Locally on a M
 - Approximate time: 2 weeks (all outcomes from CSS1)
 - Simple Reminders, <a href="https://github.com/MercersKitchen/Webpages-Sites#simple-reminders">see below</a>
 - Setting up the Chrome Browser for HTML & CSS Validation, <a href="https://github.com/MercersKitchen/Webpages-Sites#setting-up-the-chrome-browser-for-html--css-validation">see below</a>
-- Folder Structure and Boilerplate for Basic Webpage, <a href="">click here</a>
+- Folder Structure and Boilerplate for Basic Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Creating%20Single%20Page%20Webpage">see folder structure</a> & see <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Introductory%20Boilerplate">boilerplate</a>
 - HEAD Notes, <a href="https://github.com/MercersKitchen/Webpages-Sites#head-notes">see below</a>
-- Body Notes and Reference, <a href="">see below</a>
-  - HTML Layout Elements, <a href="">see below</a>
+- Body Notes and Reference, <a href="https://github.com/MercersKitchen/Webpages-Sites#body-notes-and-reference">see below</a>
+  - HTML Layout Elements, <a href="https://github.com/MercersKitchen/Webpages-Sites#html-layout-elements">see below</a>
+  - Notes and Reference, <a href="https://github.com/MercersKitchen/Webpages-Sites#notes-and-reference">see below</a>
   - See https://github.com/QEHS-Websites/Essay-Project
 - Enrichment Examples<a href="">see below</a>
 
