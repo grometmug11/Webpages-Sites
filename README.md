@@ -24,7 +24,7 @@ Additional Projects
 
 ---
 
-#To Include
+# To Include
 
 <a href="">Self Study Resources, links, and Progression</a>
 
@@ -57,3 +57,5 @@ Items to Prep for
     - Home Page: includes Home Page Slider (rotating graphic of 3 images with left/right arrows to change rotating graphic), and link to Photo gallery that answers is this experience fun
     - Header: Menu-Nav, Phone, Social Media Links [icons provided]
     - Footer: Quote, Slogan, Address, Google Map [image of map provided, of QE School], Phone/Fax, Menu [First level], Social Media Links [icons provided], Copyright with
+
+---
