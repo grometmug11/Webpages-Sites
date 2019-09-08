@@ -46,6 +46,7 @@ Introductory HTML with inline CSS as a Single Page Website Hosted Locally on a M
   - See https://github.com/QEHS-Websites/Essay-Project
 - Enrichment Examples<a href="">see below</a>
 
+
 All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
 - Click Here for <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/RPI%20Lamp%20Server">link to resources</a>
 
@@ -54,6 +55,8 @@ Optional Webhosting through GitHub, <a href="https://github.com/QEHS-Websites/We
 Additional Projects
 - JavaScript based ..., <a href="">URL and Project Under Construction</a>
 - A list of Coding Tools in JavaScript, <a href="">URL and Project Under Construction</a>
+
+Optional: Introduction to Inspecting Elements searching for ideas
 
 ---
 
