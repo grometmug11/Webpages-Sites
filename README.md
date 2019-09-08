@@ -24,11 +24,12 @@ Progression of Webpages to Websites
 - Dynamic Webpage, Business-Promotion (HTML5), <a href="">click here for Introductory CS Project</a>
 - Dynamic Webpage with PHP Data Collection, <a href="">URL and Project Under Construction</a>
 
-HTML Lessons, <a href="">see below</a>
+Introductory HTML with inline CSS as a Single Page Website Hosted Locally on a Machine using GitHub as the Version Control, <a href="">see below</a>
+- Approximate time: 2 weeks (all outcomes from CSS1)
 - Simple Reminders, <a href="">see below</a>
 - Setting up the Chrome Browser for HTML & CSS Validation, <a href="">see below</a>
-- <a href="">see below</a>
-- <a href="">see below</a>
+- HEAD Notes, <a href="">see below</a>
+- Enrichment Examples<a href="">see below</a>
 - <a href="">see below</a>
 - <a href="">see below</a>
 - <a href="">see below</a>
@@ -151,7 +152,92 @@ HTML Lessons for the following HTML Features
   - In Chrome/Extensions Settings, allow aXe to access URLs
   - Able to find this in Developer Tools and the Analyze Button
 
-## 
+## HEAD Notes
+
+General List of all HTML `<head>`
+- `<title>`: title in tab, when added to favorites, displays title in search engine when website is hosted live (i.e. GitHub Hosting)
+- `<meta>`: see notes and meta attributes below
+- `<base>`: for all URLs not defined, this becomes the base URL, for example using Google Drive as a Folder
+- Other tags studied in Intermediate Website Projects
+  - link: use to link external style sheets
+  - script: used to define JavaScript, client-side, scripts
+  - style: General CSS Style name:values for this webpage
+
+Metadata Notes
+- General W3 Schools Reference, <a href="https://www.w3schools.com/tags/tag_meta.asp">Click Here</a>
+- Always passed as name-value pairs
+- Never displayed in Browser
+- Cross-scripting can happen or JavaScript can access these through DOM Values: <a href="https://www.w3schools.com/jsref/dom_obj_meta.asp">Click Here for W3 Reference</a>
+- <a href="">Click Here for enrichment examples of JavaScript or Cross Scripting Examples</a>
+
+List of all meta attributes
+- name="author | description | keywords | viewport" content="": <a href="https://www.w3schools.com/tags/att_meta_name.asp">Click Here for examples from W3 Schools</a>
+- http-equiv="content-type | default-style | refresh" content="": <a href="https://www.w3schools.com/tags/att_meta_http_equiv.asp">Click Here for examples from W3 Schools</a>
+- See HEAD Examples in <a href="https://github.com/QEHS-Websites/Intro-Who-Am-I-Project/tree/master/Pathway%20and%20Files#additional-boilerplate-for-who-am-i--essay-projects-both-introductory-projects">this boilerplate</a>
+
+An Exemplar `<head>` with `<meta>` tags
+```html
+<meta charset="utf-8">
+
+<title>Who Am I Project</title>
+
+<meta name="author" content="Jane Doe">
+<meta name="description" content="Example boilerplate for Who am I Project">
+<meta name="keywords" content="boilerplate, starter code">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+
+<!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+
+<!-- Other meta attributes to be aware of -->
+
+<!-- meta http-equiv="refresh" content="30"-->
+<!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+<!-- Use this when refreshes are needed -->
+
+<!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+<!-- Already specified in the charset above-->
+```
+
+#### HTML Layout Elements
+https://www.w3schools.com/html/html_layout.asp
+
+```html
+<!-- Review specific tags such as h1-h6, p, & special symbols like &copy-->
+<header><h1>Header Title</h1></header>
+    <nav><h1>Navigation</h1></nav>
+    <aside><p>This is the aside space.</p></aside>
+    <section>
+      <h3>Section 1</h3>
+      <article>
+        <p>This is article 1 in section 1.</p>
+      </article>
+      <article>
+        <p>This is article 2 in section 1.</p>
+      </article>
+    </section>
+    <section>
+      <h3>Section 2</h3>
+      <article>
+        <p>This is article 1 in section 2.</p>
+      </article>
+      <article>
+        <p>This is article 2 in section 2.</p>
+      </article>
+    </section>
+
+  </body>
+
+  <footer>&copy Mark Mercer, powered by MercersKitchen (GitHub)</footer>
+```
+
+---
+
+## Enrichment Examples
+
+HTML DOM Meta Object Examples
+- Accessing: `var x = document.getElementsByTagName("META")[0];`
+- Creating: `var x = document.createElement("META");`
 
 ---
 # To Include
