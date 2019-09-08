@@ -19,7 +19,11 @@ Creating a GitHub Repository, <a href="https://github.com/MercersKitchen/Compute
 Progression of Webpages to Websites
 - Introduction to HTML5, <a href="">see below</a>
   - What is the Internet and Web Documents, <a href="">see below</a>
-- Static Webpage: Who am I (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Who-Am-I">click here for Introductory CS Project</a>
+- Static | Dynamic Webpage, (Teaching Project): Essay Project (HTML & Inline CSS), <a href="">click here for Introductory CS Project</a>
+  - See: https://github.com/QEHS-Websites/Intro-Essay-Project
+  - See: https://github.com/QEHS-Websites/Essay-Project
+  - See: https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
+- Static or Dynamic Webpage (Student Project): Who am I (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Who-Am-I">click here for Introductory CS Project</a>
 - Dynamic Webpage: Essay Project (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Essay-Project">click here for Introductory CS Project</a>
 - Dynamic Webpage, Business-Promotion (HTML5), <a href="">click here for Introductory CS Project</a>
 - Dynamic Webpage with PHP Data Collection, <a href="">URL and Project Under Construction</a>
@@ -29,15 +33,9 @@ Introductory HTML with inline CSS as a Single Page Website Hosted Locally on a M
 - Simple Reminders, <a href="">see below</a>
 - Setting up the Chrome Browser for HTML & CSS Validation, <a href="">see below</a>
 - HEAD Notes, <a href="">see below</a>
+- Body Notes and Reference, <a href="">see below</a>
+  - See https://github.com/QEHS-Websites/Essay-Project
 - Enrichment Examples<a href="">see below</a>
-- <a href="">see below</a>
-- <a href="">see below</a>
-- <a href="">see below</a>
-
-
-
-
-
 
 All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
 - Click Here for <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/RPI%20Lamp%20Server">link to resources</a>
@@ -238,6 +236,14 @@ https://www.w3schools.com/html/html_layout.asp
 HTML DOM Meta Object Examples
 - Accessing: `var x = document.getElementsByTagName("META")[0];`
 - Creating: `var x = document.createElement("META");`
+
+---
+
+## Body Notes and Reference
+- See https://github.com/QEHS-Websites/Essay-Project
+- https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
+
+
 
 ---
 # To Include
