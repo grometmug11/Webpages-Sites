@@ -210,14 +210,6 @@ An Exemplar `<head>` with `<meta>` tags
 
 ---
 
-## Enrichment Examples
-
-HTML DOM Meta Object Examples
-- Accessing: `var x = document.getElementsByTagName("META")[0];`
-- Creating: `var x = document.createElement("META");`
-
----
-
 ## Body Notes and Reference
 - See https://github.com/QEHS-Websites/Essay-Project
 - See: https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
@@ -313,6 +305,14 @@ Checklist: adding Image HTML Tags (See Lessons on Building <a href="">Image HTML
 
 Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a href="">full HTML examples</a>
 - Include Ordered (numbered) and Unordered (dots) lists
+
+---
+
+## Enrichment Examples
+
+HTML DOM Meta Object Examples
+- Accessing: `var x = document.getElementsByTagName("META")[0];`
+- Creating: `var x = document.createElement("META");`
 
 ---
 
