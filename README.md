@@ -18,6 +18,8 @@ Creating a Project Folder within a GitHub Repository, <a href="">Click Here</a>
 - Introductory Boilerplate, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Introductory%20Boilerplate">Click Here</a>
 - Creating a Single Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Creating%20Single%20Page%20Webpage">Click Here</a>
 
+Creating HelloWorld HTML Page: see <a herf="https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons/Hello%20World%20CSS%20inline">HTML with inline CSS</a>
+
 ---
 
 **Main Goal**: Promotional Websites to Business-style Websites
@@ -46,6 +48,12 @@ Introductory HTML with inline CSS as a Single Page Website Hosted Locally on a M
   - See https://github.com/QEHS-Websites/Essay-Project
 - Enrichment Examples<a href="">see below</a>
 
+HTML5 (Intermediate CS)
+- Website map: paper and pencil, flowchart image connected to index.html
+- Folder Structure and Boilerplate
+- Testing Hyperlinks between pages
+- Business Website Webpage prototyping (paper and pencil then pseudocode)
+- JavaScript Lessons, developing functions and tools for business website behaviors
 
 All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
 - Click Here for <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/RPI%20Lamp%20Server">link to resources</a>
