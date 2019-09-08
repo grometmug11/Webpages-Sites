@@ -258,48 +258,32 @@ https://www.w3schools.com/html/html_layout.asp
 
 **Note:** Students must create another GitHub Lesson's Repository
 - Information here will be used for Assessment-style Hackathons
+- Chosen Readings are Grade 10 Reading Level Equivalent from the English Department
 
 Ideas to Explore Here, DOCs to Create
 - Explore how H1-H6 Tags change text, include in separate .HTML (inside Student's Lesson Repository)
   - Compare to P-Tag
+  - Compare
+    - Bolding: ```<strong></strong>``` (or ```<b></b>```)
+    - Italics: ```<em></em>``` (or ```<i></i>```)
+    - Superscript: ```<sup></sup>```
+    - Subscript: ```<sub></sub>```
   - Find default settings in Chrome ("where are these located"), change these if necessary
 - Simple DIV Layout and HEAD-Section CSS Attribute Definitions
-  - Related to HTML Tags and how to see those
+  - elated to HTML Tags and how to see those, for example <article>
+
+List of Documents to Create (open these to get idea of lesson expectations)
+
 
 ---
 To Rewrite
 
-Checklist: Beginning a Project
-- See <a href="">Creating Single Webpage</a>
-- See <a href="">Introductory Boilerplate</a>
-- [] Project Folder (GitHub Repository)
-- [] Files: index.html, ReadMe.md
-- [] Folders: Images, Videos, Media
-
-Checklist: HTML Boilerplate
-- [] Basic Boilerplate inside ATOM.IO or other WYSIWYG
-- This checklist happens between the ```<head></head>``` tags
-- [] Title for table
-  - Optional: ICON for TAB
-- [] Metadata: author, description, keywords, viewport
-- [] HTML Layout, used as needed
-- [] Footer: copyright symbol, signature inside p-tag
-
-Checklist: Adding Text from Personal Source
-- Note: Chosen Readings are Grade 10 Reading Level Equivalent from the English Department
-- This checklist happens between the ```<body></body>``` tags
-- [] Copy Title to ```<header>```, Change to appropriate h1-h6 tag
-- For Each Section of the Essay, copy (when appropriate)
-  - [] Section Header to ```<section>```, changing h1-h6 tag to appropriate size
-  - [] Paragraph to ```<article><p>```
-  - [] Repeat these as necessary
-- [] Delete all other unnecessary or unused tags
-
-Final Review of Starter Essay Project index.html
-- [] White Space: all indents are autoformatted by WYSIWYG or three-spaces (standard from W3 Consortium)
+Minimum Checklist (see <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">for full checklist</a>)
+- Note: [] White Space: all indents are autoformatted by WYSIWYG or three-spaces (standard from W3 Consortium)
+- h1-h6 tags
+- Paragraph to ```<article><p>```
 
 Checklist: adding basic inline HTML tags, Click Here for <a href="">Summary</a>, or <a href="">full HTML examples</a>
-- Minimum HTML Text formating tags to use, see Summary DOC to see more or research to find more
 - [] Bolding: ```<strong></strong>``` (or ```<b></b>```)
 - [] Italics: ```<em></em>``` (or ```<i></i>```)
 - [] Superscript: ```<sup></sup>```
@@ -332,9 +316,6 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 
 ---
 
-
-
----
 # To Include
 
 ---
