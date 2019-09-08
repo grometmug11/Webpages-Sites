@@ -2,7 +2,7 @@ HTML Summary
 - List of HTML tags: self closing and "containing"
 - See https://www.w3schools.com/html/default.asp
 
-br, !
+br, !--
 h1, h2, h3, h4, h5, & h6
 p, a, b or strong, i or em
 sub, sup
