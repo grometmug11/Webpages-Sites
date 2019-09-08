@@ -210,7 +210,7 @@ An Exemplar `<head>` with `<meta>` tags
 ---
 
 ## Body Notes and Reference
-- See https://github.com/QEHS-Websites/Essay-Project
+- See <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">full HTML Reference<>
 - See: https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
 
 #### HTML Layout Elements
