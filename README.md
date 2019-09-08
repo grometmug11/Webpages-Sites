@@ -48,12 +48,24 @@ Introductory HTML with inline CSS as a Single Page Website Hosted Locally on a M
   - See https://github.com/QEHS-Websites/Essay-Project
 - Enrichment Examples<a href="">see below</a>
 
-HTML5 (Intermediate CS)
+HTML5 (Intermediate CS): Multi-page Webpage Documents and Organization
+- Tools for Learning HTML5 Interactions
+  - Prototyping in JS Fiddle: https://jsfiddle.net/
+  - Using W3 Schools as a review & enrichment of HTML, CSS, & JavaScript: https://www.w3schools.com/
 - Website map: paper and pencil, flowchart image connected to index.html
 - Folder Structure and Boilerplate
+  - Learning how a webpage is loaded and rendered (order of HTML, CSS, and JavaScript is important)
+  - See https://css-tricks.com/helping-a-beginner-understand-getting-a-website-live/
 - Testing Hyperlinks between pages
+- Ensuring JavaScript is enabled in Browser (See Website Mentoring for original scripts)
 - Business Website Webpage prototyping (paper and pencil then pseudocode)
 - JavaScript Lessons, developing functions and tools for business website behaviors
+  - Note: create JavaScript Website of all lessons within GitHub Repo
+  - JavaScript Introductions
+  - JavaScript Only Assignments
+  - HTML Form JavaScript Interaction
+  - Optional: Submission through Google Forums and Sharing GitHub URLs
+- Main Project: Business Webpage, based on Skills Alberta Canada Expectations
 
 All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
 - Click Here for <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/RPI%20Lamp%20Server">link to resources</a>
@@ -163,13 +175,18 @@ HTML Lessons for the following HTML Features
 - HTML Validation
   - In Workona, point a TAB to https://validator.w3.org/
       - Able to validate hosted and local documents
+  - See HTML Markup Validation: https://validator.w3.org/#validate_by_upload
 - CSS Validation
   - In Workona, point a TAB to https://jigsaw.w3.org/css-validator/validator.html.en
   - Able to validate hosted and local documents
+  - See CSS Markup Validation: https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_upload
 - Accessibility Testing as a Chrome Developer Tool
+  - Accessibility Validation: Chrome Web Store / Extensions / aXe by Deque Systems (Deque University)
   - In the Chrome Store, search for "aXe, Deque Systems" and add it to Chrome
   - In Chrome/Extensions Settings, allow aXe to access URLs
   - Able to find this in Developer Tools and the Analyze Button
+
+Example Videos using Accessibility: https://youtu.be/OGwKOxh5hqQ?t=5m28s
 
 ## HEAD Notes
 
@@ -327,6 +344,107 @@ HTML DOM Meta Object Examples
 ---
 
 # To Include
+
+Intermediate HTML5 Additional Notes & Progress to Consider
+- Develop Ideas about Variables and Data Structures
+- Write Functions (non-return, return, nested)
+- Develop outcomes about computation, operators, etc.
+- Introduce various ways of writing variables: arrays and objects
+- Complete JavaScript Lessons outputted to the console, for prototyping
+- Build HTML-JavaScript Interactions using a Submit Button to run a JavaScript Function called main()
+  - Connected to OOP concept of constructors and classes, but in procedural programming
+- Build individual webpages of HTML Form Data Content connected to JavaScript Assignments
+- Build a website of all JavaScript Assignments
+  - Demonstration of code and links necessary to run multiple HTML & JavaScript Pages
+- Note: this will lead into writing and linking CSS files
+
+Include full links to CSS in Boilerplate, with debugging Lines
+
+Which Data Structure makes sense
+- Primitive data: individually initialized
+- Objects: multiple values for primitive data, called keys
+- Arrays: multiple elements for primitive data, controlled by a numeral
+
+Use Ternary Operator as Full Solution
+
+Use Forms to Input data
+
+See: https://css-tricks.com/helping-a-beginner-understand-getting-a-website-live/
+
+CSS lessons
+- One page with different .class attributes, simple HTML
+- Remember CSS Validation and Accessibility
+
+Video 5 Notes: https://www.youtube.com/watch?v=4wxRnsmNGpc&feature=youtu.be
+- Making a Table: rows, colspan, rowspan (i.e. weekly schedule)
+- Adding CSS to Table: https://www.w3schools.com/css/css_table.asp
+- More CSS: https://www.w3schools.com/w3css/w3css_tables.asp
+- Example cell: font, font weight, color, background-color
+- Note: background-color changes can increase contrast, making reading easier (not on white background)
+- Note: in aXe validator, will analyze color contrast in Learn More
+- Note: Checking Accessibility
+
+Video 6 Notes
+- https://www.youtube.com/watch?v=OGwKOxh5hqQ&feature=youtu.be
+
+This video developing a Form, what else needs to happen in Introductory?
+
+Notes
+- First build a Form
+- Second, add colour with Style Sheets
+- First is line to make sure nothing happens, for testing
+
+- ensures nothing happens on the "x" html page, that doesn't exist
+
+Build a Form in HTML: all typing is in Video, review the video again to add all the typing
+
+Go to paletton.com; or http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+Get the triad and complimentary colours: time is about 7 minutes
+
+Click on "Triad" and "Add Complimentary"
+
+Look at definition for Compliementary Colour (opposite side of colour wheel)
+
+Able to turn the colour wheel until we find colours we like, and can make darker or lighter
+
+To get the colours, click on
+
+Tables, Export
+
+Colour List as CSS
+
+Copy the first 3 Lines, including URL for Colour Scheme, paste into CSS File as reference
+
+Pick the colours wanted, must pick the same numbers (all 0, or 1, or 2)
+
+Make comments about primary, secondary, etc.
+
+Copy the css export
+
+create comment into css file
+
+next create the foreground and background colours, then make sure they pass accessibility
+
+Test the contrast using another Tool from aXe
+
+https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse
+
+find one of colours to get the highest contrast ratio
+
+Next, play with lightness of colours : changes hue and saturation
+
+Question: do you want light on dark, or dark on light?
+
+Make Comments about the new colours we will have
+
+Continue to choose colours for the entire page
+
+Colour Wheel: warm and cool colours
+
+---
+
+Note: improve Internet Architecture Notes below based on CSS2 & 3
 
 ---
 
