@@ -199,6 +199,20 @@ An Exemplar `<head>` with `<meta>` tags
 <!-- Already specified in the charset above-->
 ```
 
+---
+
+## Enrichment Examples
+
+HTML DOM Meta Object Examples
+- Accessing: `var x = document.getElementsByTagName("META")[0];`
+- Creating: `var x = document.createElement("META");`
+
+---
+
+## Body Notes and Reference
+- See https://github.com/QEHS-Websites/Essay-Project
+- https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
+
 #### HTML Layout Elements
 https://www.w3schools.com/html/html_layout.asp
 
@@ -231,19 +245,9 @@ https://www.w3schools.com/html/html_layout.asp
   <footer>&copy Mark Mercer, powered by MercersKitchen (GitHub)</footer>
 ```
 
----
-
-## Enrichment Examples
-
-HTML DOM Meta Object Examples
-- Accessing: `var x = document.getElementsByTagName("META")[0];`
-- Creating: `var x = document.createElement("META");`
+### Notes and Reference
 
 ---
-
-## Body Notes and Reference
-- See https://github.com/QEHS-Websites/Essay-Project
-- https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
 
 
 
