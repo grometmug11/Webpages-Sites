@@ -14,7 +14,15 @@ CAUTION: prototyping is the stuff of classroom lessons; moving to a professional
 
 Creating a GitHub Repository, <a href="https://github.com/MercersKitchen/Computer-Science-Planning/tree/master/Projects/Creating%20a%20GitHub%20Repository">Click Here</a>
 
+Creating a Project Folder within a GitHub Repository, <a href="">Click Here</a>
+- Introductory Boilerplate, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Introductory%20Boilerplate">Click Here</a>
+- Creating a Single Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Creating%20Single%20Page%20Webpage">Click Here</a>
+
+---
+
 **Main Goal**: Promotional Websites to Business-style Websites
+
+---
 
 Progression of Webpages to Websites
 - Introduction to HTML5, <a href="https://github.com/MercersKitchen/Webpages-Sites#introduction-to-html5">see below</a>
@@ -131,6 +139,7 @@ Introductions to Raspberry Pi, "Going Headless", and IP Sockets
 ---
 
 # HTML Lessons
+
 
 ## Simple Reminders
 
