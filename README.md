@@ -23,8 +23,9 @@ Creating a GitHub Repository, <a href="https://github.com/MercersKitchen/Compute
   - Main Project
 
 Creating a Project Folder within a GitHub Repository, <a href="https://github.com/MercersKitchen/Computer-Science-Planning/tree/master/Projects/Creating%20a%20GitHub%20Repository">Click Here</a>
-- Introductory Boilerplate, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Introductory%20Boilerplate">Click Here</a>
-- Creating a Single Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Creating%20Single%20Page%20Webpage">Click Here</a>
+- Note: two docs to write in to create content
+- Introductory Boilerplate, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Boilerplate%20Introductory">Click Here</a>
+- Creating a Single Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Template%20Single%20Page%20Webpage">Click Here</a>
 
 Creating HelloWorld HTML Page: see <a herf="https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons/Hello%20World%20CSS%20inline">HTML with inline CSS</a>
 
