@@ -11,6 +11,14 @@ Expectations and To Do List
 
 ## To Do List
 
+Create GitHub Repository
+- ReadMe.md Content
+- Folder Contents with .html boilerplate
+
+Create Content for Business Website and Planned Layout, paper and pencil
+- Include Site Map and Hyperlinks (planned only)
+
+Add Hyperlinks to Folder Structure
 
 ---
 
