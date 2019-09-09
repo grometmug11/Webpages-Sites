@@ -13,8 +13,9 @@ CAUTION: prototyping is the stuff of classroom lessons; moving to a professional
 ## Project Progression
 
 Creating a GitHub Repository, <a href="https://github.com/MercersKitchen/Computer-Science-Planning/tree/master/Projects/Creating%20a%20GitHub%20Repository">Click Here</a>
+- Note: try creating multiple Repositories for HelloWorld and then the assignments needed for the specific course
 
-Creating a Project Folder within a GitHub Repository, <a href="">Click Here</a>
+Creating a Project Folder within a GitHub Repository, <a href="https://github.com/MercersKitchen/Computer-Science-Planning/tree/master/Projects/Creating%20a%20GitHub%20Repository">Click Here</a>
 - Introductory Boilerplate, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Introductory%20Boilerplate">Click Here</a>
 - Creating a Single Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Creating%20Single%20Page%20Webpage">Click Here</a>
 
