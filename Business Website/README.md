@@ -6,6 +6,16 @@ Expectations and To Do List
 
 ## Expectations
 
+Students to create following content
+- Logo, including Business Name
+- Background Image
+- Email
+- Address and Google Map (i.e. Queen Elizabeth High School)
+- 3 Images of what you are selling
+- Multiple other images for gallery
+- Phone Number
+- Quote
+- Slogan
 
 ---
 
@@ -31,7 +41,7 @@ Skills Canada Alberta Guidance information (about a restaurant)
 These Items should be geared towards a portfolio website building on Mentoring Elementary Students.
 
 Items to Prep for
-- Case Study and Exploration of Business Model of Service
+- Case Study and Exploration of Business Model for Service
 - GitHub "To Do List" with associated given information (see below): entire Content Repo able to be downloaded
 
 - Researching Accommodations (see Becky's Videos and lessons about this)
