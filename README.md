@@ -27,7 +27,7 @@ Creating a Project Folder within a GitHub Repository, <a href="https://github.co
 - Introductory Boilerplate, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Boilerplate%20Introductory">Click Here</a>
 - Creating a Single Webpage, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Template%20Single%20Page%20Webpage">Click Here</a>
 
-Creating HelloWorld HTML Page: see <a herf="https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons/Hello%20World%20CSS%20inline">HTML with inline CSS</a>
+Creating HelloWorld HTML Page: see <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons/Hello%20World%20CSS%20inline">HTML with inline CSS</a>
 
 ---
 
