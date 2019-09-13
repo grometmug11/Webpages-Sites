@@ -1,4 +1,0 @@
-•	White Space: SPACEs and TABs that separate the code into something readable by humans, not machines
-•	Sometimes white space is necessary, like in languages like Python, and affect the code, but not in HTML
-•	The compiler reads other syntax instead of White Space
-
