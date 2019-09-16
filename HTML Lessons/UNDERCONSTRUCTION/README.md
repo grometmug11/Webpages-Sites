@@ -2,7 +2,11 @@
 Starting HTML Lessons, linking HTML Pages that illustrate different lessons
 
 **Purpose:** build simple webpages that are linked to each other, rendered in a browser
-- All can be opened in ATOM and
+- All can be opened in ATOM and rendered in a browser to visualize lesson material
+
+*Purpose of this website is a teaching lesson of what is explained in the ReadMe File*
+
+---
 
 ## Progressions & Additional Notes
 
