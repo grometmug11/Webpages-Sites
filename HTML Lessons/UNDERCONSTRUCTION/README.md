@@ -40,6 +40,14 @@ HTML Semantic Tags & Boiler Plate: Footer
 - Quote with Hyperlink opening new Tab
 - Blockquote URL Reference with Date Accessed
 
+```JAVA
+<blockquote cite="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
+    <!--  Date Accessed: 20180920 -->
+    <p><strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
+      <em><a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583" target="_blank">- Michell Kapor</a></em></p>
+    <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
+    <!-- Note: symbols in text get confused with HTML symbols, text-based symbols exist -->
+```
 HTML Semantic Tags & Boiler Plate: Body
 - Note: auto formatting tags (preset in browser, user controlled)
 - **Learn Pieces of HTML Sematic Tags and boilerplate while learning auto formatting**
