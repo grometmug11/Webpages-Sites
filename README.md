@@ -284,13 +284,16 @@ https://www.w3schools.com/html/html_layout.asp
 
 ### Notes and Reference
 
+**See HTML Lessons Website**: for illustration of HTML Tags
+- Also includes inline CSS
+
+---
+
 **Note:** Students must create another GitHub Lesson's Repository
 - Information here will be used for Assessment-style Hackathons
 - Chosen Readings are Grade 10 Reading Level Equivalent from the English Department
 
 Ideas to Explore Here, DOCs to Create
-- Explore how H1-H6 Tags change text, include in separate .HTML (inside Student's Lesson Repository)
-  - Compare to P-Tag
   - Compare
     - Bolding: ```<strong></strong>``` (or ```<b></b>```)
     - Italics: ```<em></em>``` (or ```<i></i>```)
@@ -300,10 +303,8 @@ Ideas to Explore Here, DOCs to Create
 - Simple DIV Layout and HEAD-Section CSS Attribute Definitions
   - elated to HTML Tags and how to see those, for example <article>
 
-List of Documents to Create (open these to get idea of lesson expectations)
-
-
 ---
+
 To Rewrite
 
 Minimum Checklist (see <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">for full checklist</a>)

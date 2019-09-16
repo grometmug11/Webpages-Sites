@@ -13,10 +13,22 @@ Starting HTML Lessons, linking HTML Pages that illustrate different lessons
 Hello World with inline CSS
 - only simple boilerplate
 
+**NOTE**: each example will illustrate
+- HTML Tag Anatomy (Angle Brackets), typed backwards, then text content added later
+  - Single & Auto closing, like image: <>
+  - Regular: <></>
+  - Attributes & Attribute Values
+  - Default Attribute Values if no values are specifies
+- WHITE Space writing with "double"-enter to enable easier reading, instead of on one line
+  - Compilers in Browsers do not read WHITE SPACE ... that is for WYSIWYG and Humans reading
+- HTML Comments (use these often)
+
 HTML Semantic Tags & Boiler Plate: Meta Data
+- Change the values in the <head>
+- Create a link from index.html to MetaData.html
 
 META Data - Prepares the body for searching and rendering in browser
-- Google Search to see use of UTL-8
+- Google Search to see use of UTF-8
 - Other Meta Data used in HEAD
 - Web Browsers: https://en.wikipedia.org/wiki/Web_browser
 - Browsers need to read what language is declared first
@@ -29,26 +41,23 @@ HTML Semantic Tags & Boiler Plate: Footer
 - Blockquote URL Reference with Date Accessed
 
 HTML Semantic Tags & Boiler Plate: Body
-- Note: autoformatting tags (preset in browser, user controlled)
-- **Learn Pieces of HTML Sematic Tags and boilerplate while learning autoformatting**
-- Learn File Naviagation in index.html with hyperlinks to childPages
+- Note: auto formatting tags (preset in browser, user controlled)
+- **Learn Pieces of HTML Sematic Tags and boilerplate while learning auto formatting**
+- Learn File Navigation in index.html with hyperlinks to childPages
+- Auto Formatting Example Pages
+  - Headings vs. Paragraph DOC (includes <br>)
+    - H1 - H7, p
+    - Includes <br>
+  - Ordered and Unordered Lists (simple formatting & more HTML Options)
+
+Review all pages and visualize where the HTML Sections are using DIVs and inline CSS
 
 
 #### Ideas
-- Use HTML Comments often
-- WHITE SPACE: Compilers in Browsers do not read WHITE SPACE ... that is for WYSIWYG and Humans reading
+Where does inline CSS get added in this list
 
-- Anatomy of HTML Tag, typed backwards, then text content added later
-  - Angle Brackets
-    - Single & Auto closing, like image: <>
-    - Regular: <></>
-    - Attributes & Attribute Values
-    - Default Attribute Values if no values are specified
-  -
-
-- Create Headings vs. Paragraph DOC
-  - H1 - H7, p
-  - Includes <br>
+Redo Previous auto formatted DOCs with inline CSS (inline rewrites HTML)
+Note: CSS Section and File Overwrite Options
 
 - Paragraph formatting: copy and past for Essay Project
 - Essay's are the most difficult to read ... probably taught the most in all subjects
