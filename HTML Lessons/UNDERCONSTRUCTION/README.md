@@ -25,7 +25,10 @@ HTML Semantic Tags & Boiler Plate: Footer
 - Blockquote URL Reference with Date Accessed
 
 HTML Semantic Tags & Boiler Plate: Body
--
+- Note: autoformatting tags (preset in browser, user controlled)
+- **Learn Pieces of HTML Sematic Tags and boilerplate while learning autoformatting**
+- Learn File Naviagation in index.html with hyperlinks to childPages
+
 
 #### Ideas
 - Use HTML Comments often
