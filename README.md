@@ -73,8 +73,15 @@ HTML5 (Intermediate CS): Multi-page Webpage Documents and Organization
     - Include a sitemap diagram (listing .html & .js)
     - Ensure all html and js links work
   - JavaScript Introductions
-  - JavaScript Only Assignments
+    - Create 10 Variables: simple and JSON
+    - Operations
+    - Swapping Variables
+  - JavaScript Only Assignments: introduce all assignments and flowchart each one first
+    - Solutions can be in coding pairs
   - HTML Form JavaScript Interaction
+    - Input: through Website (reviewing HTML)
+    - Processing: inside .js
+    - Output: console or website again
   - Optional: Submission through Google Forums and Sharing GitHub URLs
 - Creating a Notepad type file in JavaScript, see project (intro PHP Data Collection)
 - Main Project: Business Webpage, based on Skills Alberta Canada Expectations
