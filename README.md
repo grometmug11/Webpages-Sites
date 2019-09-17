@@ -70,6 +70,8 @@ HTML5 (Intermediate CS): Multi-page Webpage Documents and Organization
 - Business Website Webpage prototyping (paper and pencil then pseudocode)
 - JavaScript Lessons, developing functions and tools for business website behaviors
   - Note: create JavaScript Website of all lessons within GitHub Repo
+    - Include a sitemap diagram (listing .html & .js)
+    - Ensure all html and js links work
   - JavaScript Introductions
   - JavaScript Only Assignments
   - HTML Form JavaScript Interaction
