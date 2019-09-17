@@ -48,15 +48,18 @@ HTML Semantic Tags & Boiler Plate: Footer
     <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
     <!-- Note: symbols in text get confused with HTML symbols, text-based symbols exist -->
 ```
+
 HTML Semantic Tags & Boiler Plate: Body
 - Note: auto formatting tags (preset in browser, user controlled)
 - **Learn Pieces of HTML Sematic Tags and boilerplate while learning auto formatting**
 - Learn File Navigation in index.html with hyperlinks to childPages
+- Visualize HTML Layout with DIVs
 - Auto Formatting Example Pages
   - Headings vs. Paragraph DOC (includes <br>)
     - H1 - H7, p
     - Includes <br>
   - Ordered and Unordered Lists (simple formatting & more HTML Options)
+  -
 
 Review all pages and visualize where the HTML Sections are using DIVs and inline CSS
 
