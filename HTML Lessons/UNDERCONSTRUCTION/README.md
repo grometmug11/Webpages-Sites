@@ -44,7 +44,7 @@ HTML Semantic Tags & Boiler Plate: Footer
 <blockquote cite="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
     <!--  Date Accessed: 20180920 -->
     <p><strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
-      <em><a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583" target="_blank">- Michell Kapor</a></em></p>
+      <em><a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583" target="_blank">- Mitch Kapor</a></em></p>
     <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
     <!-- Note: symbols in text get confused with HTML symbols, text-based symbols exist -->
 ```
@@ -60,7 +60,6 @@ HTML Semantic Tags & Boiler Plate: Body
 
 Review all pages and visualize where the HTML Sections are using DIVs and inline CSS
 
-
 #### Ideas
 Where does inline CSS get added in this list
 
@@ -70,7 +69,6 @@ Note: CSS Section and File Overwrite Options
 - Paragraph formatting: copy and past for Essay Project
 - Essay's are the most difficult to read ... probably taught the most in all subjects
 - Using hyperlinks in paragraphs: a-tag with href attribute
-
 
 - Simple Ordered and Unordered List Page
 - Using More attributes page
@@ -92,5 +90,49 @@ Note: CSS Section and File Overwrite Options
 
 # To Include
 
+
+---
+
+Concepts
+
+Image Expectations:
+Creating Image Tags
+- File downloaded and optimized for cropping and memory size using online tools
+- URL blockquote-cited with date accessed
+- File commented with original dimensions
+- <img> width and height attributes scaled for aspect ratio
+- Any mapped images have style width and height inside img tag
+
+Current Ideas
+- Creating a Repository: new repository
+- Creating Pathways and Files:
+- index.html, Images, Videos, Media
+- Simple Text and Hyperlinks: quote in Footer
+- Adding External Hyperlinks, using Browser TAB navigation
+
+Lessons Descriptions to Include
+- Text copy lessons, into HTML Layout
+  - Create completed Essay Project, text copy DOC, with hint (make more sections and articles than HTML Layout)
+- Hyperlink Lessons
+- Image Lessons
+
+Create DOC to see H1 - H6 progression and paragraph progression
+- compare to DIV and br (automatic formatting using browser's presets)
+
+Add CSS Borders to "see" HTML Divisions in rendered page's HTML Layout
+
+Use boarder around image divs
+- Moving DIVs with CSS (Intermediate)
+
+See example about JavaScript opening all links in external tabs
+
+See example about JavaScript button showing more information
+
+Add Code Academy Resources
+- HTML, CSS
+- JavaScript
+- Build a Website, Build an Interactive Website
+
+Also check out Khan Academy
 
 ---
