@@ -41,7 +41,7 @@ function isLandscape (width, height) {
 
 let width = 800;
 let height = 800;
-console.log("This display geometry is", isLandscape (width, height)); //Difference between calling functions with arguements and sending to parameter's, local variables
+console.log("This display geometry is", isLandscape (width, height)); //Difference between calling functions with arguments and sending to parameter's, local variables
 ```
 
 Reminder: use the tertiary operator
