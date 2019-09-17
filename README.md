@@ -76,7 +76,9 @@ HTML5 (Intermediate CS): Multi-page Webpage Documents and Organization
   - JavaScript Only Assignments
   - HTML Form JavaScript Interaction
   - Optional: Submission through Google Forums and Sharing GitHub URLs
+- Creating a Notepad type file in JavaScript, see project (intro PHP Data Collection)
 - Main Project: Business Webpage, based on Skills Alberta Canada Expectations
+- Review Features of Business Website Case Study and link to lessons of JavaScript
 
 All Projects able to end with RPi Server hosting Website delivered through Raspberry Pi, all hosted through QE and EPSB
 - Click Here for <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/RPI%20Lamp%20Server">link to resources</a>
