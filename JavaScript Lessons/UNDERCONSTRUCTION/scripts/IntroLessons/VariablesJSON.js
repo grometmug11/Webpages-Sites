@@ -7,17 +7,17 @@ console.log(''); // So output is easier to read
 // Create 10 variables about yourself and a friend
 // Object Template
 /*
-let person1{
-  firstName =
-  lastName = ;
-  age = ; //Not my real age :)
-  favoriteNumber = ; //security feature
-  hair = ; // explore: undefined, null; origonally "none"
+let person1 = {
+  firstName: ,
+  lastName: ,
+  age: , //Not my real age :)
+  favoriteNumber: , //security feature
+  hair: , // explore: undefined, null; origonally "none"
   // debug with typeof
-  male = ;
-  female = ;
-  other = ;
-}
+  male: ,
+  female: ,
+  other: ,
+};
 */
 
 let person1 = {
@@ -44,6 +44,8 @@ let person2 = {
   other: false,
 };
 
-console.log(person2.lastName);
-console.log(person1.lastName);
-console.log(person2.hair);
+// Print variables to console
+// console.log(); illustrate object notation with dot notation
+console.log(person1.lastName); //Accesses an object's key:value
+console.log(person2.firstName);
+console.log(person2.hair); console.log("Am I male? " + person2.male); // To check for TRUE value use If Statements, or use developer manual
