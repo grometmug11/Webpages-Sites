@@ -8,14 +8,14 @@ console.log('');
 /*
 let person1{
   firstName =
-  lastName = "Mercer";
-  age = 9; //Not my real age :)
-  favoriteNumber = 13; //security feature
-  hair = "none"; // explore: undefined, null; origonally "none"
+  lastName = ;
+  age = ; //Not my real age :)
+  favoriteNumber = ; //security feature
+  hair = ; // explore: undefined, null; origonally "none"
   // debug with typeof
-  male = true;
-  female = false;
-  other = false;
+  male = ;
+  female = ;
+  other = ;
 }
 */
 

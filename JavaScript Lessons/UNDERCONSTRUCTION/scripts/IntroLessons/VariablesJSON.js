@@ -20,25 +20,30 @@ let person1{
 }
 */
 
-let person1{
-  firstName =
-  lastName = ;
-  age = ; //Not my real age :)
-  favoriteNumber = ; //security feature
-  hair = ; // explore: undefined, null; origonally "none"
+let person1 = {
+  firstName: "Mark",
+  lastName: "Mercer",
+  age: 9, //Not my real age :)
+  favoriteNumber: 13, //security feature
+  hair: undefined, // explore: undefined, null; origonally "none"
   // debug with typeof
-  male = ;
-  female = ;
-  other = ;
-}
-let person2{
-  firstName =
-  lastName = ;
-  age = ; //Not my real age :)
-  favoriteNumber = ; //security feature
-  hair = ; // explore: undefined, null; origonally "none"
+  male: true,
+  female: false,
+  other: false,
+};
+
+let person2 = {
+  firstName: "Abigail",
+  lastName: "Mercer",
+  age: 13, //Not my real age :)
+  favoriteNumber: 101, //security feature
+  hair: null, // explore: undefined, null; origonally "none"
   // debug with typeof
-  male = ;
-  female = ;
-  other = ;
-}
+  male: false,
+  female: true,
+  other: false,
+};
+
+console.log(person2.lastName);
+console.log(person1.lastName);
+console.log(person2.hair);
