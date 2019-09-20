@@ -60,23 +60,3 @@ let number = [4, 7, 13, 99, 0, 100, 5, 1, '1']; //able to add any typeof to an a
 //StrictEquality (number[8], number[7]); // Returns False, compares typeof variable and value
 
 
-//Not Equality Starter Code, no function defined here yet
-//Computer first uses TRUE to evaluate ideas, "not" provides an answer of TRUE
-//Outputing individual values of an array, we want to stop at the value 5, but we do not know where it is in the array (do not know the index value)
-//Must Read the Array with a FOR Loop
-/*
-for (let i=0; i<number.length; i++) { //we do not know when to stop in the array
-  if (valueArray !=5) { //This is when we do stop, so we accept every other value (common logic for "not")
-    console.log(number[i], "Is index number: ", i, "with a total array index of ", number.length);
-  } else {console.log("5 is at the index", i); i=number.length} //once we stop, we want to jump out of the loop
-}
-*/
-
-//Using falsy, for example, preferences
-//console.log(preferences(undefined)); //returns colour passed if an actual colour is passed, for example, 'red'
-
-//Using Tertiary Operator
-//If a customer has more than 100 points, they are gold, otherwise silver
-//console.log(customerType (90)); //WIll this return 'Gold' or 'Silver'
-
-//Not finished is bitwise example
