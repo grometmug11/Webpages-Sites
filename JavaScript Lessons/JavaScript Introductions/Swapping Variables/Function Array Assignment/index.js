@@ -1,7 +1,6 @@
-console.log("Using array-data-strucutre, write a function(s) to switch the content of both arrays in the second element ... the last name.")
+console.log("Using array-data-structure, write a function(s) to switch the content of both arrays in the second element ... the last name.")
 
 // Your Function Goes here
-
 
 let MarkMercer = [];
 let MeganSpence = [];
