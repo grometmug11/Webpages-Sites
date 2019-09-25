@@ -11,13 +11,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>I'm Learning Javacript</title>
+
   </head>
+
   <body>
 
-    <header><h1>LandScape or Portrait</h1></header>
+    <header><h1>LandScape or Portrait Assignment</h1></header>
+
     <nav></nav>
     <aside></aside>
-    <section><article></article></section>
+
+    <section>
+      <article>
+        <!--  -->
+        <form action="x.html" method="post" onsubmit="event.preventDefault();">
+        <!-- Ensures this FORM doesn't work with PHP or other server side scripting
+        languages-->
+        <p>&nbsp;</p>
+        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+        <!-- Non-breaking real space, adds real space to webpage that is not eliminated by browser (hard coded space)-->
+
+
+        <a><strong>Enter the values of width and height below ...</strong></a>
+
+        <p>
+          <label for="textfield1">Width: </label>
+          <input name="textfield1" type="text" id="textfield1">
+          <a id="validityTest1">See the Alert</a>
+        </p>
+
+        <p>
+          <label for="textfield2">Height: </label>
+          <input name="textfield2" type="text" id="textfield2">
+          <a id="validityTest2">See the Alert</a>
+        </p>
+
+
+
+
+
+        <!-- Width is greater than Height, return Landacpe -->
+        <!--Width is less than Height, return Portrait -->
+        <!--Width is equal to Height, reutrn Square -->
+
+      </article>
+    </section>
+
+    <br><br><br>
 
     <script src="../scripts/LandScape or Portrait.js"></script>
 
