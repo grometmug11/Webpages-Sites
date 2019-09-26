@@ -32,4 +32,12 @@ function main() {
   //testNaN (secondNumber);
   document.getElementByID("validityTest2").innerHTML = alert ( testNaN (secondNumber));
   document.getElementByID("validityTest2").innerHTML = testNaN (secondNumber);
+
+  if (stop == true) {
+    document.getElementById("answer").innerHTML = "Restart the example, a width or height needs to be a number."
+  } else {
+    console.log("The display geometry is", geometry (firstNumber, secondNumber) );
+    document.getElementById('answer').innerHTML = "This display is " + geometry (firstNumber, secondNumber);
+  }
+
 }
