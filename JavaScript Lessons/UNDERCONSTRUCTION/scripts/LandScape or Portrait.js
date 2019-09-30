@@ -45,9 +45,6 @@ function checkboxes() {
 function main() {
   //console.log("It works");
 
-  //checkboxes();
-
-
   let firstNumber, secondNumber, text;
 
   //Get the Width-value from id=textfield1
