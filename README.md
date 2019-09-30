@@ -41,7 +41,6 @@ Progression of Webpages to Websites
 - Static | Dynamic Webpage, (Teaching Project): Essay Project (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Essay-Project">click here for Introductory CS Project</a>
   - See Introductory HTML with inline CSS, <a href="https://github.com/MercersKitchen/Webpages-Sites#html-lessons">below</a>
 - Static or Dynamic Webpage (Student Project): Who am I (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Who-Am-I">click here for Introductory CS Project</a>
-- Dynamic Webpage: Essay Project (HTML & Inline CSS), <a href="https://github.com/QEHS-Websites/Essay-Project">click here for Introductory CS Project</a>
 - Dynamic Webpage, Business-Promotion (HTML5), <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/Business%20Website">click here for Introductory CS Project</a>
 - Dynamic Webpage with PHP Data Collection, <a href="">URL and Project Under Construction</a>
 
