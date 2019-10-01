@@ -61,7 +61,7 @@ function main() {
   document.getElementById('validityTest2').innerHTML = testNaN (secondNumber);
 
   //Illustrates one example of character escapes
-  console.log("In memory, \n the fist number is " + firstNumber + " and \n the second number is " + secondNumber);
+  console.log("In memory, \n the first number is " + firstNumber + " and \n the second number is " + secondNumber);
 
   if (stop == true) {
     document.getElementById('answer').innerHTML = "Restart the example, a width or height needs to be a number."
