@@ -20,7 +20,7 @@ Example JavaScript:
 hreflang
 download
 
-img, scr="URL", alt="URL" , “File.Extension"
+img, scr="URL", alt="URL" , title="", style="width:375px;height=211px;", “File.Extension"
 Note: in HTML img is self closing, XHTML must have closing tag
 Inline formatting
 srcset: defines multiple sizes of the same image allowing browser to select 
