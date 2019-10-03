@@ -92,7 +92,7 @@ function main() {
 
 
   //Illustrates one example of character escapes
-  console.log("In memory, \n the first number is " + firstNumber + " and \n the second number is " + secondNumber + " and \n the second number is " + thirdNumber);
+  console.log("In memory, \n the first number is " + firstNumber + " and \n the second number is " + secondNumber + " and \n the third number is " + thirdNumber);
 
   //Final Output to inner HTML & Console
 
