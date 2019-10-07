@@ -14,7 +14,7 @@ Explanation of Assignments
 
 # Code to Begin Project Folders and Files
 
-###HTML Body
+### HTML Body
 
 ```HTML
 <header><h1>Assignment</h1></header>
