@@ -8,23 +8,15 @@ JavaScript Introductions
 - Swapping Variables
 - Operators
 
-JavaScript Only Assignments
-- Assignment Order of Teaching
-  - Modulus Assignment: Review arrays and decisions, also review modulus operator to evaluate even and odd numbers
-  - Greeting Someone (based on the hour of the day): Reviews issues with decisions
-  - Max of Two Numbers: Reviews decisions in terms of comparisons
-  - Landscape or Portrait: Reviews ternary operator and how to write very few lines of code
-  - FizzBuzz: ordering "RETURN" logic with a problem situation common in blogs
-  - Ordering Grades: easier ordering "RETURN" Logic
-  - Demerit Points: ordering "RETURN" Logic
+JavaScript Only Assignments, <a href="">Click Here for Explanations </a>
 - Assignment order for those struggling with JavaScript (ordered according to coding difficulty illustrated in notes)
-  - Landscape or Portrait: beginning and advanced code is given
-  - Max of Two Numbers: beginning code is given and uses advanced code from "Landscape or Portrait"
-  - Modulus Assignment: Using Modulus, combine code from "Landscape or Portrait" and "Max of Two Numbers"
-  - Ordering Grades: using if and return keywords to design functions, concrete example
-  - Demerit Points: using if and return keywords to design functions, concrete example with simple arithmetic
-  - FizzBuzz: using if and return keywords to design functions, abstract example
-  - Greeting Someone: using an analogue clock and design feedback, use any assignment
+  - Landscape or Portrait: beginning and advanced code is given, <a href="">Click Here</a>
+  - Max of Two Numbers: beginning code is given and uses advanced code from "Landscape or Portrait", <a href="">Click Here</a>
+  - Ordering Grades: using if and return keywords to design functions, <a href="">concrete example</a>, <a href="">advanced examples</a>
+  - Demerit Points: using if and return keywords to design functions, <a href="">concrete example with simple arithmetic</a>, <a href="">example with advanced arithmetic</a>
+  - Modulus Assignment: Using Modulus, combine code from "Landscape or Portrait" and "Max of Two Numbers", <a href="">Click Here</a>
+  - FizzBuzz: using if and return keywords to design functions, <a href="">abstract example</a>
+  - Greeting Someone: using an analogue clock and design feedback, use any assignment's code or combine assignments
 - <a href="https://github.com/QEHS-Websites/JavaScript-Sandbox/tree/master/Solutions%20to%20CS20%20Assignments">Click Here for Teacher Version of Assignments</a>
 
 Basic Form Introduction and JavaScript Interactions
@@ -87,4 +79,10 @@ Need better sequence to JavaScript Lessons
 
 Need to Map the Answers, especially the given code in the ReadMe.md File describing each .js assignment
 - students need to understand the flow of the problem to translate the maths to code
+
+---
+
+Example Ideas
+
+
 ---
