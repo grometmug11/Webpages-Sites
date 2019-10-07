@@ -14,7 +14,7 @@ Explanation of Assignments
 
 # Code to Begin Project Folders and Files
 
-### HTML Body
+### HTML Body, Inner HTML and ALERT Notification
 
 ```HTML
 <header><h1>Assignment</h1></header>
@@ -89,7 +89,7 @@ Explanation of Assignments
 <script src="directory pathway"></script>
 ```
 
-### JavaScript File
+### JavaScript File, HTML and Console Output
 
 ```JavaScript
 console.log("Did you change my file name?"); //When connecting HTML to JavaScript
