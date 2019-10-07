@@ -8,8 +8,8 @@ JavaScript Introductions
 - Swapping Variables
 - Operators
 
-JavaScript Only Assignments, <a href="">Click Here for Explanations </a>
-- Assignment order for those struggling with JavaScript (ordered according to coding difficulty illustrated in notes)
+JavaScript Only Assignments, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/JavaScript%20Lessons/UNDERCONSTRUCTION/ReadMe%20Explanations">Click Here for Explanations</a>
+- Assignment order for those struggling with JavaScript
   - Landscape or Portrait: beginning and advanced code is given, <a href="">Click Here</a>
   - Max of Two Numbers: beginning code is given and uses advanced code from "Landscape or Portrait", <a href="">Click Here</a>
   - Ordering Grades: using if and return keywords to design functions, <a href="">concrete example</a>, <a href="">advanced examples</a>
