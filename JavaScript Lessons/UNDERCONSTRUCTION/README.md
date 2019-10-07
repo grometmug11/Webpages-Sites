@@ -25,7 +25,7 @@ Explanation of Assignments
 
     <meta charset="utf-8">
     <meta name="author" content="Mark Mercer">
-    <meta name="description" content="JavaScript Assignemnts, output to console"> <!-- Webpage Description to poplulate search engines like Google-->
+    <meta name="description" content="JavaScript Assignments, output to HTML and Console"> <!-- Webpage Description to poplulate search engines like Google-->
     <meta name="keywords" content="JavaScript, Console"> <!-- Key words for searching -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
