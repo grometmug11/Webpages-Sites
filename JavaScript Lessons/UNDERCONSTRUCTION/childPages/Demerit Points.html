@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <header><h1>Assignment</h1></header>
+    <header><h1>Demerit Points</h1></header>
     <nav></nav>
     <aside></aside>
 
@@ -29,13 +29,15 @@
 
       <a><strong>Enter the values  ...</strong></a>
       <p>
-        <label for="textfield">Name: </label>
+        <label for="textfield">Speed Limit: </label>
         <input name="textfield1" type="text" id="textfield1">
         <a id="validityTest1">"See the Alert", Inner HTML</a>
+        <br>
+        <a>Note: if nothing entered, speed limit will be <strong>70 km/h</strong></a>
       </p>
 
       <p>
-        <label for="textfield2">Name: </label>
+        <label for="textfield2">Speed for demerit calculation: </label>
         <input name="textfield2" type="text" id="textfield2">
         <a id="validityTest2">See the Alert</a>
       </p>
@@ -44,7 +46,13 @@
       <br>
       <button type="button" onclick="main()">Submit</button>
       <br>
-      <h3>Explanation, then, <a id="answer">Inner HTML</a></h3>
+      <h3>
+        <a>Speed limit entered is </a><a id="speedLimit">70 km/h</a>
+        <br>
+        <a>Speed Entered Above is </a><a id="speed">...</a>
+        <br>
+        <a id="answer">for ___ Demerit Points</a>
+      </h3>
       <br><br><br>
 
       <!-- Exemplar illstrating what this page does -->
@@ -79,7 +87,7 @@
     <br><br><br>
 
     <!-- script src="directory pathway"></script -->
-    <script src="../scripts/template.js"></script>
+    <script src="../scripts/DemeritPoints.js"></script>
 
   </body>
 
