@@ -14,9 +14,9 @@ function testNaN (number) {
   }
 }
 
-function geometry (width, height) { //Notice these parameters are local and do not mix with "number" variable
-  if (width == height) return 'Square'; //must be first, return will not allow rest of code to run
-  return (width > height) ? 'Landscape' : 'Portrait'; //ternary operator example
+function smallestToLargest (first, second) { //Notice these parameters are local and do not mix with "number" variable
+  if (first == second) return 'Numbers are the same'; //must be first, return will not allow rest of code to run
+  return (first < second) ? first + ', ' + second: second + ', ' + first; //ternary operator example
   //Seems odd, the inequality, here, is reading the opposite
 }
 
@@ -62,11 +62,12 @@ function main() {
 
   //Illustrates one example of character escapes
   console.log("In memory, \n the first number is " + firstNumber + " and \n the second number is " + secondNumber);
+  document.getElementById('memory').innerHTML = "The two numbers from memory are: " + firstNumber + " & " + secondNumber;
 
   if (stop == true) {
     document.getElementById('answer').innerHTML = "Restart the example, a width or height needs to be a number."
   } else {
-    console.log("The display geometry is", geometry (firstNumber, secondNumber) );
-    document.getElementById('answer').innerHTML = "This display is " + geometry (firstNumber, secondNumber);
+    console.log("Ordered smallest to largest: ", smallestToLargest (firstNumber, secondNumber) );
+    document.getElementById('answer').innerHTML = "Ordered smallest to largest: " + smallestToLargest (firstNumber, secondNumber);
   }
 }
