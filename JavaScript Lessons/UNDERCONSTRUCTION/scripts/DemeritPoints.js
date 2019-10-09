@@ -83,7 +83,7 @@ function main() {
 
   //Get the Height-value from id=textfield2
   secondNumber = document.getElementById('textfield2').value;
-  console.log(secondNumber);
+  //console.log(secondNumber);
   if (secondNumber == '') {
     stop = true;
     secondNumber = 0;
