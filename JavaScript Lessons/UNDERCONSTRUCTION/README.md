@@ -1,6 +1,14 @@
 # Learning JavaScript for HTML5
 And Reviewing HTML with inline CSS
 
+Summary of Assignments
+- Landscape or Portrait: teaching example, introductory HTML and introductory JS
+- Max of Two Numbers: reuses LandScape or Portrait assignment files with different user prompts
+- Ordering Grades: see HTML for explanations and bonus grades
+- Demerit Points: teaching example of FOR Loop and Division Statement to start algorithm (using cascading IFs to notice number patterns), introductory HTML with hints at making JS more advanced
+- Modulus: Lesson including data set of what modulus does (mathematics lesson data set)
+- FizzBuzz and Greeting Someone is explanation of ReadMe.md only (all coding done by students)
+
 Explanation of Assignments
 - Landscape or Portrait: Reviews ternary operator and how to write very few lines of code, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/JavaScript%20Lessons/UNDERCONSTRUCTION/ReadMe%20Explanations/LandScape%20or%20Portrait">Click Here</a>
 - Max of Two Numbers: Reviews decisions in terms of comparisons, <a href="https://github.com/MercersKitchen/Webpages-Sites/tree/master/JavaScript%20Lessons/UNDERCONSTRUCTION/ReadMe%20Explanations/Max%20of%20Two%20Numbers">Click Here</a>
