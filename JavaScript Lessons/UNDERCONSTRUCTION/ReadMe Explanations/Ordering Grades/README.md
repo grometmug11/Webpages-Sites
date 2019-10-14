@@ -1,9 +1,13 @@
 # Ordering Grades
 
 **Rewrite this Assignment According to Scaffolding found in HTML**
+- Basic Assignment orders grades largest to smallest || smallest to largest
+- This ordering of grades is necessary for basic algorithm in central tendency and other computer science applications
+
+---
 
 Considerations for JavaScript
-- Central Tendency: mean
+- Central Tendency: mean, median, mode
 - Assigns a grade based on Letter assignment (A, B, C, D, & F)
   - Optional: include +, -
   - Example: A+
