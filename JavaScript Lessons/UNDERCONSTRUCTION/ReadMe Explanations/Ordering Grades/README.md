@@ -1,6 +1,6 @@
 # Ordering Grades
 
-**Rewrite this Assignment According to Scaffolding**
+**Rewrite this Assignment According to Scaffolding found in HTML**
 
 Considerations for JavaScript
 - Central Tendency: mean
@@ -46,4 +46,6 @@ function calculteAverage (array) {
 # Ideas to Include
 Add HTML and JS
 
+Note about Vanilla JavaScript
+- `Let`
 ---
