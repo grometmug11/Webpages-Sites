@@ -47,5 +47,8 @@ function calculteAverage (array) {
 Add HTML and JS
 
 Note about Vanilla JavaScript
-- `Let`
+- `Let` (instead of `vars`) reads digits in literal order (left to right)
+- Casting varaible as `number()` reads digits in mathematical order (right to left)
+
+
 ---
