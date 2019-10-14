@@ -83,6 +83,6 @@ Need to Map the Answers, especially the given code in the ReadMe.md File describ
 ---
 
 Example Ideas
-
+- https://www.sitepoint.com/how-to-build-a-cipher-machine-with-javascript/
 
 ---
