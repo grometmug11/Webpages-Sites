@@ -86,3 +86,8 @@ Example Ideas
 - https://www.sitepoint.com/how-to-build-a-cipher-machine-with-javascript/
 
 ---
+
+Repository for "Hidden" and Full-grade JavaScript Assignmetns, Teacher only access
+https://github.com/QEHS-Websites/JavaScript-Assignments
+
+---
