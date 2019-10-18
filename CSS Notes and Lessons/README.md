@@ -11,7 +11,7 @@ When to Include CSS
   - For example: what information can be collected from a user and when
 - Focus on CSS look and feel of HTML Layout and other HTML tags
   - Choose what is more appropriate: inline, style tag, .css file
-  
+
 ---
 
 # Ideas to Include
@@ -25,5 +25,18 @@ See Text Documents and Incorporate Here with Code Boxes to illustrate
 End of the Year HTML5
 - Embedding Processing-Java in Webpage using CSS to promote Processing-Java Programming
 - Notes about what is emphasized
+
+---
+
+CSS Lessons in JS Fiddle
+- HTML Tags with CSS File over written with inline style
+  - color with hexadecimal
+  - fonts from Google Fonts
+
+
+  - create more examples using CSS
+
+Exemplars of CSS
+- What does CSS Overwritting look like (website legend, page exceptions, inline exceptions).
 
 ---
