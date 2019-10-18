@@ -1,6 +1,7 @@
 # Business Website
 Expectations and To Do List
 
+**UNDER CONSTRUCTION**
 
 ---
 
@@ -21,12 +22,18 @@ Students to create following content
 
 ## To Do List
 
-Create GitHub Repository
+Create GitHub Repository, see Intermediate Boilerplate
 - ReadMe.md Content
 - Folder Contents with .html boilerplate
 
 Create Content for Business Website and Planned Layout, paper and pencil
 - Include Site Map and Hyperlinks (planned only)
+- Must include
+  - index.html
+  - one childPage
+  - main.css file
+  - main.js file
+
 
 Add Hyperlinks to Folder Structure
 
