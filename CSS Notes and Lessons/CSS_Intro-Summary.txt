@@ -1,3 +1,6 @@
+
+Redo this Summary
+
 List of CSS Summary
 See Project Folders and Broken Files for Progression Ideas of CSS
 Three ways of writing CSS
