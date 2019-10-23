@@ -3,6 +3,52 @@ Expectations and To Do List
 
 **UNDER CONSTRUCTION**
 
+Progression
+1. Case Study - Paper, <a href="">click here</a>
+  - Main Content Ideas
+  - Basic Site Map Ideas
+  - Wireframe Template
+  - Hyperlinks and browser experience (TABS vs no-TABS)
+  - [Optional] Exploration of Business Model for Service
+. Project Folder Creation
+  - ReadMe Content
+  - Folders & Basic Templates
+    - index with boilerplate, intermediate
+    - childPage: template
+    - .css
+    - .js
+  -
+. Student Content Creation
+  - Logo, including Business Name
+  - Slogan
+  - Quote
+  - Background Image
+  - 3 Images of what you are selling, services
+  - Multiple other images for gallery
+  - Email
+  - Address and Google Map (i.e. Queen Elizabeth High School)
+  - Phone Number
+. Site Map
+  - 2 Click Rule
+  - Example: Sitemap (i.e. Home / Menu-Food / Lunch / Dinner / About / Contact)
+. Checklist
+  - HTML Navigation Tags
+  - Navigation Menu: Left-Right-Top Nav Bars on other pages || Hyperlinks (Images or Text)
+  - Splash Page or Header
+    - Background Image or preferably GIF
+    - Hyperlinks to Menu, EMail Order, Address to Google Maps (related to business model of service)
+
+  - Home Page: includes Home Page Slider (rotating graphic of 3 images with left/right arrows to change rotating graphic), and link to Photo gallery that answers is this experience fun
+    - Header: Menu-Nav, Phone, Social Media Links [icons provided]
+    - Footer: Quote, Slogan, Address, Google Map [image of map provided, of QE School], Phone/Fax, Menu [First level], Social Media Links [icons provided], Copyright with
+
+
+<a href="">click here</a>
+
+---
+
+Menu-Food: multiple layers depending on business model of service (i.e. Snack Menu or 1-course meal, 3-course meal, 5-course meal)
+
 ---
 
 ## Expectations
