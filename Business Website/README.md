@@ -41,10 +41,12 @@ Progression
   - Splash Page or Header
     - Background Image or preferably GIF
     - Hyperlinks to Menu, EMail Order, Address to Google Maps (related to business model of service)
-  - Home Page: includes Home Page Slider (rotating graphic of 3 images with left/right arrows to change rotating graphic), and link to Photo gallery that answers is this experience fun
+  - Home Page: experience is graded in coordination with author's description of intended experience
   - Header
     - Example items to include: Menu-Nav, Phone, [icons provided]
-  - Footer: Quote, Slogan, Address, Google Map [image of map provided, of QE School], Phone/Fax, Menu [First level], Social Media Links [icons provided], Copyright with
+  - Footer: experience is graded in coordination with author's description of intended experience
+    - "Information necessary for each page"
+    - Examples of items: Quote, Slogan, Address, Google Map [image of map provided, of QE School], Phone/Fax, Menu [First level], Social Media Links [icons provided], Copyright with
 8. List of other information
   -
   -
@@ -53,7 +55,7 @@ Progression
   -
   -
   -
-  - 
+  -
 
 <a href="">click here</a>
 
