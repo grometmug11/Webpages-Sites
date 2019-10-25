@@ -476,3 +476,7 @@ Credits
 - Career
 
 ---
+
+Develop Lessons and Ideas about Displays: monitor, mobile
+
+---
