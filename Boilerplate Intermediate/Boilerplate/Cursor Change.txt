@@ -1,0 +1,6 @@
+
+Global Change for Entire Website
+- Image is resized to a maximum of 32 pixels by 32 pixels
+- Used https://resizeimage.net/
+
+Must have "Fall Back Files" until OS Declaration | Browswer Declaration
