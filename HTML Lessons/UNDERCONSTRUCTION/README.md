@@ -6,6 +6,26 @@ Starting HTML Lessons, linking HTML Pages that illustrate different lessons
 
 *Purpose of this website is a teaching lesson of what is explained in the ReadMe File*
 
+Progressions
+- Simple HTML Boilerplate illustrated in Hello World with inline CSS
+- *Creating a Child Template*
+- *Creating a Simple Text-hyperlinked Splashpage*, optional to include images, etc. & Remember two click rule
+  - this page will illustrate differences in formatting text with HTML Tags
+
+Creating a Child Template - planning required
+- Introductory HTML Boilerplate with Semantic Tags for hearing impaired
+  - Tab Title
+  - Meta Data entry
+  - Footer and Quote
+
+Creating Splash Page and linking to different childpages with a tags and href="" with options
+- Comparing H1 - H7, combining with Semantic Tags
+- Creating Organized and unorganized lists
+- TBA (other formatting ideas)
+- See HTML Summary
+
+note: rewrite current website to learn about webpages
+
 ---
 
 ## Progressions & Additional Notes
