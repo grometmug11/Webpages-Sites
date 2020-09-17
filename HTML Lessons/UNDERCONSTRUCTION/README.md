@@ -15,14 +15,19 @@ Progressions
 Creating a Child Template - planning required
 - Introductory HTML Boilerplate with Semantic Tags for hearing impaired
   - Tab Title
-  - Meta Data entry
-  - Footer and Quote
+  - Meta Data entry, See MetaData Exemplar
+  - Footer and Quote, See FooterBlockQuote Exemplar
 
-Creating Splash Page and linking to different childpages with a tags and href="" with options
-- Comparing H1 - H7, combining with Semantic Tags
-- Creating Organized and unorganized lists
-- TBA (other formatting ideas)
-- See HTML Summary
+Creating Splash Page and linking to different childPages with a tags and `href=""` with options
+- Creating Organized and unorganized lists (i.e. on Splash Page as summary)
+- Another Page (see exemplar): Comparing Heading and Paragraph TagsH1 - H7, combining with Semantic Tags
+- Another Page (see exemplar): Sub and Super Script Tags
+- Another Page, formatting example (see exemplar): Delete this DIVs, HTML_BoilerplateDIV_v1, HTML_BoilerplateDIV_v2
+- Image Lessons
+  - See example: Image.html
+  - See Image Lessons in childPages Exemplars
+  - See Images Folder for other examples
+- See HTML Summary, what has not been made into example pages, what needs to be
 
 note: rewrite current website to learn about webpages
 
