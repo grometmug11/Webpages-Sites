@@ -29,7 +29,9 @@ Creating Splash Page and linking to different childPages with a tags and `href="
   - See Images Folder for other examples
 - See HTML Summary, what has not been made into example pages, what needs to be
 
-note: rewrite current website to learn about webpages
+Note: rewrite current website to learn about webpages
+
+Note: Review Chrome's inspection elements to learn about how a webpage is laid out
 
 ---
 
