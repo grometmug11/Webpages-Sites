@@ -480,3 +480,10 @@ Credits
 Develop Lessons and Ideas about Displays: monitor, mobile
 
 ---
+
+Updated GitHub Hosting Sites
+- https://pages.github.com/
+- https://gist.github.com/TylerFisher/6127328
+- https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github
+
+---
